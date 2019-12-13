@@ -1,22 +1,35 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   sort.c                                             :+:      :+:    :+:   */
+/*   sort_a.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: avenonat <avenonat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/12/12 17:40:45 by avenonat          #+#    #+#             */
-/*   Updated: 2019/12/12 18:37:21 by avenonat         ###   ########.fr       */
+/*   Created: 2019/12/13 20:34:35 by avenonat          #+#    #+#             */
+/*   Updated: 2019/12/13 21:13:17 by avenonat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_push_swap.h"
 
-int 	*sort(int *good, t_num *ssl)
+int 	*sort_a(t_folder **stack_a, t_num *ssl)
 {
 	int i;
 	int j;
+	int *good;
+	t_folder *position;
 
+	i = 0;
+	position = (*stack_a);
+	if (!(good = (int*)malloc(sizeof(int) * (ssl->count_a))))
+		return (0);
+	while (i < ssl->count_a)
+	{
+		good[i] = position->data;
+		position = position->next;
+		printf("%d", good[i]);
+		i++;
+	}
 	i = 0;
 	while (ssl->count_a - 1 > i)
 	{
@@ -29,5 +42,5 @@ int 	*sort(int *good, t_num *ssl)
 		}
 		i++;
 	}
-	return (0);
+	return (good);
 }

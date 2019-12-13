@@ -6,7 +6,7 @@
 /*   By: avenonat <avenonat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/07 18:46:10 by avenonat          #+#    #+#             */
-/*   Updated: 2019/12/12 22:34:44 by avenonat         ###   ########.fr       */
+/*   Updated: 2019/12/13 21:22:42 by avenonat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,29 +22,43 @@ int 	major(t_folder **stack_a, t_folder **stack_b, t_num *ssl)
 	int sum1;
 
 	sum1 = 0;
-	good = (int*)malloc(sizeof(int) *(ssl->count_a + 1));
-	pos = ssl->count_a;
+	pos = 0;
+	if (!(good = (int*)malloc(sizeof(int) * (ssl->count_a))))
+		return (0);
 	position = (*stack_a);
-	while (pos)
+	while (pos < ssl->count_a)
 	{
 		good[pos] = position->data;
 		position = position->next;
-		pos--;
+		//printf("%d", good[pos]);
+		pos++;
 	}
+	// сортирует как должно быть в итоге
 	sort(good, ssl);
+	//показывает как обстоят дела сейчас
 	sum1 = sum_position(stack_a, good, ssl->count_a) + sum_position(stack_b, good, ssl->count_b);
-	while (sum1 != 0)
+	while (sum1 != 0 || (sum1 == 0 && stack_b != NULL))
 	{
-		sum = your_choise(stack_a, stack_b, good, ssl);
+		sum = your_choise(stack_a, stack_b, ssl);
 		j = search_min(sum);
-		sum1 = sum_position(stack_a, good, ssl->count_a) + sum_position(stack_b, good, ssl->count_b);
-		if (j != 9)
+		if (sum1 == 0 && stack_b != NULL)
+			pa(stack_a, stack_b, ssl);
+		else if ((*stack_a) && sum[j] >= sum[9])
+			pb(stack_a, stack_b, ssl);
+		else if ((*stack_a) && sum[j] != sum[9])
 			ask_function(stack_a, stack_b, j, ssl, good);
-		else if (sum1 != 0)
-			your_choise2(stack_a, stack_b, good, ssl);
 		else
-			break;
+			pa(stack_a, stack_b, ssl);
+		sum1 = sum_position(stack_a, sort_a(stack_a, ssl), ssl->count_a) + sum_position(stack_b, sort_b(stack_b, ssl), ssl->count_b);
+//		if (j != 9)
+//			ask_function(stack_a, stack_b, j, ssl, good);
+//		else if (sum1 != 0)
+//			your_choise2(stack_a, stack_b, good, ssl);
+//		else
+//			break;
 	}
+//	if (stack_b)
+//		pa(stack_a, stack_b, ssl);
 	while (*stack_a)
 	{
 		printf("%d", (*stack_a)->data);
@@ -52,28 +66,6 @@ int 	major(t_folder **stack_a, t_folder **stack_b, t_num *ssl)
 	}
 	return (0);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 	/* пока число больше 3

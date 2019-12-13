@@ -123,6 +123,33 @@ avenonat/fast:
 	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/build
 .PHONY : avenonat/fast
 
+ask_function.o: ask_function.c.o
+
+.PHONY : ask_function.o
+
+# target to build an object file
+ask_function.c.o:
+	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/ask_function.c.o
+.PHONY : ask_function.c.o
+
+ask_function.i: ask_function.c.i
+
+.PHONY : ask_function.i
+
+# target to preprocess a source file
+ask_function.c.i:
+	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/ask_function.c.i
+.PHONY : ask_function.c.i
+
+ask_function.s: ask_function.c.s
+
+.PHONY : ask_function.s
+
+# target to generate assembly for a file
+ask_function.c.s:
+	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/ask_function.c.s
+.PHONY : ask_function.c.s
+
 check_num.o: check_num.c.o
 
 .PHONY : check_num.o
@@ -176,33 +203,6 @@ check_str.s: check_str.c.s
 check_str.c.s:
 	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/check_str.c.s
 .PHONY : check_str.c.s
-
-libft/ask_function.o: libft/ask_function.c.o
-
-.PHONY : libft/ask_function.o
-
-# target to build an object file
-libft/ask_function.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ask_function.c.o
-.PHONY : libft/ask_function.c.o
-
-libft/ask_function.i: libft/ask_function.c.i
-
-.PHONY : libft/ask_function.i
-
-# target to preprocess a source file
-libft/ask_function.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ask_function.c.i
-.PHONY : libft/ask_function.c.i
-
-libft/ask_function.s: libft/ask_function.c.s
-
-.PHONY : libft/ask_function.s
-
-# target to generate assembly for a file
-libft/ask_function.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ask_function.c.s
-.PHONY : libft/ask_function.c.s
 
 libft/ft_abs.o: libft/ft_abs.c.o
 
@@ -690,33 +690,6 @@ libft/ft_lstnew.c.s:
 	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_lstnew.c.s
 .PHONY : libft/ft_lstnew.c.s
 
-libft/ft_max.o: libft/ft_max.c.o
-
-.PHONY : libft/ft_max.o
-
-# target to build an object file
-libft/ft_max.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_max.c.o
-.PHONY : libft/ft_max.c.o
-
-libft/ft_max.i: libft/ft_max.c.i
-
-.PHONY : libft/ft_max.i
-
-# target to preprocess a source file
-libft/ft_max.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_max.c.i
-.PHONY : libft/ft_max.c.i
-
-libft/ft_max.s: libft/ft_max.c.s
-
-.PHONY : libft/ft_max.s
-
-# target to generate assembly for a file
-libft/ft_max.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_max.c.s
-.PHONY : libft/ft_max.c.s
-
 libft/ft_memalloc.o: libft/ft_memalloc.c.o
 
 .PHONY : libft/ft_memalloc.o
@@ -932,33 +905,6 @@ libft/ft_memset.s: libft/ft_memset.c.s
 libft/ft_memset.c.s:
 	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_memset.c.s
 .PHONY : libft/ft_memset.c.s
-
-libft/ft_min.o: libft/ft_min.c.o
-
-.PHONY : libft/ft_min.o
-
-# target to build an object file
-libft/ft_min.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_min.c.o
-.PHONY : libft/ft_min.c.o
-
-libft/ft_min.i: libft/ft_min.c.i
-
-.PHONY : libft/ft_min.i
-
-# target to preprocess a source file
-libft/ft_min.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_min.c.i
-.PHONY : libft/ft_min.c.i
-
-libft/ft_min.s: libft/ft_min.c.s
-
-.PHONY : libft/ft_min.s
-
-# target to generate assembly for a file
-libft/ft_min.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_min.c.s
-.PHONY : libft/ft_min.c.s
 
 libft/ft_putchar.o: libft/ft_putchar.c.o
 
@@ -1959,141 +1905,6 @@ libft/ft_toupper.c.s:
 	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_toupper.c.s
 .PHONY : libft/ft_toupper.c.s
 
-libft/search_min.o: libft/search_min.c.o
-
-.PHONY : libft/search_min.o
-
-# target to build an object file
-libft/search_min.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/search_min.c.o
-.PHONY : libft/search_min.c.o
-
-libft/search_min.i: libft/search_min.c.i
-
-.PHONY : libft/search_min.i
-
-# target to preprocess a source file
-libft/search_min.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/search_min.c.i
-.PHONY : libft/search_min.c.i
-
-libft/search_min.s: libft/search_min.c.s
-
-.PHONY : libft/search_min.s
-
-# target to generate assembly for a file
-libft/search_min.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/search_min.c.s
-.PHONY : libft/search_min.c.s
-
-libft/sort.o: libft/sort.c.o
-
-.PHONY : libft/sort.o
-
-# target to build an object file
-libft/sort.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/sort.c.o
-.PHONY : libft/sort.c.o
-
-libft/sort.i: libft/sort.c.i
-
-.PHONY : libft/sort.i
-
-# target to preprocess a source file
-libft/sort.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/sort.c.i
-.PHONY : libft/sort.c.i
-
-libft/sort.s: libft/sort.c.s
-
-.PHONY : libft/sort.s
-
-# target to generate assembly for a file
-libft/sort.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/sort.c.s
-.PHONY : libft/sort.c.s
-
-libft/sum_position.o: libft/sum_position.c.o
-
-.PHONY : libft/sum_position.o
-
-# target to build an object file
-libft/sum_position.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/sum_position.c.o
-.PHONY : libft/sum_position.c.o
-
-libft/sum_position.i: libft/sum_position.c.i
-
-.PHONY : libft/sum_position.i
-
-# target to preprocess a source file
-libft/sum_position.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/sum_position.c.i
-.PHONY : libft/sum_position.c.i
-
-libft/sum_position.s: libft/sum_position.c.s
-
-.PHONY : libft/sum_position.s
-
-# target to generate assembly for a file
-libft/sum_position.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/sum_position.c.s
-.PHONY : libft/sum_position.c.s
-
-libft/your_choise.o: libft/your_choise.c.o
-
-.PHONY : libft/your_choise.o
-
-# target to build an object file
-libft/your_choise.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/your_choise.c.o
-.PHONY : libft/your_choise.c.o
-
-libft/your_choise.i: libft/your_choise.c.i
-
-.PHONY : libft/your_choise.i
-
-# target to preprocess a source file
-libft/your_choise.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/your_choise.c.i
-.PHONY : libft/your_choise.c.i
-
-libft/your_choise.s: libft/your_choise.c.s
-
-.PHONY : libft/your_choise.s
-
-# target to generate assembly for a file
-libft/your_choise.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/your_choise.c.s
-.PHONY : libft/your_choise.c.s
-
-libft/your_choise2.o: libft/your_choise2.c.o
-
-.PHONY : libft/your_choise2.o
-
-# target to build an object file
-libft/your_choise2.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/your_choise2.c.o
-.PHONY : libft/your_choise2.c.o
-
-libft/your_choise2.i: libft/your_choise2.c.i
-
-.PHONY : libft/your_choise2.i
-
-# target to preprocess a source file
-libft/your_choise2.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/your_choise2.c.i
-.PHONY : libft/your_choise2.c.i
-
-libft/your_choise2.s: libft/your_choise2.c.s
-
-.PHONY : libft/your_choise2.s
-
-# target to generate assembly for a file
-libft/your_choise2.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/your_choise2.c.s
-.PHONY : libft/your_choise2.c.s
-
 main.o: main.c.o
 
 .PHONY : main.o
@@ -2445,6 +2256,33 @@ sb.c.s:
 	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/sb.c.s
 .PHONY : sb.c.s
 
+search_min.o: search_min.c.o
+
+.PHONY : search_min.o
+
+# target to build an object file
+search_min.c.o:
+	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/search_min.c.o
+.PHONY : search_min.c.o
+
+search_min.i: search_min.c.i
+
+.PHONY : search_min.i
+
+# target to preprocess a source file
+search_min.c.i:
+	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/search_min.c.i
+.PHONY : search_min.c.i
+
+search_min.s: search_min.c.s
+
+.PHONY : search_min.s
+
+# target to generate assembly for a file
+search_min.c.s:
+	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/search_min.c.s
+.PHONY : search_min.c.s
+
 skip_box.o: skip_box.c.o
 
 .PHONY : skip_box.o
@@ -2471,6 +2309,87 @@ skip_box.s: skip_box.c.s
 skip_box.c.s:
 	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/skip_box.c.s
 .PHONY : skip_box.c.s
+
+sort.o: sort.c.o
+
+.PHONY : sort.o
+
+# target to build an object file
+sort.c.o:
+	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/sort.c.o
+.PHONY : sort.c.o
+
+sort.i: sort.c.i
+
+.PHONY : sort.i
+
+# target to preprocess a source file
+sort.c.i:
+	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/sort.c.i
+.PHONY : sort.c.i
+
+sort.s: sort.c.s
+
+.PHONY : sort.s
+
+# target to generate assembly for a file
+sort.c.s:
+	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/sort.c.s
+.PHONY : sort.c.s
+
+sort_a.o: sort_a.c.o
+
+.PHONY : sort_a.o
+
+# target to build an object file
+sort_a.c.o:
+	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/sort_a.c.o
+.PHONY : sort_a.c.o
+
+sort_a.i: sort_a.c.i
+
+.PHONY : sort_a.i
+
+# target to preprocess a source file
+sort_a.c.i:
+	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/sort_a.c.i
+.PHONY : sort_a.c.i
+
+sort_a.s: sort_a.c.s
+
+.PHONY : sort_a.s
+
+# target to generate assembly for a file
+sort_a.c.s:
+	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/sort_a.c.s
+.PHONY : sort_a.c.s
+
+sort_b.o: sort_b.c.o
+
+.PHONY : sort_b.o
+
+# target to build an object file
+sort_b.c.o:
+	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/sort_b.c.o
+.PHONY : sort_b.c.o
+
+sort_b.i: sort_b.c.i
+
+.PHONY : sort_b.i
+
+# target to preprocess a source file
+sort_b.c.i:
+	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/sort_b.c.i
+.PHONY : sort_b.c.i
+
+sort_b.s: sort_b.c.s
+
+.PHONY : sort_b.s
+
+# target to generate assembly for a file
+sort_b.c.s:
+	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/sort_b.c.s
+.PHONY : sort_b.c.s
 
 ss.o: ss.c.o
 
@@ -2499,6 +2418,87 @@ ss.c.s:
 	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/ss.c.s
 .PHONY : ss.c.s
 
+sum_position.o: sum_position.c.o
+
+.PHONY : sum_position.o
+
+# target to build an object file
+sum_position.c.o:
+	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/sum_position.c.o
+.PHONY : sum_position.c.o
+
+sum_position.i: sum_position.c.i
+
+.PHONY : sum_position.i
+
+# target to preprocess a source file
+sum_position.c.i:
+	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/sum_position.c.i
+.PHONY : sum_position.c.i
+
+sum_position.s: sum_position.c.s
+
+.PHONY : sum_position.s
+
+# target to generate assembly for a file
+sum_position.c.s:
+	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/sum_position.c.s
+.PHONY : sum_position.c.s
+
+your_choise.o: your_choise.c.o
+
+.PHONY : your_choise.o
+
+# target to build an object file
+your_choise.c.o:
+	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/your_choise.c.o
+.PHONY : your_choise.c.o
+
+your_choise.i: your_choise.c.i
+
+.PHONY : your_choise.i
+
+# target to preprocess a source file
+your_choise.c.i:
+	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/your_choise.c.i
+.PHONY : your_choise.c.i
+
+your_choise.s: your_choise.c.s
+
+.PHONY : your_choise.s
+
+# target to generate assembly for a file
+your_choise.c.s:
+	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/your_choise.c.s
+.PHONY : your_choise.c.s
+
+your_choise2.o: your_choise2.c.o
+
+.PHONY : your_choise2.o
+
+# target to build an object file
+your_choise2.c.o:
+	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/your_choise2.c.o
+.PHONY : your_choise2.c.o
+
+your_choise2.i: your_choise2.c.i
+
+.PHONY : your_choise2.i
+
+# target to preprocess a source file
+your_choise2.c.i:
+	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/your_choise2.c.i
+.PHONY : your_choise2.c.i
+
+your_choise2.s: your_choise2.c.s
+
+.PHONY : your_choise2.s
+
+# target to generate assembly for a file
+your_choise2.c.s:
+	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/your_choise2.c.s
+.PHONY : your_choise2.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -2508,15 +2508,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... avenonat"
+	@echo "... ask_function.o"
+	@echo "... ask_function.i"
+	@echo "... ask_function.s"
 	@echo "... check_num.o"
 	@echo "... check_num.i"
 	@echo "... check_num.s"
 	@echo "... check_str.o"
 	@echo "... check_str.i"
 	@echo "... check_str.s"
-	@echo "... libft/ask_function.o"
-	@echo "... libft/ask_function.i"
-	@echo "... libft/ask_function.s"
 	@echo "... libft/ft_abs.o"
 	@echo "... libft/ft_abs.i"
 	@echo "... libft/ft_abs.s"
@@ -2571,9 +2571,6 @@ help:
 	@echo "... libft/ft_lstnew.o"
 	@echo "... libft/ft_lstnew.i"
 	@echo "... libft/ft_lstnew.s"
-	@echo "... libft/ft_max.o"
-	@echo "... libft/ft_max.i"
-	@echo "... libft/ft_max.s"
 	@echo "... libft/ft_memalloc.o"
 	@echo "... libft/ft_memalloc.i"
 	@echo "... libft/ft_memalloc.s"
@@ -2598,9 +2595,6 @@ help:
 	@echo "... libft/ft_memset.o"
 	@echo "... libft/ft_memset.i"
 	@echo "... libft/ft_memset.s"
-	@echo "... libft/ft_min.o"
-	@echo "... libft/ft_min.i"
-	@echo "... libft/ft_min.s"
 	@echo "... libft/ft_putchar.o"
 	@echo "... libft/ft_putchar.i"
 	@echo "... libft/ft_putchar.s"
@@ -2712,21 +2706,6 @@ help:
 	@echo "... libft/ft_toupper.o"
 	@echo "... libft/ft_toupper.i"
 	@echo "... libft/ft_toupper.s"
-	@echo "... libft/search_min.o"
-	@echo "... libft/search_min.i"
-	@echo "... libft/search_min.s"
-	@echo "... libft/sort.o"
-	@echo "... libft/sort.i"
-	@echo "... libft/sort.s"
-	@echo "... libft/sum_position.o"
-	@echo "... libft/sum_position.i"
-	@echo "... libft/sum_position.s"
-	@echo "... libft/your_choise.o"
-	@echo "... libft/your_choise.i"
-	@echo "... libft/your_choise.s"
-	@echo "... libft/your_choise2.o"
-	@echo "... libft/your_choise2.i"
-	@echo "... libft/your_choise2.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -2766,12 +2745,33 @@ help:
 	@echo "... sb.o"
 	@echo "... sb.i"
 	@echo "... sb.s"
+	@echo "... search_min.o"
+	@echo "... search_min.i"
+	@echo "... search_min.s"
 	@echo "... skip_box.o"
 	@echo "... skip_box.i"
 	@echo "... skip_box.s"
+	@echo "... sort.o"
+	@echo "... sort.i"
+	@echo "... sort.s"
+	@echo "... sort_a.o"
+	@echo "... sort_a.i"
+	@echo "... sort_a.s"
+	@echo "... sort_b.o"
+	@echo "... sort_b.i"
+	@echo "... sort_b.s"
 	@echo "... ss.o"
 	@echo "... ss.i"
 	@echo "... ss.s"
+	@echo "... sum_position.o"
+	@echo "... sum_position.i"
+	@echo "... sum_position.s"
+	@echo "... your_choise.o"
+	@echo "... your_choise.i"
+	@echo "... your_choise.s"
+	@echo "... your_choise2.o"
+	@echo "... your_choise2.i"
+	@echo "... your_choise2.s"
 .PHONY : help
 
 

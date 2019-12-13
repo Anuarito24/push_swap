@@ -19,17 +19,17 @@ void 	ask_function(t_folder **stack_a, t_folder **stack_b, int j, t_num *ssl, in
 	else if (j == 0)
 		sa(stack_a);
 	else if (j == 1)
-		sb(stack_b);
-	else if (j == 2)
-		ss(stack_a, stack_b);
-	else if (j == 3)
 		ra(stack_a);
-	else if (j == 4)
-		rb(stack_b);
-	else if (j == 5)
-		rr(stack_a, stack_b);
-	else if (j == 6)
+	else if (j == 2)
 		rra(stack_a);
+	else if (j == 3)
+		sb(stack_b);
+	else if (j == 4)
+		ss(stack_a, stack_b);
+	else if (j == 5)
+		rb(stack_b);
+	else if (j == 6)
+		rr(stack_a, stack_b);
 	else if (j == 7)
 		rrb(stack_b);
 	else if (j == 8)

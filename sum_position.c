@@ -1,33 +1,38 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   search_min.c                                       :+:      :+:    :+:   */
+/*   sum_position.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: avenonat <avenonat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/12/12 18:23:51 by avenonat          #+#    #+#             */
-/*   Updated: 2019/12/12 19:16:09 by avenonat         ###   ########.fr       */
+/*   Created: 2019/12/12 17:52:55 by avenonat          #+#    #+#             */
+/*   Updated: 2019/12/13 21:57:20 by avenonat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_push_swap.h"
 
-int 	search_min(int *sum)
+int 	sum_position(t_folder **stack_a, int *good, int count)
 {
-	int temp;
+	int sum;
 	int i;
 	int j;
+	t_folder *temp;
 
-	temp = sum[9];
-	i = 1;
-	while(i < 10)
+	temp = (*stack_a);
+	sum = 0;
+	i = 0;
+	while (i <= count - 1)
 	{
-		if (sum[i] < temp)
+		j = 0;
+		while (temp && good[i] && good[i] != temp->data)
 		{
-			temp = sum[i];
-			j = i;
+			temp = temp->next;
+			j++;
 		}
+		sum += ft_abs(i - j);
 		i++;
+
 	}
-	return (j);
+	return (sum);
 }

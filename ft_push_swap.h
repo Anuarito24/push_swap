@@ -6,7 +6,7 @@
 /*   By: lgarse <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/30 13:19:36 by lgarse            #+#    #+#             */
-/*   Updated: 2019/12/12 21:51:14 by avenonat         ###   ########.fr       */
+/*   Updated: 2019/12/13 18:09:55 by avenonat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,9 @@ t_folder 		*skip_box(t_folder **stack_a);
 int 			major(t_folder **stack_a, t_folder **stack_b, t_num *ssl);
 int			 	check_num(int a, t_folder **stack_a);
 int			 	*sort(int *good, t_num *ssl);
-int				*your_choise(t_folder **stack_a, t_folder **stack_b, int *good, t_num *ssl);
+int 			*sort_a(t_folder **stack_a, t_num *ssl);
+int 			*sort_b(t_folder **stack_b, t_num *ssl);
+int				*your_choise(t_folder **stack_a, t_folder **stack_b, t_num *ssl);
 int			 	search_min(int *sum);
 void		 	ask_function(t_folder **stack_a, t_folder **stack_b, int j, t_num *ssl, int *good);
 int				your_choise2(t_folder **stack_a, t_folder **stack_b, int *good, t_num *ssl);
@@ -47,12 +49,12 @@ int 			sum_position(t_folder **stack_a, int *good, int count);
 int				sa(t_folder **stack_a);
 int				sb(t_folder **stack_b);
 int				ss(t_folder **stack_a, t_folder **stack_b);
-int				pa(t_folder **stack_a, t_folder **stack_b);
-int				pb(t_folder **stack_a, t_folder **stack_b);
-int				ra(t_folder **stack_a);
-int				rb(t_folder **stack_b);
+int				pa(t_folder **stack_a, t_folder **stack_b, t_num *ssl);
+int				pb(t_folder **stack_a, t_folder **stack_b, t_num *ssl);
+int    			ra(t_folder **st);
+int   			rb(t_folder **st);
 int				rr(t_folder **stack_a, t_folder **stack_b);
-int				rra(t_folder **stack_a);
+int   			rra(t_folder **st);
 int				rrb(t_folder **stack_b);
 int				rrr(t_folder **stack_a, t_folder **stack_b);
 

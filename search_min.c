@@ -1,16 +1,34 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_max.c                                           :+:      :+:    :+:   */
+/*   search_min.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lgarse <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: avenonat <avenonat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/09/15 11:23:55 by lgarse            #+#    #+#             */
-/*   Updated: 2019/09/15 11:24:37 by lgarse           ###   ########.fr       */
+/*   Created: 2019/12/12 18:23:51 by avenonat          #+#    #+#             */
+/*   Updated: 2019/12/12 19:16:09 by avenonat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_max(int a, int b)
+#include "ft_push_swap.h"
+
+int 	search_min(int *sum)
 {
-	return (a > b ? a : b);
+	int temp;
+	int i;
+	int j;
+
+	temp = sum[9];
+	j = 9;
+	i = 1;
+	while(i < 10)
+	{
+		if (sum[i] < temp)
+		{
+			temp = sum[i];
+			j = i;
+		}
+		i++;
+	}
+	return (j);
 }

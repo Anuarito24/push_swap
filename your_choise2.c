@@ -22,19 +22,23 @@ int		your_choise2(t_folder **stack_a, t_folder **stack_b, int *good, t_num *ssl)
 		return (0);
 	if (*stack_a)
 	{
-		pa(stack_a, stack_b);
+		pa(stack_a, stack_b, ssl);
 		sum[0] = sum_position(stack_a, good, ssl->count_a) + sum_position(stack_b, good, ssl->count_b);
-		pa(stack_a, stack_b);
+		pb(stack_a, stack_b, ssl);
+		ssl->count_a++;
+		ssl->count_b--;
 	}
 	if (*stack_b)
 	{
-		pb(stack_a, stack_b);
+		pb(stack_a, stack_b, ssl);
 		sum[1] = sum_position(stack_a, good, ssl->count_a) + sum_position(stack_b, good, ssl->count_b);
-		pb(stack_a, stack_b);
+		pa(stack_a, stack_b, ssl);
+		ssl->count_a--;
+		ssl->count_b++;
 	}
 	if ((*stack_a) && (sum[0] < sum[1] || !(*stack_b)))
-		j = pa(stack_a, stack_b);
+		j = pa(stack_a, stack_b, ssl);
 	else
-		j = pb(stack_a, stack_b);
+		j = pb(stack_a, stack_b, ssl);
 	return (j);
 }

@@ -1,38 +1,46 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   sum_position.c                                     :+:      :+:    :+:   */
+/*   sort_b.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: avenonat <avenonat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/12/12 17:52:55 by avenonat          #+#    #+#             */
-/*   Updated: 2019/12/12 21:52:00 by avenonat         ###   ########.fr       */
+/*   Created: 2019/12/13 20:39:05 by avenonat          #+#    #+#             */
+/*   Updated: 2019/12/13 20:39:05 by avenonat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_push_swap.h"
 
-int 	sum_position(t_folder **stack_a, int *good, int count)
+int 	*sort_b(t_folder **stack_b, t_num *ssl)
 {
-	int sum;
 	int i;
 	int j;
-	t_folder *temp;
+	int *good;
+	t_folder *position;
 
-	temp = (*stack_a);
-	sum = 0;
 	i = 0;
-	while (i < count - 1)
+	position = (*stack_b);
+	if (!(good = (int*)malloc(sizeof(int) * (ssl->count_b))))
+		return (0);
+	while (i < ssl->count_b)
 	{
-		j = 0;
-		while (good[i] != temp->data && temp && good[i])
+		good[i] = position->data;
+		position = position->next;
+		//printf("%d", good[i]);
+		i++;
+	}
+	i = 0;
+	while (ssl->count_b - 1 > i)
+	{
+		j = 1;
+		while (j < ssl->count_b)
 		{
-			temp->next;
+			if (good[i] > good[j])
+				ft_swap(&good[i], &good[j]);
 			j++;
 		}
-		sum += ft_abs(i - j);
 		i++;
-
 	}
-	return (sum);
+	return (good);
 }

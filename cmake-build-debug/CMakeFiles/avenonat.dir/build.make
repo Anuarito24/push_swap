@@ -57,22 +57,9 @@ include CMakeFiles/avenonat.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/avenonat.dir/flags.make
 
-CMakeFiles/avenonat.dir/libft/ask_function.c.o: CMakeFiles/avenonat.dir/flags.make
-CMakeFiles/avenonat.dir/libft/ask_function.c.o: ../libft/ask_function.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/avenonat.dir/libft/ask_function.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ask_function.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ask_function.c
-
-CMakeFiles/avenonat.dir/libft/ask_function.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/avenonat.dir/libft/ask_function.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/avenonat/Desktop/avenonat/libft/ask_function.c > CMakeFiles/avenonat.dir/libft/ask_function.c.i
-
-CMakeFiles/avenonat.dir/libft/ask_function.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/avenonat.dir/libft/ask_function.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/avenonat/Desktop/avenonat/libft/ask_function.c -o CMakeFiles/avenonat.dir/libft/ask_function.c.s
-
 CMakeFiles/avenonat.dir/libft/ft_abs.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_abs.c.o: ../libft/ft_abs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/avenonat.dir/libft/ft_abs.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/avenonat.dir/libft/ft_abs.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_abs.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_abs.c
 
 CMakeFiles/avenonat.dir/libft/ft_abs.c.i: cmake_force
@@ -85,7 +72,7 @@ CMakeFiles/avenonat.dir/libft/ft_abs.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_atoi.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_atoi.c.o: ../libft/ft_atoi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/avenonat.dir/libft/ft_atoi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/avenonat.dir/libft/ft_atoi.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_atoi.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_atoi.c
 
 CMakeFiles/avenonat.dir/libft/ft_atoi.c.i: cmake_force
@@ -98,7 +85,7 @@ CMakeFiles/avenonat.dir/libft/ft_atoi.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_bzero.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_bzero.c.o: ../libft/ft_bzero.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/avenonat.dir/libft/ft_bzero.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/avenonat.dir/libft/ft_bzero.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_bzero.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_bzero.c
 
 CMakeFiles/avenonat.dir/libft/ft_bzero.c.i: cmake_force
@@ -111,7 +98,7 @@ CMakeFiles/avenonat.dir/libft/ft_bzero.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_count.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_count.c.o: ../libft/ft_count.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/avenonat.dir/libft/ft_count.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/avenonat.dir/libft/ft_count.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_count.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_count.c
 
 CMakeFiles/avenonat.dir/libft/ft_count.c.i: cmake_force
@@ -124,7 +111,7 @@ CMakeFiles/avenonat.dir/libft/ft_count.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_diglength.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_diglength.c.o: ../libft/ft_diglength.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/avenonat.dir/libft/ft_diglength.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/avenonat.dir/libft/ft_diglength.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_diglength.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_diglength.c
 
 CMakeFiles/avenonat.dir/libft/ft_diglength.c.i: cmake_force
@@ -137,7 +124,7 @@ CMakeFiles/avenonat.dir/libft/ft_diglength.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_isalnum.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_isalnum.c.o: ../libft/ft_isalnum.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/avenonat.dir/libft/ft_isalnum.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/avenonat.dir/libft/ft_isalnum.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_isalnum.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_isalnum.c
 
 CMakeFiles/avenonat.dir/libft/ft_isalnum.c.i: cmake_force
@@ -150,7 +137,7 @@ CMakeFiles/avenonat.dir/libft/ft_isalnum.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_isalpha.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_isalpha.c.o: ../libft/ft_isalpha.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/avenonat.dir/libft/ft_isalpha.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/avenonat.dir/libft/ft_isalpha.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_isalpha.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_isalpha.c
 
 CMakeFiles/avenonat.dir/libft/ft_isalpha.c.i: cmake_force
@@ -163,7 +150,7 @@ CMakeFiles/avenonat.dir/libft/ft_isalpha.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_isascii.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_isascii.c.o: ../libft/ft_isascii.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/avenonat.dir/libft/ft_isascii.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/avenonat.dir/libft/ft_isascii.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_isascii.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_isascii.c
 
 CMakeFiles/avenonat.dir/libft/ft_isascii.c.i: cmake_force
@@ -176,7 +163,7 @@ CMakeFiles/avenonat.dir/libft/ft_isascii.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_isdigit.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_isdigit.c.o: ../libft/ft_isdigit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/avenonat.dir/libft/ft_isdigit.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/avenonat.dir/libft/ft_isdigit.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_isdigit.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_isdigit.c
 
 CMakeFiles/avenonat.dir/libft/ft_isdigit.c.i: cmake_force
@@ -189,7 +176,7 @@ CMakeFiles/avenonat.dir/libft/ft_isdigit.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_isprint.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_isprint.c.o: ../libft/ft_isprint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/avenonat.dir/libft/ft_isprint.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/avenonat.dir/libft/ft_isprint.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_isprint.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_isprint.c
 
 CMakeFiles/avenonat.dir/libft/ft_isprint.c.i: cmake_force
@@ -202,7 +189,7 @@ CMakeFiles/avenonat.dir/libft/ft_isprint.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_itoa.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_itoa.c.o: ../libft/ft_itoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/avenonat.dir/libft/ft_itoa.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/avenonat.dir/libft/ft_itoa.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_itoa.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_itoa.c
 
 CMakeFiles/avenonat.dir/libft/ft_itoa.c.i: cmake_force
@@ -215,7 +202,7 @@ CMakeFiles/avenonat.dir/libft/ft_itoa.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_labs.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_labs.c.o: ../libft/ft_labs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/avenonat.dir/libft/ft_labs.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/avenonat.dir/libft/ft_labs.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_labs.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_labs.c
 
 CMakeFiles/avenonat.dir/libft/ft_labs.c.i: cmake_force
@@ -228,7 +215,7 @@ CMakeFiles/avenonat.dir/libft/ft_labs.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_lstadd.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_lstadd.c.o: ../libft/ft_lstadd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/avenonat.dir/libft/ft_lstadd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/avenonat.dir/libft/ft_lstadd.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_lstadd.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_lstadd.c
 
 CMakeFiles/avenonat.dir/libft/ft_lstadd.c.i: cmake_force
@@ -241,7 +228,7 @@ CMakeFiles/avenonat.dir/libft/ft_lstadd.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_lstdel.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_lstdel.c.o: ../libft/ft_lstdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/avenonat.dir/libft/ft_lstdel.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/avenonat.dir/libft/ft_lstdel.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_lstdel.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_lstdel.c
 
 CMakeFiles/avenonat.dir/libft/ft_lstdel.c.i: cmake_force
@@ -254,7 +241,7 @@ CMakeFiles/avenonat.dir/libft/ft_lstdel.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_lstdelone.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_lstdelone.c.o: ../libft/ft_lstdelone.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/avenonat.dir/libft/ft_lstdelone.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/avenonat.dir/libft/ft_lstdelone.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_lstdelone.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_lstdelone.c
 
 CMakeFiles/avenonat.dir/libft/ft_lstdelone.c.i: cmake_force
@@ -267,7 +254,7 @@ CMakeFiles/avenonat.dir/libft/ft_lstdelone.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_lstiter.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_lstiter.c.o: ../libft/ft_lstiter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/avenonat.dir/libft/ft_lstiter.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/avenonat.dir/libft/ft_lstiter.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_lstiter.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_lstiter.c
 
 CMakeFiles/avenonat.dir/libft/ft_lstiter.c.i: cmake_force
@@ -280,7 +267,7 @@ CMakeFiles/avenonat.dir/libft/ft_lstiter.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_lstmap.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_lstmap.c.o: ../libft/ft_lstmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/avenonat.dir/libft/ft_lstmap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/avenonat.dir/libft/ft_lstmap.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_lstmap.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_lstmap.c
 
 CMakeFiles/avenonat.dir/libft/ft_lstmap.c.i: cmake_force
@@ -293,7 +280,7 @@ CMakeFiles/avenonat.dir/libft/ft_lstmap.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_lstnew.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_lstnew.c.o: ../libft/ft_lstnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/avenonat.dir/libft/ft_lstnew.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/avenonat.dir/libft/ft_lstnew.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_lstnew.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_lstnew.c
 
 CMakeFiles/avenonat.dir/libft/ft_lstnew.c.i: cmake_force
@@ -304,22 +291,9 @@ CMakeFiles/avenonat.dir/libft/ft_lstnew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/avenonat.dir/libft/ft_lstnew.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/avenonat/Desktop/avenonat/libft/ft_lstnew.c -o CMakeFiles/avenonat.dir/libft/ft_lstnew.c.s
 
-CMakeFiles/avenonat.dir/libft/ft_max.c.o: CMakeFiles/avenonat.dir/flags.make
-CMakeFiles/avenonat.dir/libft/ft_max.c.o: ../libft/ft_max.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/avenonat.dir/libft/ft_max.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_max.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_max.c
-
-CMakeFiles/avenonat.dir/libft/ft_max.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/avenonat.dir/libft/ft_max.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/avenonat/Desktop/avenonat/libft/ft_max.c > CMakeFiles/avenonat.dir/libft/ft_max.c.i
-
-CMakeFiles/avenonat.dir/libft/ft_max.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/avenonat.dir/libft/ft_max.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/avenonat/Desktop/avenonat/libft/ft_max.c -o CMakeFiles/avenonat.dir/libft/ft_max.c.s
-
 CMakeFiles/avenonat.dir/libft/ft_memalloc.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_memalloc.c.o: ../libft/ft_memalloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/avenonat.dir/libft/ft_memalloc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/avenonat.dir/libft/ft_memalloc.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_memalloc.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_memalloc.c
 
 CMakeFiles/avenonat.dir/libft/ft_memalloc.c.i: cmake_force
@@ -332,7 +306,7 @@ CMakeFiles/avenonat.dir/libft/ft_memalloc.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_memccpy.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_memccpy.c.o: ../libft/ft_memccpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/avenonat.dir/libft/ft_memccpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/avenonat.dir/libft/ft_memccpy.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_memccpy.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_memccpy.c
 
 CMakeFiles/avenonat.dir/libft/ft_memccpy.c.i: cmake_force
@@ -345,7 +319,7 @@ CMakeFiles/avenonat.dir/libft/ft_memccpy.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_memchr.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_memchr.c.o: ../libft/ft_memchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/avenonat.dir/libft/ft_memchr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/avenonat.dir/libft/ft_memchr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_memchr.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_memchr.c
 
 CMakeFiles/avenonat.dir/libft/ft_memchr.c.i: cmake_force
@@ -358,7 +332,7 @@ CMakeFiles/avenonat.dir/libft/ft_memchr.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_memcmp.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_memcmp.c.o: ../libft/ft_memcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/avenonat.dir/libft/ft_memcmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/avenonat.dir/libft/ft_memcmp.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_memcmp.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_memcmp.c
 
 CMakeFiles/avenonat.dir/libft/ft_memcmp.c.i: cmake_force
@@ -371,7 +345,7 @@ CMakeFiles/avenonat.dir/libft/ft_memcmp.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_memcpy.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_memcpy.c.o: ../libft/ft_memcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/avenonat.dir/libft/ft_memcpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/avenonat.dir/libft/ft_memcpy.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_memcpy.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_memcpy.c
 
 CMakeFiles/avenonat.dir/libft/ft_memcpy.c.i: cmake_force
@@ -384,7 +358,7 @@ CMakeFiles/avenonat.dir/libft/ft_memcpy.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_memdel.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_memdel.c.o: ../libft/ft_memdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/avenonat.dir/libft/ft_memdel.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/avenonat.dir/libft/ft_memdel.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_memdel.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_memdel.c
 
 CMakeFiles/avenonat.dir/libft/ft_memdel.c.i: cmake_force
@@ -397,7 +371,7 @@ CMakeFiles/avenonat.dir/libft/ft_memdel.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_memmove.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_memmove.c.o: ../libft/ft_memmove.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/avenonat.dir/libft/ft_memmove.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/avenonat.dir/libft/ft_memmove.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_memmove.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_memmove.c
 
 CMakeFiles/avenonat.dir/libft/ft_memmove.c.i: cmake_force
@@ -410,7 +384,7 @@ CMakeFiles/avenonat.dir/libft/ft_memmove.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_memset.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_memset.c.o: ../libft/ft_memset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/avenonat.dir/libft/ft_memset.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/avenonat.dir/libft/ft_memset.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_memset.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_memset.c
 
 CMakeFiles/avenonat.dir/libft/ft_memset.c.i: cmake_force
@@ -421,22 +395,9 @@ CMakeFiles/avenonat.dir/libft/ft_memset.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/avenonat.dir/libft/ft_memset.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/avenonat/Desktop/avenonat/libft/ft_memset.c -o CMakeFiles/avenonat.dir/libft/ft_memset.c.s
 
-CMakeFiles/avenonat.dir/libft/ft_min.c.o: CMakeFiles/avenonat.dir/flags.make
-CMakeFiles/avenonat.dir/libft/ft_min.c.o: ../libft/ft_min.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/avenonat.dir/libft/ft_min.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_min.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_min.c
-
-CMakeFiles/avenonat.dir/libft/ft_min.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/avenonat.dir/libft/ft_min.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/avenonat/Desktop/avenonat/libft/ft_min.c > CMakeFiles/avenonat.dir/libft/ft_min.c.i
-
-CMakeFiles/avenonat.dir/libft/ft_min.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/avenonat.dir/libft/ft_min.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/avenonat/Desktop/avenonat/libft/ft_min.c -o CMakeFiles/avenonat.dir/libft/ft_min.c.s
-
 CMakeFiles/avenonat.dir/libft/ft_putchar.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_putchar.c.o: ../libft/ft_putchar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/avenonat.dir/libft/ft_putchar.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/avenonat.dir/libft/ft_putchar.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_putchar.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_putchar.c
 
 CMakeFiles/avenonat.dir/libft/ft_putchar.c.i: cmake_force
@@ -449,7 +410,7 @@ CMakeFiles/avenonat.dir/libft/ft_putchar.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_putchar_fd.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_putchar_fd.c.o: ../libft/ft_putchar_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/avenonat.dir/libft/ft_putchar_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/avenonat.dir/libft/ft_putchar_fd.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_putchar_fd.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_putchar_fd.c
 
 CMakeFiles/avenonat.dir/libft/ft_putchar_fd.c.i: cmake_force
@@ -462,7 +423,7 @@ CMakeFiles/avenonat.dir/libft/ft_putchar_fd.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_putendl.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_putendl.c.o: ../libft/ft_putendl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/avenonat.dir/libft/ft_putendl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/avenonat.dir/libft/ft_putendl.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_putendl.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_putendl.c
 
 CMakeFiles/avenonat.dir/libft/ft_putendl.c.i: cmake_force
@@ -475,7 +436,7 @@ CMakeFiles/avenonat.dir/libft/ft_putendl.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_putendl_fd.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_putendl_fd.c.o: ../libft/ft_putendl_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/avenonat.dir/libft/ft_putendl_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/avenonat.dir/libft/ft_putendl_fd.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_putendl_fd.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_putendl_fd.c
 
 CMakeFiles/avenonat.dir/libft/ft_putendl_fd.c.i: cmake_force
@@ -488,7 +449,7 @@ CMakeFiles/avenonat.dir/libft/ft_putendl_fd.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_putnbr.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_putnbr.c.o: ../libft/ft_putnbr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/avenonat.dir/libft/ft_putnbr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/avenonat.dir/libft/ft_putnbr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_putnbr.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_putnbr.c
 
 CMakeFiles/avenonat.dir/libft/ft_putnbr.c.i: cmake_force
@@ -501,7 +462,7 @@ CMakeFiles/avenonat.dir/libft/ft_putnbr.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_putnbr_fd.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_putnbr_fd.c.o: ../libft/ft_putnbr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/avenonat.dir/libft/ft_putnbr_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/avenonat.dir/libft/ft_putnbr_fd.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_putnbr_fd.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_putnbr_fd.c
 
 CMakeFiles/avenonat.dir/libft/ft_putnbr_fd.c.i: cmake_force
@@ -514,7 +475,7 @@ CMakeFiles/avenonat.dir/libft/ft_putnbr_fd.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_putstr.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_putstr.c.o: ../libft/ft_putstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/avenonat.dir/libft/ft_putstr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/avenonat.dir/libft/ft_putstr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_putstr.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_putstr.c
 
 CMakeFiles/avenonat.dir/libft/ft_putstr.c.i: cmake_force
@@ -527,7 +488,7 @@ CMakeFiles/avenonat.dir/libft/ft_putstr.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_putstr_fd.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_putstr_fd.c.o: ../libft/ft_putstr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/avenonat.dir/libft/ft_putstr_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/avenonat.dir/libft/ft_putstr_fd.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_putstr_fd.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_putstr_fd.c
 
 CMakeFiles/avenonat.dir/libft/ft_putstr_fd.c.i: cmake_force
@@ -540,7 +501,7 @@ CMakeFiles/avenonat.dir/libft/ft_putstr_fd.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_strcat.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_strcat.c.o: ../libft/ft_strcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/avenonat.dir/libft/ft_strcat.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/avenonat.dir/libft/ft_strcat.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_strcat.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_strcat.c
 
 CMakeFiles/avenonat.dir/libft/ft_strcat.c.i: cmake_force
@@ -553,7 +514,7 @@ CMakeFiles/avenonat.dir/libft/ft_strcat.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_strchr.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_strchr.c.o: ../libft/ft_strchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/avenonat.dir/libft/ft_strchr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/avenonat.dir/libft/ft_strchr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_strchr.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_strchr.c
 
 CMakeFiles/avenonat.dir/libft/ft_strchr.c.i: cmake_force
@@ -566,7 +527,7 @@ CMakeFiles/avenonat.dir/libft/ft_strchr.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_strclr.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_strclr.c.o: ../libft/ft_strclr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/avenonat.dir/libft/ft_strclr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/avenonat.dir/libft/ft_strclr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_strclr.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_strclr.c
 
 CMakeFiles/avenonat.dir/libft/ft_strclr.c.i: cmake_force
@@ -579,7 +540,7 @@ CMakeFiles/avenonat.dir/libft/ft_strclr.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_strcmp.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_strcmp.c.o: ../libft/ft_strcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/avenonat.dir/libft/ft_strcmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/avenonat.dir/libft/ft_strcmp.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_strcmp.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_strcmp.c
 
 CMakeFiles/avenonat.dir/libft/ft_strcmp.c.i: cmake_force
@@ -592,7 +553,7 @@ CMakeFiles/avenonat.dir/libft/ft_strcmp.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_strcpy.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_strcpy.c.o: ../libft/ft_strcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/avenonat.dir/libft/ft_strcpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/avenonat.dir/libft/ft_strcpy.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_strcpy.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_strcpy.c
 
 CMakeFiles/avenonat.dir/libft/ft_strcpy.c.i: cmake_force
@@ -605,7 +566,7 @@ CMakeFiles/avenonat.dir/libft/ft_strcpy.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_strdel.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_strdel.c.o: ../libft/ft_strdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/avenonat.dir/libft/ft_strdel.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/avenonat.dir/libft/ft_strdel.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_strdel.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_strdel.c
 
 CMakeFiles/avenonat.dir/libft/ft_strdel.c.i: cmake_force
@@ -618,7 +579,7 @@ CMakeFiles/avenonat.dir/libft/ft_strdel.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_strdup.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_strdup.c.o: ../libft/ft_strdup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/avenonat.dir/libft/ft_strdup.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/avenonat.dir/libft/ft_strdup.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_strdup.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_strdup.c
 
 CMakeFiles/avenonat.dir/libft/ft_strdup.c.i: cmake_force
@@ -631,7 +592,7 @@ CMakeFiles/avenonat.dir/libft/ft_strdup.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_strequ.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_strequ.c.o: ../libft/ft_strequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/avenonat.dir/libft/ft_strequ.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/avenonat.dir/libft/ft_strequ.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_strequ.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_strequ.c
 
 CMakeFiles/avenonat.dir/libft/ft_strequ.c.i: cmake_force
@@ -644,7 +605,7 @@ CMakeFiles/avenonat.dir/libft/ft_strequ.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_striter.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_striter.c.o: ../libft/ft_striter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/avenonat.dir/libft/ft_striter.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/avenonat.dir/libft/ft_striter.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_striter.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_striter.c
 
 CMakeFiles/avenonat.dir/libft/ft_striter.c.i: cmake_force
@@ -657,7 +618,7 @@ CMakeFiles/avenonat.dir/libft/ft_striter.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_striteri.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_striteri.c.o: ../libft/ft_striteri.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/avenonat.dir/libft/ft_striteri.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/avenonat.dir/libft/ft_striteri.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_striteri.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_striteri.c
 
 CMakeFiles/avenonat.dir/libft/ft_striteri.c.i: cmake_force
@@ -670,7 +631,7 @@ CMakeFiles/avenonat.dir/libft/ft_striteri.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_strjoin.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_strjoin.c.o: ../libft/ft_strjoin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/avenonat.dir/libft/ft_strjoin.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/avenonat.dir/libft/ft_strjoin.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_strjoin.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_strjoin.c
 
 CMakeFiles/avenonat.dir/libft/ft_strjoin.c.i: cmake_force
@@ -683,7 +644,7 @@ CMakeFiles/avenonat.dir/libft/ft_strjoin.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_strlcat.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_strlcat.c.o: ../libft/ft_strlcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/avenonat.dir/libft/ft_strlcat.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/avenonat.dir/libft/ft_strlcat.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_strlcat.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_strlcat.c
 
 CMakeFiles/avenonat.dir/libft/ft_strlcat.c.i: cmake_force
@@ -696,7 +657,7 @@ CMakeFiles/avenonat.dir/libft/ft_strlcat.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_strlen.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_strlen.c.o: ../libft/ft_strlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/avenonat.dir/libft/ft_strlen.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/avenonat.dir/libft/ft_strlen.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_strlen.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_strlen.c
 
 CMakeFiles/avenonat.dir/libft/ft_strlen.c.i: cmake_force
@@ -709,7 +670,7 @@ CMakeFiles/avenonat.dir/libft/ft_strlen.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_strmap.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_strmap.c.o: ../libft/ft_strmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/avenonat.dir/libft/ft_strmap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/avenonat.dir/libft/ft_strmap.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_strmap.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_strmap.c
 
 CMakeFiles/avenonat.dir/libft/ft_strmap.c.i: cmake_force
@@ -722,7 +683,7 @@ CMakeFiles/avenonat.dir/libft/ft_strmap.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_strmapi.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_strmapi.c.o: ../libft/ft_strmapi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/avenonat.dir/libft/ft_strmapi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/avenonat.dir/libft/ft_strmapi.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_strmapi.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_strmapi.c
 
 CMakeFiles/avenonat.dir/libft/ft_strmapi.c.i: cmake_force
@@ -735,7 +696,7 @@ CMakeFiles/avenonat.dir/libft/ft_strmapi.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_strncat.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_strncat.c.o: ../libft/ft_strncat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/avenonat.dir/libft/ft_strncat.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/avenonat.dir/libft/ft_strncat.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_strncat.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_strncat.c
 
 CMakeFiles/avenonat.dir/libft/ft_strncat.c.i: cmake_force
@@ -748,7 +709,7 @@ CMakeFiles/avenonat.dir/libft/ft_strncat.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_strncmp.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_strncmp.c.o: ../libft/ft_strncmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/avenonat.dir/libft/ft_strncmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/avenonat.dir/libft/ft_strncmp.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_strncmp.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_strncmp.c
 
 CMakeFiles/avenonat.dir/libft/ft_strncmp.c.i: cmake_force
@@ -761,7 +722,7 @@ CMakeFiles/avenonat.dir/libft/ft_strncmp.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_strncpy.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_strncpy.c.o: ../libft/ft_strncpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/avenonat.dir/libft/ft_strncpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/avenonat.dir/libft/ft_strncpy.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_strncpy.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_strncpy.c
 
 CMakeFiles/avenonat.dir/libft/ft_strncpy.c.i: cmake_force
@@ -774,7 +735,7 @@ CMakeFiles/avenonat.dir/libft/ft_strncpy.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_strnequ.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_strnequ.c.o: ../libft/ft_strnequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/avenonat.dir/libft/ft_strnequ.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/avenonat.dir/libft/ft_strnequ.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_strnequ.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_strnequ.c
 
 CMakeFiles/avenonat.dir/libft/ft_strnequ.c.i: cmake_force
@@ -787,7 +748,7 @@ CMakeFiles/avenonat.dir/libft/ft_strnequ.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_strnew.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_strnew.c.o: ../libft/ft_strnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/avenonat.dir/libft/ft_strnew.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/avenonat.dir/libft/ft_strnew.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_strnew.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_strnew.c
 
 CMakeFiles/avenonat.dir/libft/ft_strnew.c.i: cmake_force
@@ -800,7 +761,7 @@ CMakeFiles/avenonat.dir/libft/ft_strnew.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_strnstr.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_strnstr.c.o: ../libft/ft_strnstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/avenonat.dir/libft/ft_strnstr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/avenonat.dir/libft/ft_strnstr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_strnstr.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_strnstr.c
 
 CMakeFiles/avenonat.dir/libft/ft_strnstr.c.i: cmake_force
@@ -813,7 +774,7 @@ CMakeFiles/avenonat.dir/libft/ft_strnstr.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_strrchr.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_strrchr.c.o: ../libft/ft_strrchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/avenonat.dir/libft/ft_strrchr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/avenonat.dir/libft/ft_strrchr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_strrchr.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_strrchr.c
 
 CMakeFiles/avenonat.dir/libft/ft_strrchr.c.i: cmake_force
@@ -826,7 +787,7 @@ CMakeFiles/avenonat.dir/libft/ft_strrchr.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_strsplit.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_strsplit.c.o: ../libft/ft_strsplit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/avenonat.dir/libft/ft_strsplit.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/avenonat.dir/libft/ft_strsplit.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_strsplit.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_strsplit.c
 
 CMakeFiles/avenonat.dir/libft/ft_strsplit.c.i: cmake_force
@@ -839,7 +800,7 @@ CMakeFiles/avenonat.dir/libft/ft_strsplit.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_strstr.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_strstr.c.o: ../libft/ft_strstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/avenonat.dir/libft/ft_strstr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/avenonat.dir/libft/ft_strstr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_strstr.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_strstr.c
 
 CMakeFiles/avenonat.dir/libft/ft_strstr.c.i: cmake_force
@@ -852,7 +813,7 @@ CMakeFiles/avenonat.dir/libft/ft_strstr.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_strsub.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_strsub.c.o: ../libft/ft_strsub.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/avenonat.dir/libft/ft_strsub.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/avenonat.dir/libft/ft_strsub.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_strsub.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_strsub.c
 
 CMakeFiles/avenonat.dir/libft/ft_strsub.c.i: cmake_force
@@ -865,7 +826,7 @@ CMakeFiles/avenonat.dir/libft/ft_strsub.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_strtrim.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_strtrim.c.o: ../libft/ft_strtrim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/avenonat.dir/libft/ft_strtrim.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/avenonat.dir/libft/ft_strtrim.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_strtrim.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_strtrim.c
 
 CMakeFiles/avenonat.dir/libft/ft_strtrim.c.i: cmake_force
@@ -878,7 +839,7 @@ CMakeFiles/avenonat.dir/libft/ft_strtrim.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_swap.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_swap.c.o: ../libft/ft_swap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/avenonat.dir/libft/ft_swap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/avenonat.dir/libft/ft_swap.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_swap.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_swap.c
 
 CMakeFiles/avenonat.dir/libft/ft_swap.c.i: cmake_force
@@ -891,7 +852,7 @@ CMakeFiles/avenonat.dir/libft/ft_swap.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_tolower.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_tolower.c.o: ../libft/ft_tolower.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/avenonat.dir/libft/ft_tolower.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/avenonat.dir/libft/ft_tolower.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_tolower.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_tolower.c
 
 CMakeFiles/avenonat.dir/libft/ft_tolower.c.i: cmake_force
@@ -904,7 +865,7 @@ CMakeFiles/avenonat.dir/libft/ft_tolower.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/libft/ft_toupper.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/libft/ft_toupper.c.o: ../libft/ft_toupper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/avenonat.dir/libft/ft_toupper.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/avenonat.dir/libft/ft_toupper.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/ft_toupper.c.o   -c /Users/avenonat/Desktop/avenonat/libft/ft_toupper.c
 
 CMakeFiles/avenonat.dir/libft/ft_toupper.c.i: cmake_force
@@ -915,74 +876,22 @@ CMakeFiles/avenonat.dir/libft/ft_toupper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/avenonat.dir/libft/ft_toupper.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/avenonat/Desktop/avenonat/libft/ft_toupper.c -o CMakeFiles/avenonat.dir/libft/ft_toupper.c.s
 
-CMakeFiles/avenonat.dir/libft/search_min.c.o: CMakeFiles/avenonat.dir/flags.make
-CMakeFiles/avenonat.dir/libft/search_min.c.o: ../libft/search_min.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/avenonat.dir/libft/search_min.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/search_min.c.o   -c /Users/avenonat/Desktop/avenonat/libft/search_min.c
+CMakeFiles/avenonat.dir/ask_function.c.o: CMakeFiles/avenonat.dir/flags.make
+CMakeFiles/avenonat.dir/ask_function.c.o: ../ask_function.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/avenonat.dir/ask_function.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/ask_function.c.o   -c /Users/avenonat/Desktop/avenonat/ask_function.c
 
-CMakeFiles/avenonat.dir/libft/search_min.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/avenonat.dir/libft/search_min.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/avenonat/Desktop/avenonat/libft/search_min.c > CMakeFiles/avenonat.dir/libft/search_min.c.i
+CMakeFiles/avenonat.dir/ask_function.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/avenonat.dir/ask_function.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/avenonat/Desktop/avenonat/ask_function.c > CMakeFiles/avenonat.dir/ask_function.c.i
 
-CMakeFiles/avenonat.dir/libft/search_min.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/avenonat.dir/libft/search_min.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/avenonat/Desktop/avenonat/libft/search_min.c -o CMakeFiles/avenonat.dir/libft/search_min.c.s
-
-CMakeFiles/avenonat.dir/libft/sort.c.o: CMakeFiles/avenonat.dir/flags.make
-CMakeFiles/avenonat.dir/libft/sort.c.o: ../libft/sort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/avenonat.dir/libft/sort.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/sort.c.o   -c /Users/avenonat/Desktop/avenonat/libft/sort.c
-
-CMakeFiles/avenonat.dir/libft/sort.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/avenonat.dir/libft/sort.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/avenonat/Desktop/avenonat/libft/sort.c > CMakeFiles/avenonat.dir/libft/sort.c.i
-
-CMakeFiles/avenonat.dir/libft/sort.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/avenonat.dir/libft/sort.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/avenonat/Desktop/avenonat/libft/sort.c -o CMakeFiles/avenonat.dir/libft/sort.c.s
-
-CMakeFiles/avenonat.dir/libft/sum_position.c.o: CMakeFiles/avenonat.dir/flags.make
-CMakeFiles/avenonat.dir/libft/sum_position.c.o: ../libft/sum_position.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/avenonat.dir/libft/sum_position.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/sum_position.c.o   -c /Users/avenonat/Desktop/avenonat/libft/sum_position.c
-
-CMakeFiles/avenonat.dir/libft/sum_position.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/avenonat.dir/libft/sum_position.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/avenonat/Desktop/avenonat/libft/sum_position.c > CMakeFiles/avenonat.dir/libft/sum_position.c.i
-
-CMakeFiles/avenonat.dir/libft/sum_position.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/avenonat.dir/libft/sum_position.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/avenonat/Desktop/avenonat/libft/sum_position.c -o CMakeFiles/avenonat.dir/libft/sum_position.c.s
-
-CMakeFiles/avenonat.dir/libft/your_choise.c.o: CMakeFiles/avenonat.dir/flags.make
-CMakeFiles/avenonat.dir/libft/your_choise.c.o: ../libft/your_choise.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/avenonat.dir/libft/your_choise.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/your_choise.c.o   -c /Users/avenonat/Desktop/avenonat/libft/your_choise.c
-
-CMakeFiles/avenonat.dir/libft/your_choise.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/avenonat.dir/libft/your_choise.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/avenonat/Desktop/avenonat/libft/your_choise.c > CMakeFiles/avenonat.dir/libft/your_choise.c.i
-
-CMakeFiles/avenonat.dir/libft/your_choise.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/avenonat.dir/libft/your_choise.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/avenonat/Desktop/avenonat/libft/your_choise.c -o CMakeFiles/avenonat.dir/libft/your_choise.c.s
-
-CMakeFiles/avenonat.dir/libft/your_choise2.c.o: CMakeFiles/avenonat.dir/flags.make
-CMakeFiles/avenonat.dir/libft/your_choise2.c.o: ../libft/your_choise2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/avenonat.dir/libft/your_choise2.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/libft/your_choise2.c.o   -c /Users/avenonat/Desktop/avenonat/libft/your_choise2.c
-
-CMakeFiles/avenonat.dir/libft/your_choise2.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/avenonat.dir/libft/your_choise2.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/avenonat/Desktop/avenonat/libft/your_choise2.c > CMakeFiles/avenonat.dir/libft/your_choise2.c.i
-
-CMakeFiles/avenonat.dir/libft/your_choise2.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/avenonat.dir/libft/your_choise2.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/avenonat/Desktop/avenonat/libft/your_choise2.c -o CMakeFiles/avenonat.dir/libft/your_choise2.c.s
+CMakeFiles/avenonat.dir/ask_function.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/avenonat.dir/ask_function.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/avenonat/Desktop/avenonat/ask_function.c -o CMakeFiles/avenonat.dir/ask_function.c.s
 
 CMakeFiles/avenonat.dir/check_num.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/check_num.c.o: ../check_num.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/avenonat.dir/check_num.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/avenonat.dir/check_num.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/check_num.c.o   -c /Users/avenonat/Desktop/avenonat/check_num.c
 
 CMakeFiles/avenonat.dir/check_num.c.i: cmake_force
@@ -995,7 +904,7 @@ CMakeFiles/avenonat.dir/check_num.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/check_str.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/check_str.c.o: ../check_str.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/avenonat.dir/check_str.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/avenonat.dir/check_str.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/check_str.c.o   -c /Users/avenonat/Desktop/avenonat/check_str.c
 
 CMakeFiles/avenonat.dir/check_str.c.i: cmake_force
@@ -1008,7 +917,7 @@ CMakeFiles/avenonat.dir/check_str.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/main.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/avenonat.dir/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/avenonat.dir/main.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/main.c.o   -c /Users/avenonat/Desktop/avenonat/main.c
 
 CMakeFiles/avenonat.dir/main.c.i: cmake_force
@@ -1021,7 +930,7 @@ CMakeFiles/avenonat.dir/main.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/major.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/major.c.o: ../major.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/avenonat.dir/major.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/avenonat.dir/major.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/major.c.o   -c /Users/avenonat/Desktop/avenonat/major.c
 
 CMakeFiles/avenonat.dir/major.c.i: cmake_force
@@ -1034,7 +943,7 @@ CMakeFiles/avenonat.dir/major.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/pa.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/pa.c.o: ../pa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/avenonat.dir/pa.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/avenonat.dir/pa.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/pa.c.o   -c /Users/avenonat/Desktop/avenonat/pa.c
 
 CMakeFiles/avenonat.dir/pa.c.i: cmake_force
@@ -1047,7 +956,7 @@ CMakeFiles/avenonat.dir/pa.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/pb.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/pb.c.o: ../pb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/avenonat.dir/pb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/avenonat.dir/pb.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/pb.c.o   -c /Users/avenonat/Desktop/avenonat/pb.c
 
 CMakeFiles/avenonat.dir/pb.c.i: cmake_force
@@ -1060,7 +969,7 @@ CMakeFiles/avenonat.dir/pb.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/push_swap.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/push_swap.c.o: ../push_swap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/avenonat.dir/push_swap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/avenonat.dir/push_swap.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/push_swap.c.o   -c /Users/avenonat/Desktop/avenonat/push_swap.c
 
 CMakeFiles/avenonat.dir/push_swap.c.i: cmake_force
@@ -1073,7 +982,7 @@ CMakeFiles/avenonat.dir/push_swap.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/ra.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/ra.c.o: ../ra.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/avenonat.dir/ra.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/avenonat.dir/ra.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/ra.c.o   -c /Users/avenonat/Desktop/avenonat/ra.c
 
 CMakeFiles/avenonat.dir/ra.c.i: cmake_force
@@ -1086,7 +995,7 @@ CMakeFiles/avenonat.dir/ra.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/rb.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/rb.c.o: ../rb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/avenonat.dir/rb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/avenonat.dir/rb.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/rb.c.o   -c /Users/avenonat/Desktop/avenonat/rb.c
 
 CMakeFiles/avenonat.dir/rb.c.i: cmake_force
@@ -1099,7 +1008,7 @@ CMakeFiles/avenonat.dir/rb.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/rr.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/rr.c.o: ../rr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/avenonat.dir/rr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/avenonat.dir/rr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/rr.c.o   -c /Users/avenonat/Desktop/avenonat/rr.c
 
 CMakeFiles/avenonat.dir/rr.c.i: cmake_force
@@ -1112,7 +1021,7 @@ CMakeFiles/avenonat.dir/rr.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/rra.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/rra.c.o: ../rra.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/avenonat.dir/rra.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/avenonat.dir/rra.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/rra.c.o   -c /Users/avenonat/Desktop/avenonat/rra.c
 
 CMakeFiles/avenonat.dir/rra.c.i: cmake_force
@@ -1125,7 +1034,7 @@ CMakeFiles/avenonat.dir/rra.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/rrb.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/rrb.c.o: ../rrb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/avenonat.dir/rrb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/avenonat.dir/rrb.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/rrb.c.o   -c /Users/avenonat/Desktop/avenonat/rrb.c
 
 CMakeFiles/avenonat.dir/rrb.c.i: cmake_force
@@ -1138,7 +1047,7 @@ CMakeFiles/avenonat.dir/rrb.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/rrr.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/rrr.c.o: ../rrr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/avenonat.dir/rrr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/avenonat.dir/rrr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/rrr.c.o   -c /Users/avenonat/Desktop/avenonat/rrr.c
 
 CMakeFiles/avenonat.dir/rrr.c.i: cmake_force
@@ -1151,7 +1060,7 @@ CMakeFiles/avenonat.dir/rrr.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/sa.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/sa.c.o: ../sa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/avenonat.dir/sa.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/avenonat.dir/sa.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/sa.c.o   -c /Users/avenonat/Desktop/avenonat/sa.c
 
 CMakeFiles/avenonat.dir/sa.c.i: cmake_force
@@ -1164,7 +1073,7 @@ CMakeFiles/avenonat.dir/sa.c.s: cmake_force
 
 CMakeFiles/avenonat.dir/sb.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/sb.c.o: ../sb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/avenonat.dir/sb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/avenonat.dir/sb.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/sb.c.o   -c /Users/avenonat/Desktop/avenonat/sb.c
 
 CMakeFiles/avenonat.dir/sb.c.i: cmake_force
@@ -1175,9 +1084,22 @@ CMakeFiles/avenonat.dir/sb.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/avenonat.dir/sb.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/avenonat/Desktop/avenonat/sb.c -o CMakeFiles/avenonat.dir/sb.c.s
 
+CMakeFiles/avenonat.dir/search_min.c.o: CMakeFiles/avenonat.dir/flags.make
+CMakeFiles/avenonat.dir/search_min.c.o: ../search_min.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/avenonat.dir/search_min.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/search_min.c.o   -c /Users/avenonat/Desktop/avenonat/search_min.c
+
+CMakeFiles/avenonat.dir/search_min.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/avenonat.dir/search_min.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/avenonat/Desktop/avenonat/search_min.c > CMakeFiles/avenonat.dir/search_min.c.i
+
+CMakeFiles/avenonat.dir/search_min.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/avenonat.dir/search_min.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/avenonat/Desktop/avenonat/search_min.c -o CMakeFiles/avenonat.dir/search_min.c.s
+
 CMakeFiles/avenonat.dir/skip_box.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/skip_box.c.o: ../skip_box.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/avenonat.dir/skip_box.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/avenonat.dir/skip_box.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/skip_box.c.o   -c /Users/avenonat/Desktop/avenonat/skip_box.c
 
 CMakeFiles/avenonat.dir/skip_box.c.i: cmake_force
@@ -1188,9 +1110,48 @@ CMakeFiles/avenonat.dir/skip_box.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/avenonat.dir/skip_box.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/avenonat/Desktop/avenonat/skip_box.c -o CMakeFiles/avenonat.dir/skip_box.c.s
 
+CMakeFiles/avenonat.dir/sort.c.o: CMakeFiles/avenonat.dir/flags.make
+CMakeFiles/avenonat.dir/sort.c.o: ../sort.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/avenonat.dir/sort.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/sort.c.o   -c /Users/avenonat/Desktop/avenonat/sort.c
+
+CMakeFiles/avenonat.dir/sort.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/avenonat.dir/sort.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/avenonat/Desktop/avenonat/sort.c > CMakeFiles/avenonat.dir/sort.c.i
+
+CMakeFiles/avenonat.dir/sort.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/avenonat.dir/sort.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/avenonat/Desktop/avenonat/sort.c -o CMakeFiles/avenonat.dir/sort.c.s
+
+CMakeFiles/avenonat.dir/sort_a.c.o: CMakeFiles/avenonat.dir/flags.make
+CMakeFiles/avenonat.dir/sort_a.c.o: ../sort_a.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/avenonat.dir/sort_a.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/sort_a.c.o   -c /Users/avenonat/Desktop/avenonat/sort_a.c
+
+CMakeFiles/avenonat.dir/sort_a.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/avenonat.dir/sort_a.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/avenonat/Desktop/avenonat/sort_a.c > CMakeFiles/avenonat.dir/sort_a.c.i
+
+CMakeFiles/avenonat.dir/sort_a.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/avenonat.dir/sort_a.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/avenonat/Desktop/avenonat/sort_a.c -o CMakeFiles/avenonat.dir/sort_a.c.s
+
+CMakeFiles/avenonat.dir/sort_b.c.o: CMakeFiles/avenonat.dir/flags.make
+CMakeFiles/avenonat.dir/sort_b.c.o: ../sort_b.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/avenonat.dir/sort_b.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/sort_b.c.o   -c /Users/avenonat/Desktop/avenonat/sort_b.c
+
+CMakeFiles/avenonat.dir/sort_b.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/avenonat.dir/sort_b.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/avenonat/Desktop/avenonat/sort_b.c > CMakeFiles/avenonat.dir/sort_b.c.i
+
+CMakeFiles/avenonat.dir/sort_b.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/avenonat.dir/sort_b.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/avenonat/Desktop/avenonat/sort_b.c -o CMakeFiles/avenonat.dir/sort_b.c.s
+
 CMakeFiles/avenonat.dir/ss.c.o: CMakeFiles/avenonat.dir/flags.make
 CMakeFiles/avenonat.dir/ss.c.o: ../ss.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/avenonat.dir/ss.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/avenonat.dir/ss.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/ss.c.o   -c /Users/avenonat/Desktop/avenonat/ss.c
 
 CMakeFiles/avenonat.dir/ss.c.i: cmake_force
@@ -1201,9 +1162,47 @@ CMakeFiles/avenonat.dir/ss.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/avenonat.dir/ss.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/avenonat/Desktop/avenonat/ss.c -o CMakeFiles/avenonat.dir/ss.c.s
 
+CMakeFiles/avenonat.dir/sum_position.c.o: CMakeFiles/avenonat.dir/flags.make
+CMakeFiles/avenonat.dir/sum_position.c.o: ../sum_position.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/avenonat.dir/sum_position.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/sum_position.c.o   -c /Users/avenonat/Desktop/avenonat/sum_position.c
+
+CMakeFiles/avenonat.dir/sum_position.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/avenonat.dir/sum_position.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/avenonat/Desktop/avenonat/sum_position.c > CMakeFiles/avenonat.dir/sum_position.c.i
+
+CMakeFiles/avenonat.dir/sum_position.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/avenonat.dir/sum_position.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/avenonat/Desktop/avenonat/sum_position.c -o CMakeFiles/avenonat.dir/sum_position.c.s
+
+CMakeFiles/avenonat.dir/your_choise.c.o: CMakeFiles/avenonat.dir/flags.make
+CMakeFiles/avenonat.dir/your_choise.c.o: ../your_choise.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/avenonat.dir/your_choise.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/your_choise.c.o   -c /Users/avenonat/Desktop/avenonat/your_choise.c
+
+CMakeFiles/avenonat.dir/your_choise.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/avenonat.dir/your_choise.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/avenonat/Desktop/avenonat/your_choise.c > CMakeFiles/avenonat.dir/your_choise.c.i
+
+CMakeFiles/avenonat.dir/your_choise.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/avenonat.dir/your_choise.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/avenonat/Desktop/avenonat/your_choise.c -o CMakeFiles/avenonat.dir/your_choise.c.s
+
+CMakeFiles/avenonat.dir/your_choise2.c.o: CMakeFiles/avenonat.dir/flags.make
+CMakeFiles/avenonat.dir/your_choise2.c.o: ../your_choise2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/avenonat.dir/your_choise2.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/avenonat.dir/your_choise2.c.o   -c /Users/avenonat/Desktop/avenonat/your_choise2.c
+
+CMakeFiles/avenonat.dir/your_choise2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/avenonat.dir/your_choise2.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/avenonat/Desktop/avenonat/your_choise2.c > CMakeFiles/avenonat.dir/your_choise2.c.i
+
+CMakeFiles/avenonat.dir/your_choise2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/avenonat.dir/your_choise2.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/avenonat/Desktop/avenonat/your_choise2.c -o CMakeFiles/avenonat.dir/your_choise2.c.s
+
 # Object files for target avenonat
 avenonat_OBJECTS = \
-"CMakeFiles/avenonat.dir/libft/ask_function.c.o" \
 "CMakeFiles/avenonat.dir/libft/ft_abs.c.o" \
 "CMakeFiles/avenonat.dir/libft/ft_atoi.c.o" \
 "CMakeFiles/avenonat.dir/libft/ft_bzero.c.o" \
@@ -1222,7 +1221,6 @@ avenonat_OBJECTS = \
 "CMakeFiles/avenonat.dir/libft/ft_lstiter.c.o" \
 "CMakeFiles/avenonat.dir/libft/ft_lstmap.c.o" \
 "CMakeFiles/avenonat.dir/libft/ft_lstnew.c.o" \
-"CMakeFiles/avenonat.dir/libft/ft_max.c.o" \
 "CMakeFiles/avenonat.dir/libft/ft_memalloc.c.o" \
 "CMakeFiles/avenonat.dir/libft/ft_memccpy.c.o" \
 "CMakeFiles/avenonat.dir/libft/ft_memchr.c.o" \
@@ -1231,7 +1229,6 @@ avenonat_OBJECTS = \
 "CMakeFiles/avenonat.dir/libft/ft_memdel.c.o" \
 "CMakeFiles/avenonat.dir/libft/ft_memmove.c.o" \
 "CMakeFiles/avenonat.dir/libft/ft_memset.c.o" \
-"CMakeFiles/avenonat.dir/libft/ft_min.c.o" \
 "CMakeFiles/avenonat.dir/libft/ft_putchar.c.o" \
 "CMakeFiles/avenonat.dir/libft/ft_putchar_fd.c.o" \
 "CMakeFiles/avenonat.dir/libft/ft_putendl.c.o" \
@@ -1269,11 +1266,7 @@ avenonat_OBJECTS = \
 "CMakeFiles/avenonat.dir/libft/ft_swap.c.o" \
 "CMakeFiles/avenonat.dir/libft/ft_tolower.c.o" \
 "CMakeFiles/avenonat.dir/libft/ft_toupper.c.o" \
-"CMakeFiles/avenonat.dir/libft/search_min.c.o" \
-"CMakeFiles/avenonat.dir/libft/sort.c.o" \
-"CMakeFiles/avenonat.dir/libft/sum_position.c.o" \
-"CMakeFiles/avenonat.dir/libft/your_choise.c.o" \
-"CMakeFiles/avenonat.dir/libft/your_choise2.c.o" \
+"CMakeFiles/avenonat.dir/ask_function.c.o" \
 "CMakeFiles/avenonat.dir/check_num.c.o" \
 "CMakeFiles/avenonat.dir/check_str.c.o" \
 "CMakeFiles/avenonat.dir/main.c.o" \
@@ -1289,13 +1282,19 @@ avenonat_OBJECTS = \
 "CMakeFiles/avenonat.dir/rrr.c.o" \
 "CMakeFiles/avenonat.dir/sa.c.o" \
 "CMakeFiles/avenonat.dir/sb.c.o" \
+"CMakeFiles/avenonat.dir/search_min.c.o" \
 "CMakeFiles/avenonat.dir/skip_box.c.o" \
-"CMakeFiles/avenonat.dir/ss.c.o"
+"CMakeFiles/avenonat.dir/sort.c.o" \
+"CMakeFiles/avenonat.dir/sort_a.c.o" \
+"CMakeFiles/avenonat.dir/sort_b.c.o" \
+"CMakeFiles/avenonat.dir/ss.c.o" \
+"CMakeFiles/avenonat.dir/sum_position.c.o" \
+"CMakeFiles/avenonat.dir/your_choise.c.o" \
+"CMakeFiles/avenonat.dir/your_choise2.c.o"
 
 # External object files for target avenonat
 avenonat_EXTERNAL_OBJECTS =
 
-avenonat: CMakeFiles/avenonat.dir/libft/ask_function.c.o
 avenonat: CMakeFiles/avenonat.dir/libft/ft_abs.c.o
 avenonat: CMakeFiles/avenonat.dir/libft/ft_atoi.c.o
 avenonat: CMakeFiles/avenonat.dir/libft/ft_bzero.c.o
@@ -1314,7 +1313,6 @@ avenonat: CMakeFiles/avenonat.dir/libft/ft_lstdelone.c.o
 avenonat: CMakeFiles/avenonat.dir/libft/ft_lstiter.c.o
 avenonat: CMakeFiles/avenonat.dir/libft/ft_lstmap.c.o
 avenonat: CMakeFiles/avenonat.dir/libft/ft_lstnew.c.o
-avenonat: CMakeFiles/avenonat.dir/libft/ft_max.c.o
 avenonat: CMakeFiles/avenonat.dir/libft/ft_memalloc.c.o
 avenonat: CMakeFiles/avenonat.dir/libft/ft_memccpy.c.o
 avenonat: CMakeFiles/avenonat.dir/libft/ft_memchr.c.o
@@ -1323,7 +1321,6 @@ avenonat: CMakeFiles/avenonat.dir/libft/ft_memcpy.c.o
 avenonat: CMakeFiles/avenonat.dir/libft/ft_memdel.c.o
 avenonat: CMakeFiles/avenonat.dir/libft/ft_memmove.c.o
 avenonat: CMakeFiles/avenonat.dir/libft/ft_memset.c.o
-avenonat: CMakeFiles/avenonat.dir/libft/ft_min.c.o
 avenonat: CMakeFiles/avenonat.dir/libft/ft_putchar.c.o
 avenonat: CMakeFiles/avenonat.dir/libft/ft_putchar_fd.c.o
 avenonat: CMakeFiles/avenonat.dir/libft/ft_putendl.c.o
@@ -1361,11 +1358,7 @@ avenonat: CMakeFiles/avenonat.dir/libft/ft_strtrim.c.o
 avenonat: CMakeFiles/avenonat.dir/libft/ft_swap.c.o
 avenonat: CMakeFiles/avenonat.dir/libft/ft_tolower.c.o
 avenonat: CMakeFiles/avenonat.dir/libft/ft_toupper.c.o
-avenonat: CMakeFiles/avenonat.dir/libft/search_min.c.o
-avenonat: CMakeFiles/avenonat.dir/libft/sort.c.o
-avenonat: CMakeFiles/avenonat.dir/libft/sum_position.c.o
-avenonat: CMakeFiles/avenonat.dir/libft/your_choise.c.o
-avenonat: CMakeFiles/avenonat.dir/libft/your_choise2.c.o
+avenonat: CMakeFiles/avenonat.dir/ask_function.c.o
 avenonat: CMakeFiles/avenonat.dir/check_num.c.o
 avenonat: CMakeFiles/avenonat.dir/check_str.c.o
 avenonat: CMakeFiles/avenonat.dir/main.c.o
@@ -1381,8 +1374,15 @@ avenonat: CMakeFiles/avenonat.dir/rrb.c.o
 avenonat: CMakeFiles/avenonat.dir/rrr.c.o
 avenonat: CMakeFiles/avenonat.dir/sa.c.o
 avenonat: CMakeFiles/avenonat.dir/sb.c.o
+avenonat: CMakeFiles/avenonat.dir/search_min.c.o
 avenonat: CMakeFiles/avenonat.dir/skip_box.c.o
+avenonat: CMakeFiles/avenonat.dir/sort.c.o
+avenonat: CMakeFiles/avenonat.dir/sort_a.c.o
+avenonat: CMakeFiles/avenonat.dir/sort_b.c.o
 avenonat: CMakeFiles/avenonat.dir/ss.c.o
+avenonat: CMakeFiles/avenonat.dir/sum_position.c.o
+avenonat: CMakeFiles/avenonat.dir/your_choise.c.o
+avenonat: CMakeFiles/avenonat.dir/your_choise2.c.o
 avenonat: CMakeFiles/avenonat.dir/build.make
 avenonat: CMakeFiles/avenonat.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Linking C executable avenonat"

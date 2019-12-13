@@ -12,17 +12,24 @@
 
 #include "ft_push_swap.h"
 
-int		rra(t_folder **stack_a)
+int		rra(t_folder **st)
 {
-	t_folder *temp;
-	t_folder *buffer;
-
-	temp = (*stack_a);
-	while (temp->next->next != NULL)
-		temp = temp->next;
-	buffer = temp->next;
-	temp->next = NULL;
-	buffer->next = (*stack_a);
-	(*stack_a) = buffer;
+	t_folder *front;
+	t_folder *back;
+	t_folder *begin;
+	begin = *st;
+	front = *st;
+	back = *st;
+	if (*st == NULL)
+		return (0);
+	while (front->next != NULL)
+	{
+		front = front->next;
+		if (front->next != NULL)
+			back = back->next;
+	}
+	front->next = begin;
+	back->next = NULL;
+	*st = front;
 	return (0);
 }

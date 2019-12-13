@@ -84,6 +84,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/avenonat/Desktop/avenonat/ask_function.c">
+			<Option target="avenonat"/>
+		</Unit>
 		<Unit filename="/Users/avenonat/Desktop/avenonat/check_num.c">
 			<Option target="avenonat"/>
 		</Unit>
@@ -91,9 +94,6 @@
 			<Option target="avenonat"/>
 		</Unit>
 		<Unit filename="/Users/avenonat/Desktop/avenonat/ft_push_swap.h">
-			<Option target="avenonat"/>
-		</Unit>
-		<Unit filename="/Users/avenonat/Desktop/avenonat/libft/ask_function.c">
 			<Option target="avenonat"/>
 		</Unit>
 		<Unit filename="/Users/avenonat/Desktop/avenonat/libft/ft_abs.c">
@@ -153,9 +153,6 @@
 		<Unit filename="/Users/avenonat/Desktop/avenonat/libft/ft_lstnew.c">
 			<Option target="avenonat"/>
 		</Unit>
-		<Unit filename="/Users/avenonat/Desktop/avenonat/libft/ft_max.c">
-			<Option target="avenonat"/>
-		</Unit>
 		<Unit filename="/Users/avenonat/Desktop/avenonat/libft/ft_memalloc.c">
 			<Option target="avenonat"/>
 		</Unit>
@@ -178,9 +175,6 @@
 			<Option target="avenonat"/>
 		</Unit>
 		<Unit filename="/Users/avenonat/Desktop/avenonat/libft/ft_memset.c">
-			<Option target="avenonat"/>
-		</Unit>
-		<Unit filename="/Users/avenonat/Desktop/avenonat/libft/ft_min.c">
 			<Option target="avenonat"/>
 		</Unit>
 		<Unit filename="/Users/avenonat/Desktop/avenonat/libft/ft_putchar.c">
@@ -297,21 +291,6 @@
 		<Unit filename="/Users/avenonat/Desktop/avenonat/libft/libft.h">
 			<Option target="avenonat"/>
 		</Unit>
-		<Unit filename="/Users/avenonat/Desktop/avenonat/libft/search_min.c">
-			<Option target="avenonat"/>
-		</Unit>
-		<Unit filename="/Users/avenonat/Desktop/avenonat/libft/sort.c">
-			<Option target="avenonat"/>
-		</Unit>
-		<Unit filename="/Users/avenonat/Desktop/avenonat/libft/sum_position.c">
-			<Option target="avenonat"/>
-		</Unit>
-		<Unit filename="/Users/avenonat/Desktop/avenonat/libft/your_choise.c">
-			<Option target="avenonat"/>
-		</Unit>
-		<Unit filename="/Users/avenonat/Desktop/avenonat/libft/your_choise2.c">
-			<Option target="avenonat"/>
-		</Unit>
 		<Unit filename="/Users/avenonat/Desktop/avenonat/main.c">
 			<Option target="avenonat"/>
 		</Unit>
@@ -351,10 +330,31 @@
 		<Unit filename="/Users/avenonat/Desktop/avenonat/sb.c">
 			<Option target="avenonat"/>
 		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/avenonat/search_min.c">
+			<Option target="avenonat"/>
+		</Unit>
 		<Unit filename="/Users/avenonat/Desktop/avenonat/skip_box.c">
 			<Option target="avenonat"/>
 		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/avenonat/sort.c">
+			<Option target="avenonat"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/avenonat/sort_a.c">
+			<Option target="avenonat"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/avenonat/sort_b.c">
+			<Option target="avenonat"/>
+		</Unit>
 		<Unit filename="/Users/avenonat/Desktop/avenonat/ss.c">
+			<Option target="avenonat"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/avenonat/sum_position.c">
+			<Option target="avenonat"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/avenonat/your_choise.c">
+			<Option target="avenonat"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/avenonat/your_choise2.c">
 			<Option target="avenonat"/>
 		</Unit>
 		<Unit filename="/Users/avenonat/Desktop/avenonat/CMakeLists.txt">

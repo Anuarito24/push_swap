@@ -12,7 +12,7 @@
 
 #include "ft_push_swap.h"
 
-int		pb(t_folder **stack_a, t_folder **stack_b)
+int		pb(t_folder **stack_a, t_folder **stack_b, t_num *ssl)
 {
 	t_folder *buffer;
 
@@ -28,6 +28,8 @@ int		pb(t_folder **stack_a, t_folder **stack_b)
 			buffer->next = (*stack_b);
 			(*stack_b) = buffer;
 		}
+		ssl->count_a--;
+		ssl->count_b++;
 		return (1);
 	}
 	return (0);

@@ -7,7 +7,6 @@ include_directories(.)
 include_directories(libft)
 
 add_executable(avenonat
-        libft/ask_function.c
         libft/ft_abs.c
         libft/ft_atoi.c
         libft/ft_bzero.c
@@ -27,7 +26,6 @@ add_executable(avenonat
         libft/ft_lstiter.c
         libft/ft_lstmap.c
         libft/ft_lstnew.c
-        libft/ft_max.c
         libft/ft_memalloc.c
         libft/ft_memccpy.c
         libft/ft_memchr.c
@@ -36,7 +34,6 @@ add_executable(avenonat
         libft/ft_memdel.c
         libft/ft_memmove.c
         libft/ft_memset.c
-        libft/ft_min.c
         libft/ft_putchar.c
         libft/ft_putchar_fd.c
         libft/ft_putendl.c
@@ -75,11 +72,7 @@ add_executable(avenonat
         libft/ft_tolower.c
         libft/ft_toupper.c
         libft/libft.h
-        libft/search_min.c
-        libft/sort.c
-        libft/sum_position.c
-        libft/your_choise.c
-        libft/your_choise2.c
+        ask_function.c
         check_num.c
         check_str.c
         ft_push_swap.h
@@ -96,5 +89,12 @@ add_executable(avenonat
         rrr.c
         sa.c
         sb.c
+        search_min.c
         skip_box.c
-        ss.c)
+        sort.c
+        sort_a.c
+        sort_b.c
+        ss.c
+        sum_position.c
+        your_choise.c
+        your_choise2.c)

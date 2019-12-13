@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/Users/avenonat/Desktop/avenonat/ask_function.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/ask_function.c.o"
   "/Users/avenonat/Desktop/avenonat/check_num.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/check_num.c.o"
   "/Users/avenonat/Desktop/avenonat/check_str.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/check_str.c.o"
-  "/Users/avenonat/Desktop/avenonat/libft/ask_function.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/libft/ask_function.c.o"
   "/Users/avenonat/Desktop/avenonat/libft/ft_abs.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/libft/ft_abs.c.o"
   "/Users/avenonat/Desktop/avenonat/libft/ft_atoi.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/libft/ft_atoi.c.o"
   "/Users/avenonat/Desktop/avenonat/libft/ft_bzero.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/libft/ft_bzero.c.o"
@@ -25,7 +25,6 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/avenonat/Desktop/avenonat/libft/ft_lstiter.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/libft/ft_lstiter.c.o"
   "/Users/avenonat/Desktop/avenonat/libft/ft_lstmap.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/libft/ft_lstmap.c.o"
   "/Users/avenonat/Desktop/avenonat/libft/ft_lstnew.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/libft/ft_lstnew.c.o"
-  "/Users/avenonat/Desktop/avenonat/libft/ft_max.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/libft/ft_max.c.o"
   "/Users/avenonat/Desktop/avenonat/libft/ft_memalloc.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/libft/ft_memalloc.c.o"
   "/Users/avenonat/Desktop/avenonat/libft/ft_memccpy.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/libft/ft_memccpy.c.o"
   "/Users/avenonat/Desktop/avenonat/libft/ft_memchr.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/libft/ft_memchr.c.o"
@@ -34,7 +33,6 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/avenonat/Desktop/avenonat/libft/ft_memdel.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/libft/ft_memdel.c.o"
   "/Users/avenonat/Desktop/avenonat/libft/ft_memmove.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/libft/ft_memmove.c.o"
   "/Users/avenonat/Desktop/avenonat/libft/ft_memset.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/libft/ft_memset.c.o"
-  "/Users/avenonat/Desktop/avenonat/libft/ft_min.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/libft/ft_min.c.o"
   "/Users/avenonat/Desktop/avenonat/libft/ft_putchar.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/libft/ft_putchar.c.o"
   "/Users/avenonat/Desktop/avenonat/libft/ft_putchar_fd.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/libft/ft_putchar_fd.c.o"
   "/Users/avenonat/Desktop/avenonat/libft/ft_putendl.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/libft/ft_putendl.c.o"
@@ -72,11 +70,6 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/avenonat/Desktop/avenonat/libft/ft_swap.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/libft/ft_swap.c.o"
   "/Users/avenonat/Desktop/avenonat/libft/ft_tolower.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/libft/ft_tolower.c.o"
   "/Users/avenonat/Desktop/avenonat/libft/ft_toupper.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/libft/ft_toupper.c.o"
-  "/Users/avenonat/Desktop/avenonat/libft/search_min.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/libft/search_min.c.o"
-  "/Users/avenonat/Desktop/avenonat/libft/sort.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/libft/sort.c.o"
-  "/Users/avenonat/Desktop/avenonat/libft/sum_position.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/libft/sum_position.c.o"
-  "/Users/avenonat/Desktop/avenonat/libft/your_choise.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/libft/your_choise.c.o"
-  "/Users/avenonat/Desktop/avenonat/libft/your_choise2.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/libft/your_choise2.c.o"
   "/Users/avenonat/Desktop/avenonat/main.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/main.c.o"
   "/Users/avenonat/Desktop/avenonat/major.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/major.c.o"
   "/Users/avenonat/Desktop/avenonat/pa.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/pa.c.o"
@@ -90,8 +83,15 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/avenonat/Desktop/avenonat/rrr.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/rrr.c.o"
   "/Users/avenonat/Desktop/avenonat/sa.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/sa.c.o"
   "/Users/avenonat/Desktop/avenonat/sb.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/sb.c.o"
+  "/Users/avenonat/Desktop/avenonat/search_min.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/search_min.c.o"
   "/Users/avenonat/Desktop/avenonat/skip_box.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/skip_box.c.o"
+  "/Users/avenonat/Desktop/avenonat/sort.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/sort.c.o"
+  "/Users/avenonat/Desktop/avenonat/sort_a.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/sort_a.c.o"
+  "/Users/avenonat/Desktop/avenonat/sort_b.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/sort_b.c.o"
   "/Users/avenonat/Desktop/avenonat/ss.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/ss.c.o"
+  "/Users/avenonat/Desktop/avenonat/sum_position.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/sum_position.c.o"
+  "/Users/avenonat/Desktop/avenonat/your_choise.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/your_choise.c.o"
+  "/Users/avenonat/Desktop/avenonat/your_choise2.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/your_choise2.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
