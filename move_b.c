@@ -1,33 +1,37 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   sort.c                                             :+:      :+:    :+:   */
+/*   move_b.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: avenonat <avenonat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/12/12 17:40:45 by avenonat          #+#    #+#             */
-/*   Updated: 2019/12/15 16:00:30 by avenonat         ###   ########.fr       */
+/*   Created: 2019/12/15 16:18:21 by avenonat          #+#    #+#             */
+/*   Updated: 2019/12/15 17:14:39 by avenonat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_push_swap.h"
 
-int    *sort(int *good, t_num *ssl)
+int 	move_b(t_folder **stack_a, t_folder **stack_b, t_num *ssl)
 {
 	int i;
-	int j;
-
-	i = 0;
-	while (ssl->count_a - 1 > i)
+	while (*stack_b)
 	{
-		j = i + 1;
-		while (j < ssl->count_a)
+		i = 0;
+		while((*stack_b)->data > (*stack_a)->data)
 		{
-			if (good[i] > good[j])
-				ft_swap(&good[i], &good[j]);
-			j++;
+			ra(stack_a);
+			write(1, "ra\n", 3);
+			i++;
 		}
-		i++;
+		pa(stack_a, stack_b, ssl);
+		write(1, "pa\n", 3);
+		while (i)
+		{
+			rra(stack_a);
+			write(1, "rra\n", 4);
+			i--;
+		}
 	}
-	return (good);
+	return (0);
 }

@@ -67,6 +67,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/avenonat.dir/libft/ft_toupper.c.o"
   "CMakeFiles/avenonat.dir/main.c.o"
   "CMakeFiles/avenonat.dir/major.c.o"
+  "CMakeFiles/avenonat.dir/move_b.c.o"
   "CMakeFiles/avenonat.dir/pa.c.o"
   "CMakeFiles/avenonat.dir/pb.c.o"
   "CMakeFiles/avenonat.dir/push_swap.c.o"

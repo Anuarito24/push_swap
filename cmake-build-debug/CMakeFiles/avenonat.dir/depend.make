@@ -207,6 +207,10 @@ CMakeFiles/avenonat.dir/major.c.o: ../ft_push_swap.h
 CMakeFiles/avenonat.dir/major.c.o: ../libft/libft.h
 CMakeFiles/avenonat.dir/major.c.o: ../major.c
 
+CMakeFiles/avenonat.dir/move_b.c.o: ../ft_push_swap.h
+CMakeFiles/avenonat.dir/move_b.c.o: ../libft/libft.h
+CMakeFiles/avenonat.dir/move_b.c.o: ../move_b.c
+
 CMakeFiles/avenonat.dir/pa.c.o: ../ft_push_swap.h
 CMakeFiles/avenonat.dir/pa.c.o: ../libft/libft.h
 CMakeFiles/avenonat.dir/pa.c.o: ../pa.c

@@ -37,8 +37,14 @@ int		your_choise2(t_folder **stack_a, t_folder **stack_b, int *good, t_num *ssl)
 		ssl->count_b++;
 	}
 	if ((*stack_a) && (sum[0] < sum[1] || !(*stack_b)))
+	{
 		j = pa(stack_a, stack_b, ssl);
+		write(1, "pa\n", 3);
+	}
 	else
+	{
 		j = pb(stack_a, stack_b, ssl);
+		write(1, "pb\n", 3);
+	}
 	return (j);
 }

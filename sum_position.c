@@ -12,27 +12,25 @@
 
 #include "ft_push_swap.h"
 
-int 	sum_position(t_folder **stack_a, int *good, int count)
+int     sum_position(t_folder **stack_a, int *good, int count)
 {
 	int sum;
 	int i;
 	int j;
 	t_folder *temp;
-
 	temp = (*stack_a);
 	sum = 0;
-	i = 0;
-	while (i <= count - 1)
+// i = 0;
+	j = 0;
+	while (temp)
 	{
-		j = 0;
-		while (temp && good[i] && good[i] != temp->data)
-		{
-			temp = temp->next;
-			j++;
-		}
+		i = 0;
+		while (i <= count - 1 && good[i] != temp->data)
+			i++;
 		sum += ft_abs(i - j);
-		i++;
-
+		j++;
+		temp = temp->next;
 	}
+//    printf("%d\n", sum);
 	return (sum);
 }

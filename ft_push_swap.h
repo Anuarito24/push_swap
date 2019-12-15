@@ -6,7 +6,7 @@
 /*   By: lgarse <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/30 13:19:36 by lgarse            #+#    #+#             */
-/*   Updated: 2019/12/13 18:09:55 by avenonat         ###   ########.fr       */
+/*   Updated: 2019/12/15 16:25:41 by avenonat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,6 +46,7 @@ int			 	search_min(int *sum);
 void		 	ask_function(t_folder **stack_a, t_folder **stack_b, int j, t_num *ssl, int *good);
 int				your_choise2(t_folder **stack_a, t_folder **stack_b, int *good, t_num *ssl);
 int 			sum_position(t_folder **stack_a, int *good, int count);
+int			 	move_b(t_folder **stack_a, t_folder **stack_b, t_num *ssl);
 int				sa(t_folder **stack_a);
 int				sb(t_folder **stack_b);
 int				ss(t_folder **stack_a, t_folder **stack_b);

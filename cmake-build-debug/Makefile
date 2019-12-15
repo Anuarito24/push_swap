@@ -1959,6 +1959,33 @@ major.c.s:
 	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/major.c.s
 .PHONY : major.c.s
 
+move_b.o: move_b.c.o
+
+.PHONY : move_b.o
+
+# target to build an object file
+move_b.c.o:
+	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/move_b.c.o
+.PHONY : move_b.c.o
+
+move_b.i: move_b.c.i
+
+.PHONY : move_b.i
+
+# target to preprocess a source file
+move_b.c.i:
+	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/move_b.c.i
+.PHONY : move_b.c.i
+
+move_b.s: move_b.c.s
+
+.PHONY : move_b.s
+
+# target to generate assembly for a file
+move_b.c.s:
+	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/move_b.c.s
+.PHONY : move_b.c.s
+
 pa.o: pa.c.o
 
 .PHONY : pa.o
@@ -2739,6 +2766,9 @@ help:
 	@echo "... major.o"
 	@echo "... major.i"
 	@echo "... major.s"
+	@echo "... move_b.o"
+	@echo "... move_b.i"
+	@echo "... move_b.s"
 	@echo "... pa.o"
 	@echo "... pa.i"
 	@echo "... pa.s"

@@ -6,7 +6,7 @@
 /*   By: avenonat <avenonat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/05 15:50:43 by avenonat          #+#    #+#             */
-/*   Updated: 2019/12/11 15:30:50 by avenonat         ###   ########.fr       */
+/*   Updated: 2019/12/15 16:06:43 by avenonat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,10 @@ int		push_swap(char **new, t_folder **stack_a)
 		{
 			head->data = ft_atoi(new[i]);
 			if (check_num(head->data, stack_a))
+			{
+				write(1, "Error\n", 6);
 				return (-1);
+			}
 			head->next = NULL;
 		}
 		else
@@ -39,7 +42,7 @@ int		push_swap(char **new, t_folder **stack_a)
 		}
 		else
 			*stack_a = head;
-		printf("%d\n", head->data);
+		//printf("%d\n", head->data);
 		i++;
 	}
 	return (i);
