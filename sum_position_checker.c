@@ -1,32 +1,39 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   sort.c                                             :+:      :+:    :+:   */
+/*   sum_position_checker.c                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: avenonat <avenonat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/12/12 17:40:45 by avenonat          #+#    #+#             */
-/*   Updated: 2019/12/12 18:37:21 by avenonat         ###   ########.fr       */
+/*   Created: 2019/12/14 19:56:47 by avenonat          #+#    #+#             */
+/*   Updated: 2019/12/14 19:59:21 by avenonat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_push_swap.h"
 
-int    *sort(int *good, t_num *ssl)
+int 	sum_position_checker(t_folder **stack_a, int *good, int count)
 {
+	int sum;
 	int i;
 	int j;
+	t_folder *temp;
+
+	temp = (*stack_a);
+	sum = 0;
 	i = 0;
-	while (ssl->count_a - 1 > i)
+	while (i <= count - 1)
 	{
-		j = i + 1;
-		while (j < ssl->count_a)
+		j = 0;
+		temp = (*stack_a);
+		while (temp && good[i] && good[i] != temp->data)
 		{
-			if (good[i] > good[j])
-				ft_swap(&good[i], &good[j]);
+			temp = temp->next;
 			j++;
 		}
+		sum += ft_abs(i - j);
 		i++;
+
 	}
-	return (good);
+	return (sum);
 }

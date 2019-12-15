@@ -97,4 +97,5 @@ add_executable(avenonat
         ss.c
         sum_position.c
         your_choise.c
-        your_choise2.c)
+        your_choise2.c
+        sum_position_checker.c)

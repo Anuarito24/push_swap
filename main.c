@@ -6,7 +6,7 @@
 /*   By: avenonat <avenonat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/05 14:51:36 by avenonat          #+#    #+#             */
-/*   Updated: 2019/12/13 13:54:21 by avenonat         ###   ########.fr       */
+/*   Updated: 2019/12/15 14:11:51 by avenonat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 int		main()
 {
 	int argc = 2;
-	char *argv = "3 2 1";
+	char *argv = "4 5 3 6 9 2 1";
 	int i;
 	char **new;
 	t_folder *stack_a;

@@ -279,6 +279,10 @@ CMakeFiles/avenonat.dir/sum_position.c.o: ../ft_push_swap.h
 CMakeFiles/avenonat.dir/sum_position.c.o: ../libft/libft.h
 CMakeFiles/avenonat.dir/sum_position.c.o: ../sum_position.c
 
+CMakeFiles/avenonat.dir/sum_position_checker.c.o: ../ft_push_swap.h
+CMakeFiles/avenonat.dir/sum_position_checker.c.o: ../libft/libft.h
+CMakeFiles/avenonat.dir/sum_position_checker.c.o: ../sum_position_checker.c
+
 CMakeFiles/avenonat.dir/your_choise.c.o: ../ft_push_swap.h
 CMakeFiles/avenonat.dir/your_choise.c.o: ../libft/libft.h
 CMakeFiles/avenonat.dir/your_choise.c.o: ../your_choise.c

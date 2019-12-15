@@ -85,6 +85,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/avenonat.dir/sort_b.c.o"
   "CMakeFiles/avenonat.dir/ss.c.o"
   "CMakeFiles/avenonat.dir/sum_position.c.o"
+  "CMakeFiles/avenonat.dir/sum_position_checker.c.o"
   "CMakeFiles/avenonat.dir/your_choise.c.o"
   "CMakeFiles/avenonat.dir/your_choise2.c.o"
   "avenonat"

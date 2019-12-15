@@ -2445,6 +2445,33 @@ sum_position.c.s:
 	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/sum_position.c.s
 .PHONY : sum_position.c.s
 
+sum_position_checker.o: sum_position_checker.c.o
+
+.PHONY : sum_position_checker.o
+
+# target to build an object file
+sum_position_checker.c.o:
+	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/sum_position_checker.c.o
+.PHONY : sum_position_checker.c.o
+
+sum_position_checker.i: sum_position_checker.c.i
+
+.PHONY : sum_position_checker.i
+
+# target to preprocess a source file
+sum_position_checker.c.i:
+	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/sum_position_checker.c.i
+.PHONY : sum_position_checker.c.i
+
+sum_position_checker.s: sum_position_checker.c.s
+
+.PHONY : sum_position_checker.s
+
+# target to generate assembly for a file
+sum_position_checker.c.s:
+	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/sum_position_checker.c.s
+.PHONY : sum_position_checker.c.s
+
 your_choise.o: your_choise.c.o
 
 .PHONY : your_choise.o
@@ -2766,6 +2793,9 @@ help:
 	@echo "... sum_position.o"
 	@echo "... sum_position.i"
 	@echo "... sum_position.s"
+	@echo "... sum_position_checker.o"
+	@echo "... sum_position_checker.i"
+	@echo "... sum_position_checker.s"
 	@echo "... your_choise.o"
 	@echo "... your_choise.i"
 	@echo "... your_choise.s"

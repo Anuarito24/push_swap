@@ -6,7 +6,7 @@
 /*   By: avenonat <avenonat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/07 18:46:10 by avenonat          #+#    #+#             */
-/*   Updated: 2019/12/13 21:22:42 by avenonat         ###   ########.fr       */
+/*   Updated: 2019/12/15 14:08:35 by avenonat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,19 +37,19 @@ int 	major(t_folder **stack_a, t_folder **stack_b, t_num *ssl)
 	sort(good, ssl);
 	//показывает как обстоят дела сейчас
 	sum1 = sum_position(stack_a, good, ssl->count_a) + sum_position(stack_b, good, ssl->count_b);
-	while (sum1 != 0 || (sum1 == 0 && stack_b != NULL))
+	while (sum1 != 0  || (sum1 == 0 && (*stack_b) != NULL))
 	{
 		sum = your_choise(stack_a, stack_b, ssl);
 		j = search_min(sum);
-		if (sum1 == 0 && stack_b != NULL)
+		if (sum1 == 0 && (*stack_b) != NULL)
 			pa(stack_a, stack_b, ssl);
 		else if ((*stack_a) && sum[j] >= sum[9])
 			pb(stack_a, stack_b, ssl);
 		else if ((*stack_a) && sum[j] != sum[9])
 			ask_function(stack_a, stack_b, j, ssl, good);
-		else
-			pa(stack_a, stack_b, ssl);
-		sum1 = sum_position(stack_a, sort_a(stack_a, ssl), ssl->count_a) + sum_position(stack_b, sort_b(stack_b, ssl), ssl->count_b);
+		sum1 = sum_position_checker(stack_a, sort_a(stack_a, ssl), ssl->count_a) + sum_position_checker(stack_b, sort_b(stack_b, ssl), ssl->count_b);
+		if (ssl->count_b == 0)
+			(*stack_b) = NULL;
 //		if (j != 9)
 //			ask_function(stack_a, stack_b, j, ssl, good);
 //		else if (sum1 != 0)
@@ -61,7 +61,7 @@ int 	major(t_folder **stack_a, t_folder **stack_b, t_num *ssl)
 //		pa(stack_a, stack_b, ssl);
 	while (*stack_a)
 	{
-		printf("%d", (*stack_a)->data);
+		printf("%d\n", (*stack_a)->data);
 		(*stack_a) = (*stack_a)->next;
 	}
 	return (0);

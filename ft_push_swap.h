@@ -57,5 +57,5 @@ int				rr(t_folder **stack_a, t_folder **stack_b);
 int   			rra(t_folder **st);
 int				rrb(t_folder **stack_b);
 int				rrr(t_folder **stack_a, t_folder **stack_b);
-
+int			 	sum_position_checker(t_folder **stack_a, int *good, int count);
 #endif

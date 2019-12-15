@@ -90,6 +90,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/avenonat/Desktop/avenonat/sort_b.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/sort_b.c.o"
   "/Users/avenonat/Desktop/avenonat/ss.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/ss.c.o"
   "/Users/avenonat/Desktop/avenonat/sum_position.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/sum_position.c.o"
+  "/Users/avenonat/Desktop/avenonat/sum_position_checker.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/sum_position_checker.c.o"
   "/Users/avenonat/Desktop/avenonat/your_choise.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/your_choise.c.o"
   "/Users/avenonat/Desktop/avenonat/your_choise2.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/your_choise2.c.o"
   )

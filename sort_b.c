@@ -33,7 +33,7 @@ int 	*sort_b(t_folder **stack_b, t_num *ssl)
 	i = 0;
 	while (ssl->count_b - 1 > i)
 	{
-		j = 1;
+		j = i + 1;
 		while (j < ssl->count_b)
 		{
 			if (good[i] > good[j])

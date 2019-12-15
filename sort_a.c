@@ -6,7 +6,7 @@
 /*   By: avenonat <avenonat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/13 20:34:35 by avenonat          #+#    #+#             */
-/*   Updated: 2019/12/13 21:13:17 by avenonat         ###   ########.fr       */
+/*   Updated: 2019/12/15 14:10:21 by avenonat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,13 +27,13 @@ int 	*sort_a(t_folder **stack_a, t_num *ssl)
 	{
 		good[i] = position->data;
 		position = position->next;
-		printf("%d", good[i]);
+		//printf("%d", good[i]);
 		i++;
 	}
 	i = 0;
 	while (ssl->count_a - 1 > i)
 	{
-		j = 1;
+		j = i + 1;
 		while (j < ssl->count_a)
 		{
 			if (good[i] > good[j])

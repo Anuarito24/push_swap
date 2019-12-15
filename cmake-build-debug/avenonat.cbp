@@ -351,6 +351,9 @@
 		<Unit filename="/Users/avenonat/Desktop/avenonat/sum_position.c">
 			<Option target="avenonat"/>
 		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/avenonat/sum_position_checker.c">
+			<Option target="avenonat"/>
+		</Unit>
 		<Unit filename="/Users/avenonat/Desktop/avenonat/your_choise.c">
 			<Option target="avenonat"/>
 		</Unit>

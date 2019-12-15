@@ -6,7 +6,7 @@
 #    By: lgarse <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/09/09 15:07:03 by lgarse            #+#    #+#              #
-#    Updated: 2019/12/09 13:04:08 by avenonat         ###   ########.fr        #
+#    Updated: 2019/12/14 19:52:19 by avenonat         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,7 +15,8 @@ NAME = push_swap
 FLAGS += -Wall -Wextra -Werror -g
 
 SRC = main.c pa.c pb.c push_swap.c ra.c rb.c rr.c rra.c rrb.c rrr.c sa.c sb.c\
-	  ss.c skip_box.c check_str.c major.c\
+	  ss.c skip_box.c check_str.c major.c ask_function.c check_num.c search_min.c\
+	  sort.c sort_a.c sort_b.c sum_position.c your_choise.c your_choise2.c\
 
 OBJ = $(SRC:.c=.o)
 
