@@ -6,7 +6,7 @@
 /*   By: lgarse <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/30 13:19:36 by lgarse            #+#    #+#             */
-/*   Updated: 2019/12/15 16:25:41 by avenonat         ###   ########.fr       */
+/*   Updated: 2019/12/15 22:34:20 by avenonat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,7 @@ typedef	struct			s_folder
 {
 	int 				data;
 	struct s_folder		*next;
+
 }						t_folder;
 
 typedef	struct			s_num
@@ -47,6 +48,7 @@ void		 	ask_function(t_folder **stack_a, t_folder **stack_b, int j, t_num *ssl, 
 int				your_choise2(t_folder **stack_a, t_folder **stack_b, int *good, t_num *ssl);
 int 			sum_position(t_folder **stack_a, int *good, int count);
 int			 	move_b(t_folder **stack_a, t_folder **stack_b, t_num *ssl);
+void			prepare_move_pb(t_folder **stack_a, t_folder **stack_b);
 int				sa(t_folder **stack_a);
 int				sb(t_folder **stack_b);
 int				ss(t_folder **stack_a, t_folder **stack_b);
@@ -59,4 +61,5 @@ int   			rra(t_folder **st);
 int				rrb(t_folder **stack_b);
 int				rrr(t_folder **stack_a, t_folder **stack_b);
 int			 	sum_position_checker(t_folder **stack_a, int *good, int count);
+
 #endif

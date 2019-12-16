@@ -6,7 +6,7 @@
 /*   By: avenonat <avenonat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/12 19:42:08 by avenonat          #+#    #+#             */
-/*   Updated: 2019/12/12 22:33:56 by avenonat         ###   ########.fr       */
+/*   Updated: 2019/12/15 22:34:20 by avenonat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,6 +43,7 @@ int		your_choise2(t_folder **stack_a, t_folder **stack_b, int *good, t_num *ssl)
 	}
 	else
 	{
+		prepare_move_pb(stack_a, stack_b);
 		j = pb(stack_a, stack_b, ssl);
 		write(1, "pb\n", 3);
 	}

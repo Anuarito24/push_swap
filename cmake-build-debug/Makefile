@@ -2040,6 +2040,33 @@ pb.c.s:
 	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/pb.c.s
 .PHONY : pb.c.s
 
+prepare_move_pb.o: prepare_move_pb.c.o
+
+.PHONY : prepare_move_pb.o
+
+# target to build an object file
+prepare_move_pb.c.o:
+	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/prepare_move_pb.c.o
+.PHONY : prepare_move_pb.c.o
+
+prepare_move_pb.i: prepare_move_pb.c.i
+
+.PHONY : prepare_move_pb.i
+
+# target to preprocess a source file
+prepare_move_pb.c.i:
+	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/prepare_move_pb.c.i
+.PHONY : prepare_move_pb.c.i
+
+prepare_move_pb.s: prepare_move_pb.c.s
+
+.PHONY : prepare_move_pb.s
+
+# target to generate assembly for a file
+prepare_move_pb.c.s:
+	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/prepare_move_pb.c.s
+.PHONY : prepare_move_pb.c.s
+
 push_swap.o: push_swap.c.o
 
 .PHONY : push_swap.o
@@ -2775,6 +2802,9 @@ help:
 	@echo "... pb.o"
 	@echo "... pb.i"
 	@echo "... pb.s"
+	@echo "... prepare_move_pb.o"
+	@echo "... prepare_move_pb.i"
+	@echo "... prepare_move_pb.s"
 	@echo "... push_swap.o"
 	@echo "... push_swap.i"
 	@echo "... push_swap.s"

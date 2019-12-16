@@ -1,37 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   move_b.c                                           :+:      :+:    :+:   */
+/*   prepare_move_pb.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: avenonat <avenonat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/12/15 16:18:21 by avenonat          #+#    #+#             */
-/*   Updated: 2019/12/15 22:09:42 by avenonat         ###   ########.fr       */
+/*   Created: 2019/12/15 20:52:47 by avenonat          #+#    #+#             */
+/*   Updated: 2019/12/15 22:34:20 by avenonat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_push_swap.h"
 
-int 	move_b(t_folder **stack_a, t_folder **stack_b, t_num *ssl)
+void	prepare_move_pb(t_folder **stack_a, t_folder **stack_b)
 {
 	int i;
 	while (*stack_b)
 	{
 		i = 0;
-		while((*stack_b) && (*stack_b)->data > (*stack_a)->data)
+		while((*stack_b)->data < (*stack_a)->data)
 		{
-			ra(stack_a);
-			write(1, "ra\n", 3);
-//			i++;
+			rb(stack_b);
+			write(1, "rb\n", 3);
+			i++;
 		}
-		pa(stack_a, stack_b, ssl);
-		write(1, "pa\n", 3);
-//		while (i)
-//		{
-//			rra(stack_a);
-//			write(1, "rra\n", 4);
-//			i--;
-//		}
 	}
-	return (0);
 }

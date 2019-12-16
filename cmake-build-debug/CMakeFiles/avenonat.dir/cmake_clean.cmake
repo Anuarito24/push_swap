@@ -70,6 +70,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/avenonat.dir/move_b.c.o"
   "CMakeFiles/avenonat.dir/pa.c.o"
   "CMakeFiles/avenonat.dir/pb.c.o"
+  "CMakeFiles/avenonat.dir/prepare_move_pb.c.o"
   "CMakeFiles/avenonat.dir/push_swap.c.o"
   "CMakeFiles/avenonat.dir/ra.c.o"
   "CMakeFiles/avenonat.dir/rb.c.o"

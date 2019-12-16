@@ -6,7 +6,7 @@
 /*   By: avenonat <avenonat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/07 18:46:10 by avenonat          #+#    #+#             */
-/*   Updated: 2019/12/15 16:59:48 by avenonat         ###   ########.fr       */
+/*   Updated: 2019/12/15 22:34:20 by avenonat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,6 @@ int 	major(t_folder **stack_a, t_folder **stack_b, t_num *ssl)
 	t_folder *position;
 	int sum1;
 
-	sum1 = 0;
 	pos = 0;
 	if (!(good = (int*)malloc(sizeof(int) * (ssl->count_a))))
 		return (0);
@@ -30,7 +29,6 @@ int 	major(t_folder **stack_a, t_folder **stack_b, t_num *ssl)
 	{
 		good[pos] = position->data;
 		position = position->next;
-		//printf("%d", good[pos]);
 		pos++;
 	}
 	// сортирует как должно быть в итоге
@@ -43,6 +41,7 @@ int 	major(t_folder **stack_a, t_folder **stack_b, t_num *ssl)
 		j = search_min(sum);
 		if (sum1 == 0 && (*stack_b) != NULL)
 		{
+			//move_b(stack_a, stack_b, ssl);
 			pa(stack_a, stack_b, ssl);
 			write(1, "pa\n", 3);
 		}
@@ -69,56 +68,8 @@ int 	major(t_folder **stack_a, t_folder **stack_b, t_num *ssl)
 //		pa(stack_a, stack_b, ssl);
 //	while (*stack_a)
 //	{
-//		printf("\n", (*stack_a)->data);
+//		printf("%d\n", (*stack_a)->data);
 //		(*stack_a) = (*stack_a)->next;
 //	}
 	return (0);
 }
-
-
-	/* пока число больше 3
-	while (count > 3)
-	{
-		position = (*stack_a);
-		if(position->data > position->next->data || position->data > position->next->next->data)
-			ra(stack_a);
-		else
-		{
-			pb(stack_a, stack_b);
-			count--;
-		}
-	}
-	// соритруем 3 оставшихся числа в стеке_а
-	if ((*stack_a)->data > (*stack_a)->next->data)
-	{
-		if ((*stack_a)->next->data < (*stack_a)->next->next->data)
-		{
-			if ((*stack_a)->next->next->data > (*stack_a)->data)
-				sa(stack_a);
-			else
-				ra(stack_a);
-		}
-		else
-		{
-			rra(stack_a);
-			rra(stack_a);
-		}
-	}
-	else
-	{
-		if ((*stack_a)->next->next->data < (*stack_a)->data)
-			rra(stack_a);
-		else
-		{
-			rra(stack_a);
-			sa(stack_a);
-		}
-	}
-	// перекидываем все что было в стеке б в стек а
-	while (*stack_b)
-	{
-		if ((*stack_b) && (*stack_b)->next && (*stack_b)->next->next && ((*stack_b)->data > (*stack_b)->next->data && (*stack_b)->data > (*stack_b)->next->next->data))
-			pa(stack_a, stack_b);
-		else
-			rb(stack_b);
-	}*/

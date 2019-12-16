@@ -25,5 +25,5 @@ int    ra(t_folder **st)
 	*st = (*st)->next;
 	(*st)->next = NULL;
 	*st = temp;
-	return (0);
+	return (1);
 }

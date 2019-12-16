@@ -219,6 +219,10 @@ CMakeFiles/avenonat.dir/pb.c.o: ../ft_push_swap.h
 CMakeFiles/avenonat.dir/pb.c.o: ../libft/libft.h
 CMakeFiles/avenonat.dir/pb.c.o: ../pb.c
 
+CMakeFiles/avenonat.dir/prepare_move_pb.c.o: ../ft_push_swap.h
+CMakeFiles/avenonat.dir/prepare_move_pb.c.o: ../libft/libft.h
+CMakeFiles/avenonat.dir/prepare_move_pb.c.o: ../prepare_move_pb.c
+
 CMakeFiles/avenonat.dir/push_swap.c.o: ../ft_push_swap.h
 CMakeFiles/avenonat.dir/push_swap.c.o: ../libft/libft.h
 CMakeFiles/avenonat.dir/push_swap.c.o: ../push_swap.c

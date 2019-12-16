@@ -75,6 +75,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/avenonat/Desktop/avenonat/move_b.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/move_b.c.o"
   "/Users/avenonat/Desktop/avenonat/pa.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/pa.c.o"
   "/Users/avenonat/Desktop/avenonat/pb.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/pb.c.o"
+  "/Users/avenonat/Desktop/avenonat/prepare_move_pb.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/prepare_move_pb.c.o"
   "/Users/avenonat/Desktop/avenonat/push_swap.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/push_swap.c.o"
   "/Users/avenonat/Desktop/avenonat/ra.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/ra.c.o"
   "/Users/avenonat/Desktop/avenonat/rb.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/rb.c.o"

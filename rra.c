@@ -31,5 +31,5 @@ int		rra(t_folder **st)
 	front->next = begin;
 	back->next = NULL;
 	*st = front;
-	return (0);
+	return (1);
 }

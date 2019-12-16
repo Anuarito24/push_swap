@@ -14,7 +14,11 @@
 
 int		rrr(t_folder **stack_a, t_folder **stack_b)
 {
-	rra(stack_a);
-	rrb(stack_b);
+	if (stack_a && stack_b)
+	{
+		rra(stack_a);
+		rrb(stack_b);
+		return (1);
+	}
 	return (0);
 }
