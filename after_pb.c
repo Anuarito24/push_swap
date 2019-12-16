@@ -6,7 +6,7 @@
 /*   By: avenonat <avenonat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/16 16:59:25 by avenonat          #+#    #+#             */
-/*   Updated: 2019/12/16 18:17:32 by avenonat         ###   ########.fr       */
+/*   Updated: 2019/12/16 19:10:10 by avenonat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ void	after_pb(t_folder **s_b, t_num *ssl, int j)
 		{
 			j--;
 			rrb(s_b);
-			write(1, "rrb\n", 3);
+			write(1, "rrb\n", 4);
 		}
 	}
 }

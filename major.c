@@ -6,7 +6,7 @@
 /*   By: avenonat <avenonat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/07 18:46:10 by avenonat          #+#    #+#             */
-/*   Updated: 2019/12/16 19:12:08 by avenonat         ###   ########.fr       */
+/*   Updated: 2019/12/16 19:38:18 by avenonat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,6 +62,13 @@ int 	major(t_folder **stack_a, t_folder **stack_b, t_num *ssl)
 		if (sum_position_checker(stack_a, sort_a(stack_a, ssl), ssl->count_a) == 0 && stack_b != NULL)
 			move_b(stack_a, stack_b, ssl);
 	}
+	while ((*stack_a)->data < (*stack_a)->next->data)
+	{
+		ra(stack_a);
+		write(1, "ra\n", 3);
+	}
+	ra(stack_a);
+	write(1, "ra\n", 3);
 //	while (*stack_a)
 //	{
 //		printf("%d\n", (*stack_a)->data);
