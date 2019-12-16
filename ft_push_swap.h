@@ -6,7 +6,7 @@
 /*   By: lgarse <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/30 13:19:36 by lgarse            #+#    #+#             */
-/*   Updated: 2019/12/15 22:34:20 by avenonat         ###   ########.fr       */
+/*   Updated: 2019/12/16 18:53:37 by avenonat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,11 +44,12 @@ int 			*sort_a(t_folder **stack_a, t_num *ssl);
 int 			*sort_b(t_folder **stack_b, t_num *ssl);
 int				*your_choise(t_folder **stack_a, t_folder **stack_b, t_num *ssl);
 int			 	search_min(int *sum);
-void		 	ask_function(t_folder **stack_a, t_folder **stack_b, int j, t_num *ssl, int *good);
-int				your_choise2(t_folder **stack_a, t_folder **stack_b, int *good, t_num *ssl);
+void		 	ask_function(t_folder **stack_a, t_folder **stack_b, int j, t_num *ssl);
+int				your_choise2(t_folder **stack_a, t_folder **stack_b, t_num *ssl);
 int 			sum_position(t_folder **stack_a, int *good, int count);
 int			 	move_b(t_folder **stack_a, t_folder **stack_b, t_num *ssl);
-void			prepare_move_pb(t_folder **stack_a, t_folder **stack_b);
+int				prepare_move_pb(t_folder **s_a, t_folder **s_b, t_num *ssl);
+void			after_pb(t_folder **s_b, t_num *ssl, int j);
 int				sa(t_folder **stack_a);
 int				sb(t_folder **stack_b);
 int				ss(t_folder **stack_a, t_folder **stack_b);

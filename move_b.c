@@ -6,7 +6,7 @@
 /*   By: avenonat <avenonat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/15 16:18:21 by avenonat          #+#    #+#             */
-/*   Updated: 2019/12/15 22:09:42 by avenonat         ###   ########.fr       */
+/*   Updated: 2019/12/16 18:52:53 by avenonat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ int 	move_b(t_folder **stack_a, t_folder **stack_b, t_num *ssl)
 		{
 			ra(stack_a);
 			write(1, "ra\n", 3);
-//			i++;
+			i++;
 		}
 		pa(stack_a, stack_b, ssl);
 		write(1, "pa\n", 3);

@@ -123,6 +123,33 @@ avenonat/fast:
 	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/build
 .PHONY : avenonat/fast
 
+after_pb.o: after_pb.c.o
+
+.PHONY : after_pb.o
+
+# target to build an object file
+after_pb.c.o:
+	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/after_pb.c.o
+.PHONY : after_pb.c.o
+
+after_pb.i: after_pb.c.i
+
+.PHONY : after_pb.i
+
+# target to preprocess a source file
+after_pb.c.i:
+	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/after_pb.c.i
+.PHONY : after_pb.c.i
+
+after_pb.s: after_pb.c.s
+
+.PHONY : after_pb.s
+
+# target to generate assembly for a file
+after_pb.c.s:
+	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/after_pb.c.s
+.PHONY : after_pb.c.s
+
 ask_function.o: ask_function.c.o
 
 .PHONY : ask_function.o
@@ -2589,6 +2616,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... avenonat"
+	@echo "... after_pb.o"
+	@echo "... after_pb.i"
+	@echo "... after_pb.s"
 	@echo "... ask_function.o"
 	@echo "... ask_function.i"
 	@echo "... ask_function.s"

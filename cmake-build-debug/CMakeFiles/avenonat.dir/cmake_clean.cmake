@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/avenonat.dir/after_pb.c.o"
   "CMakeFiles/avenonat.dir/ask_function.c.o"
   "CMakeFiles/avenonat.dir/check_num.c.o"
   "CMakeFiles/avenonat.dir/check_str.c.o"

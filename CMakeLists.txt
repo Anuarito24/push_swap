@@ -100,4 +100,4 @@ add_executable(avenonat
         your_choise2.c
         sum_position_checker.c
         move_b.c
-        prepare_move_pb)
+        prepare_move_pb after_pb.c)

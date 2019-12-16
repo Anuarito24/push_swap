@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/Users/avenonat/Desktop/avenonat/after_pb.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/after_pb.c.o"
   "/Users/avenonat/Desktop/avenonat/ask_function.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/ask_function.c.o"
   "/Users/avenonat/Desktop/avenonat/check_num.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/check_num.c.o"
   "/Users/avenonat/Desktop/avenonat/check_str.c" "/Users/avenonat/Desktop/avenonat/cmake-build-debug/CMakeFiles/avenonat.dir/check_str.c.o"
