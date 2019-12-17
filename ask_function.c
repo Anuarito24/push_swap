@@ -6,7 +6,7 @@
 /*   By: avenonat <avenonat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/12 19:37:18 by avenonat          #+#    #+#             */
-/*   Updated: 2019/12/16 18:53:58 by avenonat         ###   ########.fr       */
+/*   Updated: 2019/12/17 13:38:35 by avenonat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ void 	ask_function(t_folder **stack_a, t_folder **stack_b, int j, t_num *ssl)
 {
 	if (j == 9)
 		your_choise2(stack_a, stack_b, ssl);
-	else if (j == 0)
+	if (j == 0)
 	{
 		sa(stack_a);
 		write(1, "sa\n", 3);

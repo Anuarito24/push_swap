@@ -6,30 +6,37 @@
 /*   By: avenonat <avenonat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/16 16:59:25 by avenonat          #+#    #+#             */
-/*   Updated: 2019/12/16 19:10:10 by avenonat         ###   ########.fr       */
+/*   Updated: 2019/12/17 12:49:45 by avenonat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_push_swap.h"
 
-void	after_pb(t_folder **s_b, t_num *ssl, int j)
+void    after_pb(t_folder **s_b, t_num *ssl, int j)
 {
-	if (j < (ssl->count_b) / 2)
+	if (j == -1)
 	{
-		while (j)
-		{
-			j--;
-			rb(s_b);
-			write(1, "rb\n", 3);
-		}
+		sb(s_b);
+		write(1, "sb\n", 3);
 	}
-	else
+	else if (j < ssl->count_b - j)
+// else if (j < (ssl->count_b) / 2)
 	{
 		while (j)
 		{
 			j--;
 			rrb(s_b);
 			write(1, "rrb\n", 4);
+		}
+	}
+	else
+	{
+		j = ssl->count_b - j;
+		while (j)
+		{
+			j--;
+			rb(s_b);
+			write(1, "rb\n", 3);
 		}
 	}
 }

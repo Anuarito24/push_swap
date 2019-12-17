@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/avenonat/Desktop/avenonat/ft_push_swap.h
+/Users/avenonat/Desktop/push2/after_pb.c
+ft_push_swap.h
+/Users/avenonat/Desktop/push2/ft_push_swap.h
+
+/Users/avenonat/Desktop/push2/ft_push_swap.h
 unistd.h
 -
 stdlib.h
@@ -18,17 +22,13 @@ string.h
 limits.h
 -
 libft/libft.h
-/Users/avenonat/Desktop/avenonat/libft/libft.h
+/Users/avenonat/Desktop/push2/libft/libft.h
 
-/Users/avenonat/Desktop/avenonat/libft/libft.h
+/Users/avenonat/Desktop/push2/libft/libft.h
 unistd.h
 -
 stdlib.h
 -
 string.h
 -
-
-/Users/avenonat/Desktop/avenonat/main.c
-ft_push_swap.h
-/Users/avenonat/Desktop/avenonat/ft_push_swap.h
 

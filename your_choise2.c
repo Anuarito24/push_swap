@@ -6,7 +6,7 @@
 /*   By: avenonat <avenonat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/12 19:42:08 by avenonat          #+#    #+#             */
-/*   Updated: 2019/12/16 18:53:37 by avenonat         ###   ########.fr       */
+/*   Updated: 2019/12/17 13:48:57 by avenonat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,40 +14,14 @@
 
 int		your_choise2(t_folder **stack_a, t_folder **stack_b, t_num *ssl)
 {
-	int *sum;
-	int j;
 	int jack;
 
-	j = 0;
-	if (!(sum = (int*)malloc(sizeof(int) * 2)))
-		return (0);
-//	if (*stack_a)
-//	{
-//		pa(stack_a, stack_b, ssl);
-//		sum[0] = sum_position(stack_a, good, ssl->count_a) + sum_position(stack_b, good, ssl->count_b);
-//		pb(stack_a, stack_b, ssl);
-//		ssl->count_a++;
-//		ssl->count_b--;
-//	}
-//	if (*stack_b)
-//	{
-//      	pb(stack_a, stack_b, ssl);
-//		sum[1] = sum_position(stack_a, good, ssl->count_a) + sum_position(stack_b, good, ssl->count_b);
-//		pa(stack_a, stack_b, ssl);
-//		ssl->count_a--;
-//		ssl->count_b++;
-//	}
-//	if ((*stack_a) && (sum[0] < sum[1] || !(*stack_b)))
-//	{
-//		j = pa(stack_a, stack_b, ssl);
-//		write(1, "pa\n", 3);
-//	}
-//	else
+	if (sum_position_checker(stack_a, sort_a(stack_a, ssl), ssl->count_a) != 0 && sum_position_checker(stack_b, sort_b(stack_b, ssl), ssl->count_b) == 0)
 	{
 		jack = prepare_move_pb(stack_a, stack_b, ssl);
 		pb(stack_a, stack_b, ssl);
 		after_pb(stack_b, ssl, jack);
 		write(1, "pb\n", 3);
 	}
-	return (j);
+	return (1);
 }

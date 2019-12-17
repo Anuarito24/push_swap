@@ -6,5 +6,5 @@ C_FLAGS = -g   -std=gnu11
 
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/avenonat/Desktop/avenonat/. -I/Users/avenonat/Desktop/avenonat/libft 
+C_INCLUDES = -I/Users/avenonat/Desktop/push2/. -I/Users/avenonat/Desktop/push2/libft 
 

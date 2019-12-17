@@ -20,7 +20,7 @@ int     sum_position(t_folder **stack_a, int *good, int count)
 	t_folder *temp;
 	temp = (*stack_a);
 	sum = 0;
-// i = 0;
+
 	j = 0;
 	while (temp)
 	{
@@ -31,6 +31,5 @@ int     sum_position(t_folder **stack_a, int *good, int count)
 		j++;
 		temp = temp->next;
 	}
-//    printf("%d\n", sum);
 	return (sum);
 }
