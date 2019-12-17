@@ -12,7 +12,7 @@
 
 #include "../includes/ft_push_swap.h"
 
-int 	search_minor(int *sum)
+int		search_minor(int *sum)
 {
 	int temp;
 	int i;
@@ -21,7 +21,7 @@ int 	search_minor(int *sum)
 	temp = sum[9];
 	j = 9;
 	i = 1;
-	while(i < 2)
+	while (i < 2)
 	{
 		if (sum[i] < temp)
 		{

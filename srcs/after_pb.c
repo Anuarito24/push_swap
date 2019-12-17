@@ -12,7 +12,7 @@
 
 #include "../includes/ft_push_swap.h"
 
-void    after_pb(t_folder **s_b, t_num *ssl, int j)
+void	after_pb(t_folder **s_b, t_num *ssl, int j)
 {
 	if (j == -1)
 	{

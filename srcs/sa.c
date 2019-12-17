@@ -15,6 +15,7 @@
 int		sa(t_folder **stack_a)
 {
 	t_folder *c;
+
 	c = *stack_a;
 	if (c && c->next)
 	{

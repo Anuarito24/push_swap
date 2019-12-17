@@ -6,7 +6,7 @@
 /*   By: avenonat <avenonat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/05 15:50:43 by avenonat          #+#    #+#             */
-/*   Updated: 2019/12/17 16:36:52 by avenonat         ###   ########.fr       */
+/*   Updated: 2019/12/17 23:16:14 by avenonat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,14 +14,15 @@
 
 int		push_swap(char **new, t_folder **stack_a)
 {
-	int i;
-	t_folder *buffer;
+	int			i;
+	t_folder	*buffer;
+	t_folder	*head;
 
 	i = 0;
+	*head = NULL;
 	while (new[i] != '\0')
 	{
-		t_folder *head = NULL;
-		if	(!(head = malloc(sizeof(t_folder))))
+		if (!(head = malloc(sizeof(t_folder))))
 			return (0);
 		if (ft_atoi(new[i]))
 		{
@@ -42,7 +43,6 @@ int		push_swap(char **new, t_folder **stack_a)
 		}
 		else
 			*stack_a = head;
-		//printf("%d\n", head->data);
 		i++;
 	}
 	return (i);

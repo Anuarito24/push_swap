@@ -12,7 +12,7 @@
 
 #include "../includes/ft_push_swap.h"
 
-int    *sort(int *good, t_num *ssl)
+int		*sort(int *good, t_num *ssl)
 {
 	int i;
 	int j;

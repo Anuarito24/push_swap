@@ -12,7 +12,7 @@
 
 #include "../includes/ft_push_swap.h"
 
-int 	check_str(char **str)
+int		check_str(char **str)
 {
 	int i;
 	int j;

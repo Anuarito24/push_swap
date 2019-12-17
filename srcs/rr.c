@@ -12,7 +12,7 @@
 
 #include "../includes/ft_push_swap.h"
 
-int rr(t_folder **stack_a, t_folder **stack_b)
+int		rr(t_folder **stack_a, t_folder **stack_b)
 {
 	if (stack_a && stack_b)
 	{

@@ -14,9 +14,10 @@
 
 int		your_choise2(t_folder **stack_a, t_folder **stack_b, t_num *ssl)
 {
-	int jack;
+	int		jack;
 
-	if (sum_position_checker(stack_a, sort_a(stack_a, ssl), ssl->count_a) != 0 && sum_position_checker(stack_b, sort_b(stack_b, ssl), ssl->count_b) == 0)
+	if (sum_position_checker(stack_a, sort_a(stack_a, ssl), ssl->count_a) != 0
+	&& sum_position_checker(stack_b, sort_b(stack_b, ssl), ssl->count_b) == 0)
 	{
 		jack = prepare_move_pb(stack_a, stack_b, ssl);
 		pb(stack_a, stack_b, ssl);

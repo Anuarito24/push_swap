@@ -17,6 +17,7 @@ int		rrb(t_folder **st)
 	t_folder *front;
 	t_folder *back;
 	t_folder *begin;
+
 	begin = *st;
 	front = *st;
 	back = *st;

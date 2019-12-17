@@ -12,16 +12,16 @@
 
 #include "../includes/ft_push_swap.h"
 
-int 	search_min(int *sum)
+int		search_min(int *sum)
 {
-	int temp;
-	int i;
-	int j;
+	int		temp;
+	int		i;
+	int		j;
 
-	temp = sum[9];
 	j = 9;
 	i = 1;
-	while(i < 10)
+	temp = sum[9];
+	while (i < 10)
 	{
 		if (sum[i] < temp)
 		{

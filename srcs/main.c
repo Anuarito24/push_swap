@@ -14,11 +14,11 @@
 
 int		main(int argc, char **argv)
 {
-	int i;
-	char **new;
-	t_folder *stack_a;
-	t_folder *stack_b;
-	t_num ssl;
+	int			i;
+	char		**new;
+	t_folder	*stack_a;
+	t_folder	*stack_b;
+	t_num		ssl;
 
 	ssl.count_a = 0;
 	ssl.count_b = 0;

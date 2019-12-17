@@ -12,12 +12,12 @@
 
 #include "../includes/ft_push_swap.h"
 
-int 	*sort_a(t_folder **stack_a, t_num *ssl)
+int		*sort_a(t_folder **stack_a, t_num *ssl)
 {
-	int i;
-	int j;
-	int *good;
-	t_folder *position;
+	int			i;
+	int			j;
+	int			*good;
+	t_folder	*position;
 
 	i = 0;
 	position = (*stack_a);
@@ -27,7 +27,6 @@ int 	*sort_a(t_folder **stack_a, t_num *ssl)
 	{
 		good[i] = position->data;
 		position = position->next;
-		//printf("%d", good[i]);
 		i++;
 	}
 	i = 0;

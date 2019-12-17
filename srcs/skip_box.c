@@ -12,9 +12,10 @@
 
 #include "../includes/ft_push_swap.h"
 
-t_folder 	*skip_box(t_folder **stack_a)
+t_folder		*skip_box(t_folder **stack_a)
 {
-	t_folder *last_nb;
+	t_folder	*last_nb;
+
 	last_nb = *stack_a;
 	while (last_nb->next != NULL)
 		last_nb = last_nb->next;

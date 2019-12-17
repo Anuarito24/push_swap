@@ -19,17 +19,18 @@ int		*your_choise_minor(t_folder **stack_a, t_folder **stack_b, t_num *ssl)
 	if (!(sum = (int*)malloc(sizeof(int) * 10)))
 		return (0);
 	sa(stack_a);
-	sum[0] = sum_position(stack_a, sort_a(stack_a, ssl), ssl->count_a) + sum_position(stack_b, sort_b(stack_b, ssl), ssl->count_b);
+	sum[0] = sum_position(stack_a, sort_a(stack_a, ssl), ssl->count_a) +
+			sum_position(stack_b, sort_b(stack_b, ssl), ssl->count_b);
 	sa(stack_a);
-
 	ra(stack_a);
-	sum[1] = sum_position(stack_a, sort_a(stack_a, ssl), ssl->count_a) + sum_position(stack_b, sort_b(stack_b, ssl), ssl->count_b);
+	sum[1] = sum_position(stack_a, sort_a(stack_a, ssl), ssl->count_a) +
+			sum_position(stack_b, sort_b(stack_b, ssl), ssl->count_b);
 	rra(stack_a);
-
 	rra(stack_a);
-	sum[2] = sum_position(stack_a, sort_a(stack_a, ssl), ssl->count_a) + sum_position(stack_b, sort_b(stack_b, ssl), ssl->count_b);
+	sum[2] = sum_position(stack_a, sort_a(stack_a, ssl), ssl->count_a) +
+			sum_position(stack_b, sort_b(stack_b, ssl), ssl->count_b);
 	ra(stack_a);
-
-	sum[9] = sum_position(stack_a, sort_a(stack_a, ssl), ssl->count_a) + sum_position(stack_b, sort_b(stack_b, ssl), ssl->count_b);
+	sum[9] = sum_position(stack_a, sort_a(stack_a, ssl), ssl->count_a) +
+			sum_position(stack_b, sort_b(stack_b, ssl), ssl->count_b);
 	return (sum);
 }

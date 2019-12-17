@@ -12,10 +12,10 @@
 
 #include "../includes/ft_push_swap.h"
 
-int ss(t_folder **stack_a, t_folder **stack_b)
+int		ss(t_folder **stack_a, t_folder **stack_b)
 {
-	t_folder *c;
-	t_folder *d;
+	t_folder	*c;
+	t_folder	*d;
 
 	c = *stack_a;
 	d = *stack_b;

@@ -6,7 +6,7 @@
 /*   By: avenonat <avenonat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/05 15:09:52 by avenonat          #+#    #+#             */
-/*   Updated: 2019/12/17 16:36:52 by avenonat         ###   ########.fr       */
+/*   Updated: 2019/12/17 22:54:31 by avenonat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@ int		rra(t_folder **st)
 	t_folder *front;
 	t_folder *back;
 	t_folder *begin;
+
 	begin = *st;
 	front = *st;
 	back = *st;

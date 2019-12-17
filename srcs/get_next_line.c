@@ -6,7 +6,7 @@
 /*   By: avenonat <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/08 17:17:39 by avenonat          #+#    #+#             */
-/*   Updated: 2019/12/17 19:26:32 by avenonat         ###   ########.fr       */
+/*   Updated: 2019/12/17 22:54:31 by avenonat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,14 +14,13 @@
 
 t_folder	*read_number(char **argv, t_num *ssl)
 {
-	int i;
-	char **new;
-	t_folder *stack_a;
+	int			i;
+	char		**new;
+	t_folder	*stack_a;
 
-
+	i = 1;
 	ssl->count_a = 0;
 	stack_a = NULL;
-	i = 1;
 	while (argv[i])
 	{
 		new = ft_strsplit(argv[i], ' ');
@@ -35,37 +34,41 @@ t_folder	*read_number(char **argv, t_num *ssl)
 	return (stack_a);
 }
 
-int		compare_command(t_folder **stack_a, t_folder **stack_b, char *line, t_num *ssl)
+int		compare_command(t_folder **stack_a, t_folder **stack_b,
+		char *line, t_num *ssl)
 {
+	int i;
+
 	*stack_b = NULL;
 	ssl->count_a = 0;
-	int i = ft_strlen(line);
+	i = ft_strlen(line);
 	if (i == 2 && line[0] == 's' && line[1] == 'a')
 		sa(stack_a);
-	else if (ft_strcmp(line, "sb"))
+	else if (i == 2 && line[0] == 's' && line[1] == 'b')
 		sb(stack_b);
-	else if (!ft_strcmp(line, "ss\n"))
+	else if (i == 2 && line[0] == 's' && line[1] == 's')
 		ss(stack_a, stack_b);
-	else if (!ft_strcmp(line, "pa"))
+	else if (i == 2 && line[0] == 'p' && line[1] == 'a')
 		pa(stack_a, stack_b, ssl);
-	else if (!ft_strcmp(line, "pb"))
+	else if (i == 2 && line[0] == 'p' && line[1] == 'b')
 		pb(stack_a, stack_b, ssl);
-	else if (!ft_strcmp(line, "ra"))
+	else if (i == 2 && line[0] == 'r' && line[1] == 'a')
 		ra(stack_a);
-	else if (!ft_strcmp(line, "rb"))
+	else if (i == 2 && line[0] == 'r' && line[1] == 'b')
 		rb(stack_b);
-	else if (!ft_strcmp(line, "rr"))
+	else if (i == 2 && line[0] == 'r' && line[1] == 'r')
 		rr(stack_a, stack_b);
-	else if (!ft_strcmp(line, "rra"))
+	else if (i == 3 && line[0] == 'r' && line[1] == 'r' && line[2] == 'a')
 		rra(stack_a);
-	else if (!ft_strcmp(line, "rrb"))
+	else if (i == 3 && line[0] == 'r' && line[1] == 'r' && line[2] == 'b')
 		rrb(stack_b);
-	else if (!ft_strcmp(line, "rrr"))
+	else if (i == 3 && line[0] == 'r' && line[1] == 'r' && line[2] == 'r')
 		rrr(stack_a, stack_b);
 	else
 		return (1);
-	return(0);
+	return (0);
 }
+
 int		ft_new_line(char **s, char **line, int fd, int text)
 {
 	char	*temp;
@@ -122,17 +125,18 @@ int		get_next_line(const int fd, char **line)
 
 int		main(int argc, char **argv)
 {
-	int		i;
-	char	*line;
-	t_folder *stack_a;
-	t_folder *stack_b;
-	t_num ssl;
-	
+	int			i;
+	char		*line;
+	t_folder	*stack_a;
+	t_folder	*stack_b;
+	t_num		ssl;
+
 	i = 0;
+	stack_a = NULL;
 	stack_b = NULL;
 	if (argc != 1)
 		stack_a = read_number(argv, &ssl);
-	if	(!(stack_b = malloc(sizeof(t_folder))))
+	if (!(stack_b = malloc(sizeof(t_folder))))
 		return (0);
 	while (get_next_line(0, &line) == 1)
 	{
@@ -144,6 +148,11 @@ int		main(int argc, char **argv)
 		if (line)
 			free(line);
 	}
+//	while (stack_a)
+//	{
+//		printf("%d\n", (stack_a)->data);
+//		(stack_a) = (stack_a)->next;
+//	}
 	while (stack_a && stack_a->next)
 	{
 		if (stack_a->data > stack_a->next->data)

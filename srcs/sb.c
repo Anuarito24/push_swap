@@ -12,9 +12,10 @@
 
 #include "../includes/ft_push_swap.h"
 
-int sb(t_folder **stack_b)
+int		sb(t_folder **stack_b)
 {
 	t_folder *d;
+
 	d = *stack_b;
 	if (d && d->next)
 	{

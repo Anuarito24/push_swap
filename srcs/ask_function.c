@@ -12,7 +12,7 @@
 
 #include "../includes/ft_push_swap.h"
 
-void 	ask_function(t_folder **stack_a, t_folder **stack_b, int j, t_num *ssl)
+void	ask_function(t_folder **stack_a, t_folder **stack_b, int j, t_num *ssl)
 {
 	if (j == 9)
 		your_choise2(stack_a, stack_b, ssl);

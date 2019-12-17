@@ -12,16 +12,16 @@
 
 #include "../includes/ft_push_swap.h"
 
-int     sum_position(t_folder **stack_a, int *good, int count)
+int		sum_position(t_folder **stack_a, int *good, int count)
 {
-	int sum;
-	int i;
-	int j;
-	t_folder *temp;
-	temp = (*stack_a);
-	sum = 0;
+	int			sum;
+	int			i;
+	int			j;
+	t_folder	*temp;
 
+	sum = 0;
 	j = 0;
+	temp = (*stack_a);
 	while (temp)
 	{
 		i = 0;

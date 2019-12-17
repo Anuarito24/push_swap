@@ -12,9 +12,10 @@
 
 #include "../includes/ft_push_swap.h"
 
-int    rb(t_folder **st)
+int		rb(t_folder **st)
 {
-	t_folder *temp;
+	t_folder	*temp;
+
 	temp = *st;
 	if (*st == NULL)
 		return (0);
