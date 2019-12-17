@@ -111,125 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named avenonat
+# Target rules for targets named push2
 
 # Build rule for target.
-avenonat: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 avenonat
-.PHONY : avenonat
+push2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 push2
+.PHONY : push2
 
 # fast build rule for target.
-avenonat/fast:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/build
-.PHONY : avenonat/fast
-
-after_pb.o: after_pb.c.o
-
-.PHONY : after_pb.o
-
-# target to build an object file
-after_pb.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/after_pb.c.o
-.PHONY : after_pb.c.o
-
-after_pb.i: after_pb.c.i
-
-.PHONY : after_pb.i
-
-# target to preprocess a source file
-after_pb.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/after_pb.c.i
-.PHONY : after_pb.c.i
-
-after_pb.s: after_pb.c.s
-
-.PHONY : after_pb.s
-
-# target to generate assembly for a file
-after_pb.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/after_pb.c.s
-.PHONY : after_pb.c.s
-
-ask_function.o: ask_function.c.o
-
-.PHONY : ask_function.o
-
-# target to build an object file
-ask_function.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/ask_function.c.o
-.PHONY : ask_function.c.o
-
-ask_function.i: ask_function.c.i
-
-.PHONY : ask_function.i
-
-# target to preprocess a source file
-ask_function.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/ask_function.c.i
-.PHONY : ask_function.c.i
-
-ask_function.s: ask_function.c.s
-
-.PHONY : ask_function.s
-
-# target to generate assembly for a file
-ask_function.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/ask_function.c.s
-.PHONY : ask_function.c.s
-
-check_num.o: check_num.c.o
-
-.PHONY : check_num.o
-
-# target to build an object file
-check_num.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/check_num.c.o
-.PHONY : check_num.c.o
-
-check_num.i: check_num.c.i
-
-.PHONY : check_num.i
-
-# target to preprocess a source file
-check_num.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/check_num.c.i
-.PHONY : check_num.c.i
-
-check_num.s: check_num.c.s
-
-.PHONY : check_num.s
-
-# target to generate assembly for a file
-check_num.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/check_num.c.s
-.PHONY : check_num.c.s
-
-check_str.o: check_str.c.o
-
-.PHONY : check_str.o
-
-# target to build an object file
-check_str.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/check_str.c.o
-.PHONY : check_str.c.o
-
-check_str.i: check_str.c.i
-
-.PHONY : check_str.i
-
-# target to preprocess a source file
-check_str.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/check_str.c.i
-.PHONY : check_str.c.i
-
-check_str.s: check_str.c.s
-
-.PHONY : check_str.s
-
-# target to generate assembly for a file
-check_str.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/check_str.c.s
-.PHONY : check_str.c.s
+push2/fast:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/build
+.PHONY : push2/fast
 
 libft/ft_abs.o: libft/ft_abs.c.o
 
@@ -237,7 +129,7 @@ libft/ft_abs.o: libft/ft_abs.c.o
 
 # target to build an object file
 libft/ft_abs.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_abs.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_abs.c.o
 .PHONY : libft/ft_abs.c.o
 
 libft/ft_abs.i: libft/ft_abs.c.i
@@ -246,7 +138,7 @@ libft/ft_abs.i: libft/ft_abs.c.i
 
 # target to preprocess a source file
 libft/ft_abs.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_abs.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_abs.c.i
 .PHONY : libft/ft_abs.c.i
 
 libft/ft_abs.s: libft/ft_abs.c.s
@@ -255,7 +147,7 @@ libft/ft_abs.s: libft/ft_abs.c.s
 
 # target to generate assembly for a file
 libft/ft_abs.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_abs.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_abs.c.s
 .PHONY : libft/ft_abs.c.s
 
 libft/ft_atoi.o: libft/ft_atoi.c.o
@@ -264,7 +156,7 @@ libft/ft_atoi.o: libft/ft_atoi.c.o
 
 # target to build an object file
 libft/ft_atoi.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_atoi.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_atoi.c.o
 .PHONY : libft/ft_atoi.c.o
 
 libft/ft_atoi.i: libft/ft_atoi.c.i
@@ -273,7 +165,7 @@ libft/ft_atoi.i: libft/ft_atoi.c.i
 
 # target to preprocess a source file
 libft/ft_atoi.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_atoi.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_atoi.c.i
 .PHONY : libft/ft_atoi.c.i
 
 libft/ft_atoi.s: libft/ft_atoi.c.s
@@ -282,7 +174,7 @@ libft/ft_atoi.s: libft/ft_atoi.c.s
 
 # target to generate assembly for a file
 libft/ft_atoi.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_atoi.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_atoi.c.s
 .PHONY : libft/ft_atoi.c.s
 
 libft/ft_bzero.o: libft/ft_bzero.c.o
@@ -291,7 +183,7 @@ libft/ft_bzero.o: libft/ft_bzero.c.o
 
 # target to build an object file
 libft/ft_bzero.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_bzero.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_bzero.c.o
 .PHONY : libft/ft_bzero.c.o
 
 libft/ft_bzero.i: libft/ft_bzero.c.i
@@ -300,7 +192,7 @@ libft/ft_bzero.i: libft/ft_bzero.c.i
 
 # target to preprocess a source file
 libft/ft_bzero.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_bzero.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_bzero.c.i
 .PHONY : libft/ft_bzero.c.i
 
 libft/ft_bzero.s: libft/ft_bzero.c.s
@@ -309,7 +201,7 @@ libft/ft_bzero.s: libft/ft_bzero.c.s
 
 # target to generate assembly for a file
 libft/ft_bzero.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_bzero.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_bzero.c.s
 .PHONY : libft/ft_bzero.c.s
 
 libft/ft_count.o: libft/ft_count.c.o
@@ -318,7 +210,7 @@ libft/ft_count.o: libft/ft_count.c.o
 
 # target to build an object file
 libft/ft_count.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_count.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_count.c.o
 .PHONY : libft/ft_count.c.o
 
 libft/ft_count.i: libft/ft_count.c.i
@@ -327,7 +219,7 @@ libft/ft_count.i: libft/ft_count.c.i
 
 # target to preprocess a source file
 libft/ft_count.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_count.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_count.c.i
 .PHONY : libft/ft_count.c.i
 
 libft/ft_count.s: libft/ft_count.c.s
@@ -336,7 +228,7 @@ libft/ft_count.s: libft/ft_count.c.s
 
 # target to generate assembly for a file
 libft/ft_count.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_count.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_count.c.s
 .PHONY : libft/ft_count.c.s
 
 libft/ft_diglength.o: libft/ft_diglength.c.o
@@ -345,7 +237,7 @@ libft/ft_diglength.o: libft/ft_diglength.c.o
 
 # target to build an object file
 libft/ft_diglength.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_diglength.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_diglength.c.o
 .PHONY : libft/ft_diglength.c.o
 
 libft/ft_diglength.i: libft/ft_diglength.c.i
@@ -354,7 +246,7 @@ libft/ft_diglength.i: libft/ft_diglength.c.i
 
 # target to preprocess a source file
 libft/ft_diglength.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_diglength.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_diglength.c.i
 .PHONY : libft/ft_diglength.c.i
 
 libft/ft_diglength.s: libft/ft_diglength.c.s
@@ -363,7 +255,7 @@ libft/ft_diglength.s: libft/ft_diglength.c.s
 
 # target to generate assembly for a file
 libft/ft_diglength.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_diglength.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_diglength.c.s
 .PHONY : libft/ft_diglength.c.s
 
 libft/ft_isalnum.o: libft/ft_isalnum.c.o
@@ -372,7 +264,7 @@ libft/ft_isalnum.o: libft/ft_isalnum.c.o
 
 # target to build an object file
 libft/ft_isalnum.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_isalnum.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_isalnum.c.o
 .PHONY : libft/ft_isalnum.c.o
 
 libft/ft_isalnum.i: libft/ft_isalnum.c.i
@@ -381,7 +273,7 @@ libft/ft_isalnum.i: libft/ft_isalnum.c.i
 
 # target to preprocess a source file
 libft/ft_isalnum.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_isalnum.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_isalnum.c.i
 .PHONY : libft/ft_isalnum.c.i
 
 libft/ft_isalnum.s: libft/ft_isalnum.c.s
@@ -390,7 +282,7 @@ libft/ft_isalnum.s: libft/ft_isalnum.c.s
 
 # target to generate assembly for a file
 libft/ft_isalnum.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_isalnum.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_isalnum.c.s
 .PHONY : libft/ft_isalnum.c.s
 
 libft/ft_isalpha.o: libft/ft_isalpha.c.o
@@ -399,7 +291,7 @@ libft/ft_isalpha.o: libft/ft_isalpha.c.o
 
 # target to build an object file
 libft/ft_isalpha.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_isalpha.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_isalpha.c.o
 .PHONY : libft/ft_isalpha.c.o
 
 libft/ft_isalpha.i: libft/ft_isalpha.c.i
@@ -408,7 +300,7 @@ libft/ft_isalpha.i: libft/ft_isalpha.c.i
 
 # target to preprocess a source file
 libft/ft_isalpha.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_isalpha.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_isalpha.c.i
 .PHONY : libft/ft_isalpha.c.i
 
 libft/ft_isalpha.s: libft/ft_isalpha.c.s
@@ -417,7 +309,7 @@ libft/ft_isalpha.s: libft/ft_isalpha.c.s
 
 # target to generate assembly for a file
 libft/ft_isalpha.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_isalpha.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_isalpha.c.s
 .PHONY : libft/ft_isalpha.c.s
 
 libft/ft_isascii.o: libft/ft_isascii.c.o
@@ -426,7 +318,7 @@ libft/ft_isascii.o: libft/ft_isascii.c.o
 
 # target to build an object file
 libft/ft_isascii.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_isascii.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_isascii.c.o
 .PHONY : libft/ft_isascii.c.o
 
 libft/ft_isascii.i: libft/ft_isascii.c.i
@@ -435,7 +327,7 @@ libft/ft_isascii.i: libft/ft_isascii.c.i
 
 # target to preprocess a source file
 libft/ft_isascii.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_isascii.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_isascii.c.i
 .PHONY : libft/ft_isascii.c.i
 
 libft/ft_isascii.s: libft/ft_isascii.c.s
@@ -444,7 +336,7 @@ libft/ft_isascii.s: libft/ft_isascii.c.s
 
 # target to generate assembly for a file
 libft/ft_isascii.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_isascii.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_isascii.c.s
 .PHONY : libft/ft_isascii.c.s
 
 libft/ft_isdigit.o: libft/ft_isdigit.c.o
@@ -453,7 +345,7 @@ libft/ft_isdigit.o: libft/ft_isdigit.c.o
 
 # target to build an object file
 libft/ft_isdigit.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_isdigit.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_isdigit.c.o
 .PHONY : libft/ft_isdigit.c.o
 
 libft/ft_isdigit.i: libft/ft_isdigit.c.i
@@ -462,7 +354,7 @@ libft/ft_isdigit.i: libft/ft_isdigit.c.i
 
 # target to preprocess a source file
 libft/ft_isdigit.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_isdigit.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_isdigit.c.i
 .PHONY : libft/ft_isdigit.c.i
 
 libft/ft_isdigit.s: libft/ft_isdigit.c.s
@@ -471,7 +363,7 @@ libft/ft_isdigit.s: libft/ft_isdigit.c.s
 
 # target to generate assembly for a file
 libft/ft_isdigit.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_isdigit.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_isdigit.c.s
 .PHONY : libft/ft_isdigit.c.s
 
 libft/ft_isprint.o: libft/ft_isprint.c.o
@@ -480,7 +372,7 @@ libft/ft_isprint.o: libft/ft_isprint.c.o
 
 # target to build an object file
 libft/ft_isprint.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_isprint.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_isprint.c.o
 .PHONY : libft/ft_isprint.c.o
 
 libft/ft_isprint.i: libft/ft_isprint.c.i
@@ -489,7 +381,7 @@ libft/ft_isprint.i: libft/ft_isprint.c.i
 
 # target to preprocess a source file
 libft/ft_isprint.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_isprint.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_isprint.c.i
 .PHONY : libft/ft_isprint.c.i
 
 libft/ft_isprint.s: libft/ft_isprint.c.s
@@ -498,7 +390,7 @@ libft/ft_isprint.s: libft/ft_isprint.c.s
 
 # target to generate assembly for a file
 libft/ft_isprint.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_isprint.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_isprint.c.s
 .PHONY : libft/ft_isprint.c.s
 
 libft/ft_itoa.o: libft/ft_itoa.c.o
@@ -507,7 +399,7 @@ libft/ft_itoa.o: libft/ft_itoa.c.o
 
 # target to build an object file
 libft/ft_itoa.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_itoa.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_itoa.c.o
 .PHONY : libft/ft_itoa.c.o
 
 libft/ft_itoa.i: libft/ft_itoa.c.i
@@ -516,7 +408,7 @@ libft/ft_itoa.i: libft/ft_itoa.c.i
 
 # target to preprocess a source file
 libft/ft_itoa.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_itoa.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_itoa.c.i
 .PHONY : libft/ft_itoa.c.i
 
 libft/ft_itoa.s: libft/ft_itoa.c.s
@@ -525,7 +417,7 @@ libft/ft_itoa.s: libft/ft_itoa.c.s
 
 # target to generate assembly for a file
 libft/ft_itoa.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_itoa.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_itoa.c.s
 .PHONY : libft/ft_itoa.c.s
 
 libft/ft_labs.o: libft/ft_labs.c.o
@@ -534,7 +426,7 @@ libft/ft_labs.o: libft/ft_labs.c.o
 
 # target to build an object file
 libft/ft_labs.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_labs.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_labs.c.o
 .PHONY : libft/ft_labs.c.o
 
 libft/ft_labs.i: libft/ft_labs.c.i
@@ -543,7 +435,7 @@ libft/ft_labs.i: libft/ft_labs.c.i
 
 # target to preprocess a source file
 libft/ft_labs.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_labs.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_labs.c.i
 .PHONY : libft/ft_labs.c.i
 
 libft/ft_labs.s: libft/ft_labs.c.s
@@ -552,7 +444,7 @@ libft/ft_labs.s: libft/ft_labs.c.s
 
 # target to generate assembly for a file
 libft/ft_labs.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_labs.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_labs.c.s
 .PHONY : libft/ft_labs.c.s
 
 libft/ft_lstadd.o: libft/ft_lstadd.c.o
@@ -561,7 +453,7 @@ libft/ft_lstadd.o: libft/ft_lstadd.c.o
 
 # target to build an object file
 libft/ft_lstadd.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_lstadd.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_lstadd.c.o
 .PHONY : libft/ft_lstadd.c.o
 
 libft/ft_lstadd.i: libft/ft_lstadd.c.i
@@ -570,7 +462,7 @@ libft/ft_lstadd.i: libft/ft_lstadd.c.i
 
 # target to preprocess a source file
 libft/ft_lstadd.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_lstadd.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_lstadd.c.i
 .PHONY : libft/ft_lstadd.c.i
 
 libft/ft_lstadd.s: libft/ft_lstadd.c.s
@@ -579,7 +471,7 @@ libft/ft_lstadd.s: libft/ft_lstadd.c.s
 
 # target to generate assembly for a file
 libft/ft_lstadd.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_lstadd.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_lstadd.c.s
 .PHONY : libft/ft_lstadd.c.s
 
 libft/ft_lstdel.o: libft/ft_lstdel.c.o
@@ -588,7 +480,7 @@ libft/ft_lstdel.o: libft/ft_lstdel.c.o
 
 # target to build an object file
 libft/ft_lstdel.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_lstdel.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_lstdel.c.o
 .PHONY : libft/ft_lstdel.c.o
 
 libft/ft_lstdel.i: libft/ft_lstdel.c.i
@@ -597,7 +489,7 @@ libft/ft_lstdel.i: libft/ft_lstdel.c.i
 
 # target to preprocess a source file
 libft/ft_lstdel.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_lstdel.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_lstdel.c.i
 .PHONY : libft/ft_lstdel.c.i
 
 libft/ft_lstdel.s: libft/ft_lstdel.c.s
@@ -606,7 +498,7 @@ libft/ft_lstdel.s: libft/ft_lstdel.c.s
 
 # target to generate assembly for a file
 libft/ft_lstdel.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_lstdel.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_lstdel.c.s
 .PHONY : libft/ft_lstdel.c.s
 
 libft/ft_lstdelone.o: libft/ft_lstdelone.c.o
@@ -615,7 +507,7 @@ libft/ft_lstdelone.o: libft/ft_lstdelone.c.o
 
 # target to build an object file
 libft/ft_lstdelone.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_lstdelone.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_lstdelone.c.o
 .PHONY : libft/ft_lstdelone.c.o
 
 libft/ft_lstdelone.i: libft/ft_lstdelone.c.i
@@ -624,7 +516,7 @@ libft/ft_lstdelone.i: libft/ft_lstdelone.c.i
 
 # target to preprocess a source file
 libft/ft_lstdelone.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_lstdelone.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_lstdelone.c.i
 .PHONY : libft/ft_lstdelone.c.i
 
 libft/ft_lstdelone.s: libft/ft_lstdelone.c.s
@@ -633,7 +525,7 @@ libft/ft_lstdelone.s: libft/ft_lstdelone.c.s
 
 # target to generate assembly for a file
 libft/ft_lstdelone.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_lstdelone.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_lstdelone.c.s
 .PHONY : libft/ft_lstdelone.c.s
 
 libft/ft_lstiter.o: libft/ft_lstiter.c.o
@@ -642,7 +534,7 @@ libft/ft_lstiter.o: libft/ft_lstiter.c.o
 
 # target to build an object file
 libft/ft_lstiter.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_lstiter.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_lstiter.c.o
 .PHONY : libft/ft_lstiter.c.o
 
 libft/ft_lstiter.i: libft/ft_lstiter.c.i
@@ -651,7 +543,7 @@ libft/ft_lstiter.i: libft/ft_lstiter.c.i
 
 # target to preprocess a source file
 libft/ft_lstiter.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_lstiter.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_lstiter.c.i
 .PHONY : libft/ft_lstiter.c.i
 
 libft/ft_lstiter.s: libft/ft_lstiter.c.s
@@ -660,7 +552,7 @@ libft/ft_lstiter.s: libft/ft_lstiter.c.s
 
 # target to generate assembly for a file
 libft/ft_lstiter.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_lstiter.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_lstiter.c.s
 .PHONY : libft/ft_lstiter.c.s
 
 libft/ft_lstmap.o: libft/ft_lstmap.c.o
@@ -669,7 +561,7 @@ libft/ft_lstmap.o: libft/ft_lstmap.c.o
 
 # target to build an object file
 libft/ft_lstmap.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_lstmap.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_lstmap.c.o
 .PHONY : libft/ft_lstmap.c.o
 
 libft/ft_lstmap.i: libft/ft_lstmap.c.i
@@ -678,7 +570,7 @@ libft/ft_lstmap.i: libft/ft_lstmap.c.i
 
 # target to preprocess a source file
 libft/ft_lstmap.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_lstmap.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_lstmap.c.i
 .PHONY : libft/ft_lstmap.c.i
 
 libft/ft_lstmap.s: libft/ft_lstmap.c.s
@@ -687,7 +579,7 @@ libft/ft_lstmap.s: libft/ft_lstmap.c.s
 
 # target to generate assembly for a file
 libft/ft_lstmap.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_lstmap.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_lstmap.c.s
 .PHONY : libft/ft_lstmap.c.s
 
 libft/ft_lstnew.o: libft/ft_lstnew.c.o
@@ -696,7 +588,7 @@ libft/ft_lstnew.o: libft/ft_lstnew.c.o
 
 # target to build an object file
 libft/ft_lstnew.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_lstnew.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_lstnew.c.o
 .PHONY : libft/ft_lstnew.c.o
 
 libft/ft_lstnew.i: libft/ft_lstnew.c.i
@@ -705,7 +597,7 @@ libft/ft_lstnew.i: libft/ft_lstnew.c.i
 
 # target to preprocess a source file
 libft/ft_lstnew.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_lstnew.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_lstnew.c.i
 .PHONY : libft/ft_lstnew.c.i
 
 libft/ft_lstnew.s: libft/ft_lstnew.c.s
@@ -714,7 +606,7 @@ libft/ft_lstnew.s: libft/ft_lstnew.c.s
 
 # target to generate assembly for a file
 libft/ft_lstnew.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_lstnew.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_lstnew.c.s
 .PHONY : libft/ft_lstnew.c.s
 
 libft/ft_memalloc.o: libft/ft_memalloc.c.o
@@ -723,7 +615,7 @@ libft/ft_memalloc.o: libft/ft_memalloc.c.o
 
 # target to build an object file
 libft/ft_memalloc.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_memalloc.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_memalloc.c.o
 .PHONY : libft/ft_memalloc.c.o
 
 libft/ft_memalloc.i: libft/ft_memalloc.c.i
@@ -732,7 +624,7 @@ libft/ft_memalloc.i: libft/ft_memalloc.c.i
 
 # target to preprocess a source file
 libft/ft_memalloc.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_memalloc.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_memalloc.c.i
 .PHONY : libft/ft_memalloc.c.i
 
 libft/ft_memalloc.s: libft/ft_memalloc.c.s
@@ -741,7 +633,7 @@ libft/ft_memalloc.s: libft/ft_memalloc.c.s
 
 # target to generate assembly for a file
 libft/ft_memalloc.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_memalloc.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_memalloc.c.s
 .PHONY : libft/ft_memalloc.c.s
 
 libft/ft_memccpy.o: libft/ft_memccpy.c.o
@@ -750,7 +642,7 @@ libft/ft_memccpy.o: libft/ft_memccpy.c.o
 
 # target to build an object file
 libft/ft_memccpy.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_memccpy.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_memccpy.c.o
 .PHONY : libft/ft_memccpy.c.o
 
 libft/ft_memccpy.i: libft/ft_memccpy.c.i
@@ -759,7 +651,7 @@ libft/ft_memccpy.i: libft/ft_memccpy.c.i
 
 # target to preprocess a source file
 libft/ft_memccpy.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_memccpy.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_memccpy.c.i
 .PHONY : libft/ft_memccpy.c.i
 
 libft/ft_memccpy.s: libft/ft_memccpy.c.s
@@ -768,7 +660,7 @@ libft/ft_memccpy.s: libft/ft_memccpy.c.s
 
 # target to generate assembly for a file
 libft/ft_memccpy.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_memccpy.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_memccpy.c.s
 .PHONY : libft/ft_memccpy.c.s
 
 libft/ft_memchr.o: libft/ft_memchr.c.o
@@ -777,7 +669,7 @@ libft/ft_memchr.o: libft/ft_memchr.c.o
 
 # target to build an object file
 libft/ft_memchr.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_memchr.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_memchr.c.o
 .PHONY : libft/ft_memchr.c.o
 
 libft/ft_memchr.i: libft/ft_memchr.c.i
@@ -786,7 +678,7 @@ libft/ft_memchr.i: libft/ft_memchr.c.i
 
 # target to preprocess a source file
 libft/ft_memchr.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_memchr.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_memchr.c.i
 .PHONY : libft/ft_memchr.c.i
 
 libft/ft_memchr.s: libft/ft_memchr.c.s
@@ -795,7 +687,7 @@ libft/ft_memchr.s: libft/ft_memchr.c.s
 
 # target to generate assembly for a file
 libft/ft_memchr.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_memchr.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_memchr.c.s
 .PHONY : libft/ft_memchr.c.s
 
 libft/ft_memcmp.o: libft/ft_memcmp.c.o
@@ -804,7 +696,7 @@ libft/ft_memcmp.o: libft/ft_memcmp.c.o
 
 # target to build an object file
 libft/ft_memcmp.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_memcmp.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_memcmp.c.o
 .PHONY : libft/ft_memcmp.c.o
 
 libft/ft_memcmp.i: libft/ft_memcmp.c.i
@@ -813,7 +705,7 @@ libft/ft_memcmp.i: libft/ft_memcmp.c.i
 
 # target to preprocess a source file
 libft/ft_memcmp.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_memcmp.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_memcmp.c.i
 .PHONY : libft/ft_memcmp.c.i
 
 libft/ft_memcmp.s: libft/ft_memcmp.c.s
@@ -822,7 +714,7 @@ libft/ft_memcmp.s: libft/ft_memcmp.c.s
 
 # target to generate assembly for a file
 libft/ft_memcmp.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_memcmp.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_memcmp.c.s
 .PHONY : libft/ft_memcmp.c.s
 
 libft/ft_memcpy.o: libft/ft_memcpy.c.o
@@ -831,7 +723,7 @@ libft/ft_memcpy.o: libft/ft_memcpy.c.o
 
 # target to build an object file
 libft/ft_memcpy.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_memcpy.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_memcpy.c.o
 .PHONY : libft/ft_memcpy.c.o
 
 libft/ft_memcpy.i: libft/ft_memcpy.c.i
@@ -840,7 +732,7 @@ libft/ft_memcpy.i: libft/ft_memcpy.c.i
 
 # target to preprocess a source file
 libft/ft_memcpy.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_memcpy.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_memcpy.c.i
 .PHONY : libft/ft_memcpy.c.i
 
 libft/ft_memcpy.s: libft/ft_memcpy.c.s
@@ -849,7 +741,7 @@ libft/ft_memcpy.s: libft/ft_memcpy.c.s
 
 # target to generate assembly for a file
 libft/ft_memcpy.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_memcpy.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_memcpy.c.s
 .PHONY : libft/ft_memcpy.c.s
 
 libft/ft_memdel.o: libft/ft_memdel.c.o
@@ -858,7 +750,7 @@ libft/ft_memdel.o: libft/ft_memdel.c.o
 
 # target to build an object file
 libft/ft_memdel.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_memdel.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_memdel.c.o
 .PHONY : libft/ft_memdel.c.o
 
 libft/ft_memdel.i: libft/ft_memdel.c.i
@@ -867,7 +759,7 @@ libft/ft_memdel.i: libft/ft_memdel.c.i
 
 # target to preprocess a source file
 libft/ft_memdel.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_memdel.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_memdel.c.i
 .PHONY : libft/ft_memdel.c.i
 
 libft/ft_memdel.s: libft/ft_memdel.c.s
@@ -876,7 +768,7 @@ libft/ft_memdel.s: libft/ft_memdel.c.s
 
 # target to generate assembly for a file
 libft/ft_memdel.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_memdel.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_memdel.c.s
 .PHONY : libft/ft_memdel.c.s
 
 libft/ft_memmove.o: libft/ft_memmove.c.o
@@ -885,7 +777,7 @@ libft/ft_memmove.o: libft/ft_memmove.c.o
 
 # target to build an object file
 libft/ft_memmove.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_memmove.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_memmove.c.o
 .PHONY : libft/ft_memmove.c.o
 
 libft/ft_memmove.i: libft/ft_memmove.c.i
@@ -894,7 +786,7 @@ libft/ft_memmove.i: libft/ft_memmove.c.i
 
 # target to preprocess a source file
 libft/ft_memmove.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_memmove.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_memmove.c.i
 .PHONY : libft/ft_memmove.c.i
 
 libft/ft_memmove.s: libft/ft_memmove.c.s
@@ -903,7 +795,7 @@ libft/ft_memmove.s: libft/ft_memmove.c.s
 
 # target to generate assembly for a file
 libft/ft_memmove.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_memmove.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_memmove.c.s
 .PHONY : libft/ft_memmove.c.s
 
 libft/ft_memset.o: libft/ft_memset.c.o
@@ -912,7 +804,7 @@ libft/ft_memset.o: libft/ft_memset.c.o
 
 # target to build an object file
 libft/ft_memset.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_memset.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_memset.c.o
 .PHONY : libft/ft_memset.c.o
 
 libft/ft_memset.i: libft/ft_memset.c.i
@@ -921,7 +813,7 @@ libft/ft_memset.i: libft/ft_memset.c.i
 
 # target to preprocess a source file
 libft/ft_memset.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_memset.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_memset.c.i
 .PHONY : libft/ft_memset.c.i
 
 libft/ft_memset.s: libft/ft_memset.c.s
@@ -930,7 +822,7 @@ libft/ft_memset.s: libft/ft_memset.c.s
 
 # target to generate assembly for a file
 libft/ft_memset.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_memset.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_memset.c.s
 .PHONY : libft/ft_memset.c.s
 
 libft/ft_putchar.o: libft/ft_putchar.c.o
@@ -939,7 +831,7 @@ libft/ft_putchar.o: libft/ft_putchar.c.o
 
 # target to build an object file
 libft/ft_putchar.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_putchar.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_putchar.c.o
 .PHONY : libft/ft_putchar.c.o
 
 libft/ft_putchar.i: libft/ft_putchar.c.i
@@ -948,7 +840,7 @@ libft/ft_putchar.i: libft/ft_putchar.c.i
 
 # target to preprocess a source file
 libft/ft_putchar.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_putchar.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_putchar.c.i
 .PHONY : libft/ft_putchar.c.i
 
 libft/ft_putchar.s: libft/ft_putchar.c.s
@@ -957,7 +849,7 @@ libft/ft_putchar.s: libft/ft_putchar.c.s
 
 # target to generate assembly for a file
 libft/ft_putchar.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_putchar.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_putchar.c.s
 .PHONY : libft/ft_putchar.c.s
 
 libft/ft_putchar_fd.o: libft/ft_putchar_fd.c.o
@@ -966,7 +858,7 @@ libft/ft_putchar_fd.o: libft/ft_putchar_fd.c.o
 
 # target to build an object file
 libft/ft_putchar_fd.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_putchar_fd.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_putchar_fd.c.o
 .PHONY : libft/ft_putchar_fd.c.o
 
 libft/ft_putchar_fd.i: libft/ft_putchar_fd.c.i
@@ -975,7 +867,7 @@ libft/ft_putchar_fd.i: libft/ft_putchar_fd.c.i
 
 # target to preprocess a source file
 libft/ft_putchar_fd.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_putchar_fd.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_putchar_fd.c.i
 .PHONY : libft/ft_putchar_fd.c.i
 
 libft/ft_putchar_fd.s: libft/ft_putchar_fd.c.s
@@ -984,7 +876,7 @@ libft/ft_putchar_fd.s: libft/ft_putchar_fd.c.s
 
 # target to generate assembly for a file
 libft/ft_putchar_fd.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_putchar_fd.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_putchar_fd.c.s
 .PHONY : libft/ft_putchar_fd.c.s
 
 libft/ft_putendl.o: libft/ft_putendl.c.o
@@ -993,7 +885,7 @@ libft/ft_putendl.o: libft/ft_putendl.c.o
 
 # target to build an object file
 libft/ft_putendl.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_putendl.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_putendl.c.o
 .PHONY : libft/ft_putendl.c.o
 
 libft/ft_putendl.i: libft/ft_putendl.c.i
@@ -1002,7 +894,7 @@ libft/ft_putendl.i: libft/ft_putendl.c.i
 
 # target to preprocess a source file
 libft/ft_putendl.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_putendl.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_putendl.c.i
 .PHONY : libft/ft_putendl.c.i
 
 libft/ft_putendl.s: libft/ft_putendl.c.s
@@ -1011,7 +903,7 @@ libft/ft_putendl.s: libft/ft_putendl.c.s
 
 # target to generate assembly for a file
 libft/ft_putendl.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_putendl.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_putendl.c.s
 .PHONY : libft/ft_putendl.c.s
 
 libft/ft_putendl_fd.o: libft/ft_putendl_fd.c.o
@@ -1020,7 +912,7 @@ libft/ft_putendl_fd.o: libft/ft_putendl_fd.c.o
 
 # target to build an object file
 libft/ft_putendl_fd.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_putendl_fd.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_putendl_fd.c.o
 .PHONY : libft/ft_putendl_fd.c.o
 
 libft/ft_putendl_fd.i: libft/ft_putendl_fd.c.i
@@ -1029,7 +921,7 @@ libft/ft_putendl_fd.i: libft/ft_putendl_fd.c.i
 
 # target to preprocess a source file
 libft/ft_putendl_fd.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_putendl_fd.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_putendl_fd.c.i
 .PHONY : libft/ft_putendl_fd.c.i
 
 libft/ft_putendl_fd.s: libft/ft_putendl_fd.c.s
@@ -1038,7 +930,7 @@ libft/ft_putendl_fd.s: libft/ft_putendl_fd.c.s
 
 # target to generate assembly for a file
 libft/ft_putendl_fd.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_putendl_fd.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_putendl_fd.c.s
 .PHONY : libft/ft_putendl_fd.c.s
 
 libft/ft_putnbr.o: libft/ft_putnbr.c.o
@@ -1047,7 +939,7 @@ libft/ft_putnbr.o: libft/ft_putnbr.c.o
 
 # target to build an object file
 libft/ft_putnbr.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_putnbr.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_putnbr.c.o
 .PHONY : libft/ft_putnbr.c.o
 
 libft/ft_putnbr.i: libft/ft_putnbr.c.i
@@ -1056,7 +948,7 @@ libft/ft_putnbr.i: libft/ft_putnbr.c.i
 
 # target to preprocess a source file
 libft/ft_putnbr.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_putnbr.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_putnbr.c.i
 .PHONY : libft/ft_putnbr.c.i
 
 libft/ft_putnbr.s: libft/ft_putnbr.c.s
@@ -1065,7 +957,7 @@ libft/ft_putnbr.s: libft/ft_putnbr.c.s
 
 # target to generate assembly for a file
 libft/ft_putnbr.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_putnbr.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_putnbr.c.s
 .PHONY : libft/ft_putnbr.c.s
 
 libft/ft_putnbr_fd.o: libft/ft_putnbr_fd.c.o
@@ -1074,7 +966,7 @@ libft/ft_putnbr_fd.o: libft/ft_putnbr_fd.c.o
 
 # target to build an object file
 libft/ft_putnbr_fd.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_putnbr_fd.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_putnbr_fd.c.o
 .PHONY : libft/ft_putnbr_fd.c.o
 
 libft/ft_putnbr_fd.i: libft/ft_putnbr_fd.c.i
@@ -1083,7 +975,7 @@ libft/ft_putnbr_fd.i: libft/ft_putnbr_fd.c.i
 
 # target to preprocess a source file
 libft/ft_putnbr_fd.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_putnbr_fd.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_putnbr_fd.c.i
 .PHONY : libft/ft_putnbr_fd.c.i
 
 libft/ft_putnbr_fd.s: libft/ft_putnbr_fd.c.s
@@ -1092,7 +984,7 @@ libft/ft_putnbr_fd.s: libft/ft_putnbr_fd.c.s
 
 # target to generate assembly for a file
 libft/ft_putnbr_fd.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_putnbr_fd.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_putnbr_fd.c.s
 .PHONY : libft/ft_putnbr_fd.c.s
 
 libft/ft_putstr.o: libft/ft_putstr.c.o
@@ -1101,7 +993,7 @@ libft/ft_putstr.o: libft/ft_putstr.c.o
 
 # target to build an object file
 libft/ft_putstr.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_putstr.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_putstr.c.o
 .PHONY : libft/ft_putstr.c.o
 
 libft/ft_putstr.i: libft/ft_putstr.c.i
@@ -1110,7 +1002,7 @@ libft/ft_putstr.i: libft/ft_putstr.c.i
 
 # target to preprocess a source file
 libft/ft_putstr.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_putstr.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_putstr.c.i
 .PHONY : libft/ft_putstr.c.i
 
 libft/ft_putstr.s: libft/ft_putstr.c.s
@@ -1119,7 +1011,7 @@ libft/ft_putstr.s: libft/ft_putstr.c.s
 
 # target to generate assembly for a file
 libft/ft_putstr.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_putstr.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_putstr.c.s
 .PHONY : libft/ft_putstr.c.s
 
 libft/ft_putstr_fd.o: libft/ft_putstr_fd.c.o
@@ -1128,7 +1020,7 @@ libft/ft_putstr_fd.o: libft/ft_putstr_fd.c.o
 
 # target to build an object file
 libft/ft_putstr_fd.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_putstr_fd.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_putstr_fd.c.o
 .PHONY : libft/ft_putstr_fd.c.o
 
 libft/ft_putstr_fd.i: libft/ft_putstr_fd.c.i
@@ -1137,7 +1029,7 @@ libft/ft_putstr_fd.i: libft/ft_putstr_fd.c.i
 
 # target to preprocess a source file
 libft/ft_putstr_fd.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_putstr_fd.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_putstr_fd.c.i
 .PHONY : libft/ft_putstr_fd.c.i
 
 libft/ft_putstr_fd.s: libft/ft_putstr_fd.c.s
@@ -1146,7 +1038,7 @@ libft/ft_putstr_fd.s: libft/ft_putstr_fd.c.s
 
 # target to generate assembly for a file
 libft/ft_putstr_fd.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_putstr_fd.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_putstr_fd.c.s
 .PHONY : libft/ft_putstr_fd.c.s
 
 libft/ft_strcat.o: libft/ft_strcat.c.o
@@ -1155,7 +1047,7 @@ libft/ft_strcat.o: libft/ft_strcat.c.o
 
 # target to build an object file
 libft/ft_strcat.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strcat.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strcat.c.o
 .PHONY : libft/ft_strcat.c.o
 
 libft/ft_strcat.i: libft/ft_strcat.c.i
@@ -1164,7 +1056,7 @@ libft/ft_strcat.i: libft/ft_strcat.c.i
 
 # target to preprocess a source file
 libft/ft_strcat.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strcat.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strcat.c.i
 .PHONY : libft/ft_strcat.c.i
 
 libft/ft_strcat.s: libft/ft_strcat.c.s
@@ -1173,7 +1065,7 @@ libft/ft_strcat.s: libft/ft_strcat.c.s
 
 # target to generate assembly for a file
 libft/ft_strcat.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strcat.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strcat.c.s
 .PHONY : libft/ft_strcat.c.s
 
 libft/ft_strchr.o: libft/ft_strchr.c.o
@@ -1182,7 +1074,7 @@ libft/ft_strchr.o: libft/ft_strchr.c.o
 
 # target to build an object file
 libft/ft_strchr.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strchr.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strchr.c.o
 .PHONY : libft/ft_strchr.c.o
 
 libft/ft_strchr.i: libft/ft_strchr.c.i
@@ -1191,7 +1083,7 @@ libft/ft_strchr.i: libft/ft_strchr.c.i
 
 # target to preprocess a source file
 libft/ft_strchr.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strchr.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strchr.c.i
 .PHONY : libft/ft_strchr.c.i
 
 libft/ft_strchr.s: libft/ft_strchr.c.s
@@ -1200,7 +1092,7 @@ libft/ft_strchr.s: libft/ft_strchr.c.s
 
 # target to generate assembly for a file
 libft/ft_strchr.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strchr.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strchr.c.s
 .PHONY : libft/ft_strchr.c.s
 
 libft/ft_strclr.o: libft/ft_strclr.c.o
@@ -1209,7 +1101,7 @@ libft/ft_strclr.o: libft/ft_strclr.c.o
 
 # target to build an object file
 libft/ft_strclr.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strclr.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strclr.c.o
 .PHONY : libft/ft_strclr.c.o
 
 libft/ft_strclr.i: libft/ft_strclr.c.i
@@ -1218,7 +1110,7 @@ libft/ft_strclr.i: libft/ft_strclr.c.i
 
 # target to preprocess a source file
 libft/ft_strclr.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strclr.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strclr.c.i
 .PHONY : libft/ft_strclr.c.i
 
 libft/ft_strclr.s: libft/ft_strclr.c.s
@@ -1227,7 +1119,7 @@ libft/ft_strclr.s: libft/ft_strclr.c.s
 
 # target to generate assembly for a file
 libft/ft_strclr.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strclr.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strclr.c.s
 .PHONY : libft/ft_strclr.c.s
 
 libft/ft_strcmp.o: libft/ft_strcmp.c.o
@@ -1236,7 +1128,7 @@ libft/ft_strcmp.o: libft/ft_strcmp.c.o
 
 # target to build an object file
 libft/ft_strcmp.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strcmp.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strcmp.c.o
 .PHONY : libft/ft_strcmp.c.o
 
 libft/ft_strcmp.i: libft/ft_strcmp.c.i
@@ -1245,7 +1137,7 @@ libft/ft_strcmp.i: libft/ft_strcmp.c.i
 
 # target to preprocess a source file
 libft/ft_strcmp.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strcmp.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strcmp.c.i
 .PHONY : libft/ft_strcmp.c.i
 
 libft/ft_strcmp.s: libft/ft_strcmp.c.s
@@ -1254,7 +1146,7 @@ libft/ft_strcmp.s: libft/ft_strcmp.c.s
 
 # target to generate assembly for a file
 libft/ft_strcmp.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strcmp.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strcmp.c.s
 .PHONY : libft/ft_strcmp.c.s
 
 libft/ft_strcpy.o: libft/ft_strcpy.c.o
@@ -1263,7 +1155,7 @@ libft/ft_strcpy.o: libft/ft_strcpy.c.o
 
 # target to build an object file
 libft/ft_strcpy.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strcpy.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strcpy.c.o
 .PHONY : libft/ft_strcpy.c.o
 
 libft/ft_strcpy.i: libft/ft_strcpy.c.i
@@ -1272,7 +1164,7 @@ libft/ft_strcpy.i: libft/ft_strcpy.c.i
 
 # target to preprocess a source file
 libft/ft_strcpy.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strcpy.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strcpy.c.i
 .PHONY : libft/ft_strcpy.c.i
 
 libft/ft_strcpy.s: libft/ft_strcpy.c.s
@@ -1281,7 +1173,7 @@ libft/ft_strcpy.s: libft/ft_strcpy.c.s
 
 # target to generate assembly for a file
 libft/ft_strcpy.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strcpy.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strcpy.c.s
 .PHONY : libft/ft_strcpy.c.s
 
 libft/ft_strdel.o: libft/ft_strdel.c.o
@@ -1290,7 +1182,7 @@ libft/ft_strdel.o: libft/ft_strdel.c.o
 
 # target to build an object file
 libft/ft_strdel.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strdel.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strdel.c.o
 .PHONY : libft/ft_strdel.c.o
 
 libft/ft_strdel.i: libft/ft_strdel.c.i
@@ -1299,7 +1191,7 @@ libft/ft_strdel.i: libft/ft_strdel.c.i
 
 # target to preprocess a source file
 libft/ft_strdel.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strdel.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strdel.c.i
 .PHONY : libft/ft_strdel.c.i
 
 libft/ft_strdel.s: libft/ft_strdel.c.s
@@ -1308,7 +1200,7 @@ libft/ft_strdel.s: libft/ft_strdel.c.s
 
 # target to generate assembly for a file
 libft/ft_strdel.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strdel.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strdel.c.s
 .PHONY : libft/ft_strdel.c.s
 
 libft/ft_strdup.o: libft/ft_strdup.c.o
@@ -1317,7 +1209,7 @@ libft/ft_strdup.o: libft/ft_strdup.c.o
 
 # target to build an object file
 libft/ft_strdup.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strdup.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strdup.c.o
 .PHONY : libft/ft_strdup.c.o
 
 libft/ft_strdup.i: libft/ft_strdup.c.i
@@ -1326,7 +1218,7 @@ libft/ft_strdup.i: libft/ft_strdup.c.i
 
 # target to preprocess a source file
 libft/ft_strdup.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strdup.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strdup.c.i
 .PHONY : libft/ft_strdup.c.i
 
 libft/ft_strdup.s: libft/ft_strdup.c.s
@@ -1335,7 +1227,7 @@ libft/ft_strdup.s: libft/ft_strdup.c.s
 
 # target to generate assembly for a file
 libft/ft_strdup.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strdup.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strdup.c.s
 .PHONY : libft/ft_strdup.c.s
 
 libft/ft_strequ.o: libft/ft_strequ.c.o
@@ -1344,7 +1236,7 @@ libft/ft_strequ.o: libft/ft_strequ.c.o
 
 # target to build an object file
 libft/ft_strequ.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strequ.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strequ.c.o
 .PHONY : libft/ft_strequ.c.o
 
 libft/ft_strequ.i: libft/ft_strequ.c.i
@@ -1353,7 +1245,7 @@ libft/ft_strequ.i: libft/ft_strequ.c.i
 
 # target to preprocess a source file
 libft/ft_strequ.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strequ.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strequ.c.i
 .PHONY : libft/ft_strequ.c.i
 
 libft/ft_strequ.s: libft/ft_strequ.c.s
@@ -1362,7 +1254,7 @@ libft/ft_strequ.s: libft/ft_strequ.c.s
 
 # target to generate assembly for a file
 libft/ft_strequ.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strequ.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strequ.c.s
 .PHONY : libft/ft_strequ.c.s
 
 libft/ft_striter.o: libft/ft_striter.c.o
@@ -1371,7 +1263,7 @@ libft/ft_striter.o: libft/ft_striter.c.o
 
 # target to build an object file
 libft/ft_striter.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_striter.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_striter.c.o
 .PHONY : libft/ft_striter.c.o
 
 libft/ft_striter.i: libft/ft_striter.c.i
@@ -1380,7 +1272,7 @@ libft/ft_striter.i: libft/ft_striter.c.i
 
 # target to preprocess a source file
 libft/ft_striter.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_striter.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_striter.c.i
 .PHONY : libft/ft_striter.c.i
 
 libft/ft_striter.s: libft/ft_striter.c.s
@@ -1389,7 +1281,7 @@ libft/ft_striter.s: libft/ft_striter.c.s
 
 # target to generate assembly for a file
 libft/ft_striter.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_striter.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_striter.c.s
 .PHONY : libft/ft_striter.c.s
 
 libft/ft_striteri.o: libft/ft_striteri.c.o
@@ -1398,7 +1290,7 @@ libft/ft_striteri.o: libft/ft_striteri.c.o
 
 # target to build an object file
 libft/ft_striteri.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_striteri.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_striteri.c.o
 .PHONY : libft/ft_striteri.c.o
 
 libft/ft_striteri.i: libft/ft_striteri.c.i
@@ -1407,7 +1299,7 @@ libft/ft_striteri.i: libft/ft_striteri.c.i
 
 # target to preprocess a source file
 libft/ft_striteri.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_striteri.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_striteri.c.i
 .PHONY : libft/ft_striteri.c.i
 
 libft/ft_striteri.s: libft/ft_striteri.c.s
@@ -1416,7 +1308,7 @@ libft/ft_striteri.s: libft/ft_striteri.c.s
 
 # target to generate assembly for a file
 libft/ft_striteri.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_striteri.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_striteri.c.s
 .PHONY : libft/ft_striteri.c.s
 
 libft/ft_strjoin.o: libft/ft_strjoin.c.o
@@ -1425,7 +1317,7 @@ libft/ft_strjoin.o: libft/ft_strjoin.c.o
 
 # target to build an object file
 libft/ft_strjoin.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strjoin.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strjoin.c.o
 .PHONY : libft/ft_strjoin.c.o
 
 libft/ft_strjoin.i: libft/ft_strjoin.c.i
@@ -1434,7 +1326,7 @@ libft/ft_strjoin.i: libft/ft_strjoin.c.i
 
 # target to preprocess a source file
 libft/ft_strjoin.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strjoin.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strjoin.c.i
 .PHONY : libft/ft_strjoin.c.i
 
 libft/ft_strjoin.s: libft/ft_strjoin.c.s
@@ -1443,7 +1335,7 @@ libft/ft_strjoin.s: libft/ft_strjoin.c.s
 
 # target to generate assembly for a file
 libft/ft_strjoin.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strjoin.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strjoin.c.s
 .PHONY : libft/ft_strjoin.c.s
 
 libft/ft_strlcat.o: libft/ft_strlcat.c.o
@@ -1452,7 +1344,7 @@ libft/ft_strlcat.o: libft/ft_strlcat.c.o
 
 # target to build an object file
 libft/ft_strlcat.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strlcat.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strlcat.c.o
 .PHONY : libft/ft_strlcat.c.o
 
 libft/ft_strlcat.i: libft/ft_strlcat.c.i
@@ -1461,7 +1353,7 @@ libft/ft_strlcat.i: libft/ft_strlcat.c.i
 
 # target to preprocess a source file
 libft/ft_strlcat.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strlcat.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strlcat.c.i
 .PHONY : libft/ft_strlcat.c.i
 
 libft/ft_strlcat.s: libft/ft_strlcat.c.s
@@ -1470,7 +1362,7 @@ libft/ft_strlcat.s: libft/ft_strlcat.c.s
 
 # target to generate assembly for a file
 libft/ft_strlcat.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strlcat.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strlcat.c.s
 .PHONY : libft/ft_strlcat.c.s
 
 libft/ft_strlen.o: libft/ft_strlen.c.o
@@ -1479,7 +1371,7 @@ libft/ft_strlen.o: libft/ft_strlen.c.o
 
 # target to build an object file
 libft/ft_strlen.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strlen.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strlen.c.o
 .PHONY : libft/ft_strlen.c.o
 
 libft/ft_strlen.i: libft/ft_strlen.c.i
@@ -1488,7 +1380,7 @@ libft/ft_strlen.i: libft/ft_strlen.c.i
 
 # target to preprocess a source file
 libft/ft_strlen.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strlen.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strlen.c.i
 .PHONY : libft/ft_strlen.c.i
 
 libft/ft_strlen.s: libft/ft_strlen.c.s
@@ -1497,7 +1389,7 @@ libft/ft_strlen.s: libft/ft_strlen.c.s
 
 # target to generate assembly for a file
 libft/ft_strlen.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strlen.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strlen.c.s
 .PHONY : libft/ft_strlen.c.s
 
 libft/ft_strmap.o: libft/ft_strmap.c.o
@@ -1506,7 +1398,7 @@ libft/ft_strmap.o: libft/ft_strmap.c.o
 
 # target to build an object file
 libft/ft_strmap.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strmap.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strmap.c.o
 .PHONY : libft/ft_strmap.c.o
 
 libft/ft_strmap.i: libft/ft_strmap.c.i
@@ -1515,7 +1407,7 @@ libft/ft_strmap.i: libft/ft_strmap.c.i
 
 # target to preprocess a source file
 libft/ft_strmap.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strmap.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strmap.c.i
 .PHONY : libft/ft_strmap.c.i
 
 libft/ft_strmap.s: libft/ft_strmap.c.s
@@ -1524,7 +1416,7 @@ libft/ft_strmap.s: libft/ft_strmap.c.s
 
 # target to generate assembly for a file
 libft/ft_strmap.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strmap.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strmap.c.s
 .PHONY : libft/ft_strmap.c.s
 
 libft/ft_strmapi.o: libft/ft_strmapi.c.o
@@ -1533,7 +1425,7 @@ libft/ft_strmapi.o: libft/ft_strmapi.c.o
 
 # target to build an object file
 libft/ft_strmapi.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strmapi.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strmapi.c.o
 .PHONY : libft/ft_strmapi.c.o
 
 libft/ft_strmapi.i: libft/ft_strmapi.c.i
@@ -1542,7 +1434,7 @@ libft/ft_strmapi.i: libft/ft_strmapi.c.i
 
 # target to preprocess a source file
 libft/ft_strmapi.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strmapi.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strmapi.c.i
 .PHONY : libft/ft_strmapi.c.i
 
 libft/ft_strmapi.s: libft/ft_strmapi.c.s
@@ -1551,7 +1443,7 @@ libft/ft_strmapi.s: libft/ft_strmapi.c.s
 
 # target to generate assembly for a file
 libft/ft_strmapi.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strmapi.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strmapi.c.s
 .PHONY : libft/ft_strmapi.c.s
 
 libft/ft_strncat.o: libft/ft_strncat.c.o
@@ -1560,7 +1452,7 @@ libft/ft_strncat.o: libft/ft_strncat.c.o
 
 # target to build an object file
 libft/ft_strncat.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strncat.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strncat.c.o
 .PHONY : libft/ft_strncat.c.o
 
 libft/ft_strncat.i: libft/ft_strncat.c.i
@@ -1569,7 +1461,7 @@ libft/ft_strncat.i: libft/ft_strncat.c.i
 
 # target to preprocess a source file
 libft/ft_strncat.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strncat.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strncat.c.i
 .PHONY : libft/ft_strncat.c.i
 
 libft/ft_strncat.s: libft/ft_strncat.c.s
@@ -1578,7 +1470,7 @@ libft/ft_strncat.s: libft/ft_strncat.c.s
 
 # target to generate assembly for a file
 libft/ft_strncat.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strncat.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strncat.c.s
 .PHONY : libft/ft_strncat.c.s
 
 libft/ft_strncmp.o: libft/ft_strncmp.c.o
@@ -1587,7 +1479,7 @@ libft/ft_strncmp.o: libft/ft_strncmp.c.o
 
 # target to build an object file
 libft/ft_strncmp.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strncmp.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strncmp.c.o
 .PHONY : libft/ft_strncmp.c.o
 
 libft/ft_strncmp.i: libft/ft_strncmp.c.i
@@ -1596,7 +1488,7 @@ libft/ft_strncmp.i: libft/ft_strncmp.c.i
 
 # target to preprocess a source file
 libft/ft_strncmp.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strncmp.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strncmp.c.i
 .PHONY : libft/ft_strncmp.c.i
 
 libft/ft_strncmp.s: libft/ft_strncmp.c.s
@@ -1605,7 +1497,7 @@ libft/ft_strncmp.s: libft/ft_strncmp.c.s
 
 # target to generate assembly for a file
 libft/ft_strncmp.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strncmp.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strncmp.c.s
 .PHONY : libft/ft_strncmp.c.s
 
 libft/ft_strncpy.o: libft/ft_strncpy.c.o
@@ -1614,7 +1506,7 @@ libft/ft_strncpy.o: libft/ft_strncpy.c.o
 
 # target to build an object file
 libft/ft_strncpy.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strncpy.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strncpy.c.o
 .PHONY : libft/ft_strncpy.c.o
 
 libft/ft_strncpy.i: libft/ft_strncpy.c.i
@@ -1623,7 +1515,7 @@ libft/ft_strncpy.i: libft/ft_strncpy.c.i
 
 # target to preprocess a source file
 libft/ft_strncpy.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strncpy.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strncpy.c.i
 .PHONY : libft/ft_strncpy.c.i
 
 libft/ft_strncpy.s: libft/ft_strncpy.c.s
@@ -1632,7 +1524,7 @@ libft/ft_strncpy.s: libft/ft_strncpy.c.s
 
 # target to generate assembly for a file
 libft/ft_strncpy.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strncpy.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strncpy.c.s
 .PHONY : libft/ft_strncpy.c.s
 
 libft/ft_strnequ.o: libft/ft_strnequ.c.o
@@ -1641,7 +1533,7 @@ libft/ft_strnequ.o: libft/ft_strnequ.c.o
 
 # target to build an object file
 libft/ft_strnequ.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strnequ.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strnequ.c.o
 .PHONY : libft/ft_strnequ.c.o
 
 libft/ft_strnequ.i: libft/ft_strnequ.c.i
@@ -1650,7 +1542,7 @@ libft/ft_strnequ.i: libft/ft_strnequ.c.i
 
 # target to preprocess a source file
 libft/ft_strnequ.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strnequ.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strnequ.c.i
 .PHONY : libft/ft_strnequ.c.i
 
 libft/ft_strnequ.s: libft/ft_strnequ.c.s
@@ -1659,7 +1551,7 @@ libft/ft_strnequ.s: libft/ft_strnequ.c.s
 
 # target to generate assembly for a file
 libft/ft_strnequ.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strnequ.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strnequ.c.s
 .PHONY : libft/ft_strnequ.c.s
 
 libft/ft_strnew.o: libft/ft_strnew.c.o
@@ -1668,7 +1560,7 @@ libft/ft_strnew.o: libft/ft_strnew.c.o
 
 # target to build an object file
 libft/ft_strnew.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strnew.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strnew.c.o
 .PHONY : libft/ft_strnew.c.o
 
 libft/ft_strnew.i: libft/ft_strnew.c.i
@@ -1677,7 +1569,7 @@ libft/ft_strnew.i: libft/ft_strnew.c.i
 
 # target to preprocess a source file
 libft/ft_strnew.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strnew.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strnew.c.i
 .PHONY : libft/ft_strnew.c.i
 
 libft/ft_strnew.s: libft/ft_strnew.c.s
@@ -1686,7 +1578,7 @@ libft/ft_strnew.s: libft/ft_strnew.c.s
 
 # target to generate assembly for a file
 libft/ft_strnew.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strnew.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strnew.c.s
 .PHONY : libft/ft_strnew.c.s
 
 libft/ft_strnstr.o: libft/ft_strnstr.c.o
@@ -1695,7 +1587,7 @@ libft/ft_strnstr.o: libft/ft_strnstr.c.o
 
 # target to build an object file
 libft/ft_strnstr.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strnstr.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strnstr.c.o
 .PHONY : libft/ft_strnstr.c.o
 
 libft/ft_strnstr.i: libft/ft_strnstr.c.i
@@ -1704,7 +1596,7 @@ libft/ft_strnstr.i: libft/ft_strnstr.c.i
 
 # target to preprocess a source file
 libft/ft_strnstr.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strnstr.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strnstr.c.i
 .PHONY : libft/ft_strnstr.c.i
 
 libft/ft_strnstr.s: libft/ft_strnstr.c.s
@@ -1713,7 +1605,7 @@ libft/ft_strnstr.s: libft/ft_strnstr.c.s
 
 # target to generate assembly for a file
 libft/ft_strnstr.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strnstr.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strnstr.c.s
 .PHONY : libft/ft_strnstr.c.s
 
 libft/ft_strrchr.o: libft/ft_strrchr.c.o
@@ -1722,7 +1614,7 @@ libft/ft_strrchr.o: libft/ft_strrchr.c.o
 
 # target to build an object file
 libft/ft_strrchr.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strrchr.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strrchr.c.o
 .PHONY : libft/ft_strrchr.c.o
 
 libft/ft_strrchr.i: libft/ft_strrchr.c.i
@@ -1731,7 +1623,7 @@ libft/ft_strrchr.i: libft/ft_strrchr.c.i
 
 # target to preprocess a source file
 libft/ft_strrchr.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strrchr.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strrchr.c.i
 .PHONY : libft/ft_strrchr.c.i
 
 libft/ft_strrchr.s: libft/ft_strrchr.c.s
@@ -1740,7 +1632,7 @@ libft/ft_strrchr.s: libft/ft_strrchr.c.s
 
 # target to generate assembly for a file
 libft/ft_strrchr.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strrchr.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strrchr.c.s
 .PHONY : libft/ft_strrchr.c.s
 
 libft/ft_strsplit.o: libft/ft_strsplit.c.o
@@ -1749,7 +1641,7 @@ libft/ft_strsplit.o: libft/ft_strsplit.c.o
 
 # target to build an object file
 libft/ft_strsplit.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strsplit.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strsplit.c.o
 .PHONY : libft/ft_strsplit.c.o
 
 libft/ft_strsplit.i: libft/ft_strsplit.c.i
@@ -1758,7 +1650,7 @@ libft/ft_strsplit.i: libft/ft_strsplit.c.i
 
 # target to preprocess a source file
 libft/ft_strsplit.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strsplit.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strsplit.c.i
 .PHONY : libft/ft_strsplit.c.i
 
 libft/ft_strsplit.s: libft/ft_strsplit.c.s
@@ -1767,7 +1659,7 @@ libft/ft_strsplit.s: libft/ft_strsplit.c.s
 
 # target to generate assembly for a file
 libft/ft_strsplit.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strsplit.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strsplit.c.s
 .PHONY : libft/ft_strsplit.c.s
 
 libft/ft_strstr.o: libft/ft_strstr.c.o
@@ -1776,7 +1668,7 @@ libft/ft_strstr.o: libft/ft_strstr.c.o
 
 # target to build an object file
 libft/ft_strstr.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strstr.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strstr.c.o
 .PHONY : libft/ft_strstr.c.o
 
 libft/ft_strstr.i: libft/ft_strstr.c.i
@@ -1785,7 +1677,7 @@ libft/ft_strstr.i: libft/ft_strstr.c.i
 
 # target to preprocess a source file
 libft/ft_strstr.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strstr.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strstr.c.i
 .PHONY : libft/ft_strstr.c.i
 
 libft/ft_strstr.s: libft/ft_strstr.c.s
@@ -1794,7 +1686,7 @@ libft/ft_strstr.s: libft/ft_strstr.c.s
 
 # target to generate assembly for a file
 libft/ft_strstr.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strstr.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strstr.c.s
 .PHONY : libft/ft_strstr.c.s
 
 libft/ft_strsub.o: libft/ft_strsub.c.o
@@ -1803,7 +1695,7 @@ libft/ft_strsub.o: libft/ft_strsub.c.o
 
 # target to build an object file
 libft/ft_strsub.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strsub.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strsub.c.o
 .PHONY : libft/ft_strsub.c.o
 
 libft/ft_strsub.i: libft/ft_strsub.c.i
@@ -1812,7 +1704,7 @@ libft/ft_strsub.i: libft/ft_strsub.c.i
 
 # target to preprocess a source file
 libft/ft_strsub.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strsub.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strsub.c.i
 .PHONY : libft/ft_strsub.c.i
 
 libft/ft_strsub.s: libft/ft_strsub.c.s
@@ -1821,7 +1713,7 @@ libft/ft_strsub.s: libft/ft_strsub.c.s
 
 # target to generate assembly for a file
 libft/ft_strsub.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strsub.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strsub.c.s
 .PHONY : libft/ft_strsub.c.s
 
 libft/ft_strtrim.o: libft/ft_strtrim.c.o
@@ -1830,7 +1722,7 @@ libft/ft_strtrim.o: libft/ft_strtrim.c.o
 
 # target to build an object file
 libft/ft_strtrim.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strtrim.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strtrim.c.o
 .PHONY : libft/ft_strtrim.c.o
 
 libft/ft_strtrim.i: libft/ft_strtrim.c.i
@@ -1839,7 +1731,7 @@ libft/ft_strtrim.i: libft/ft_strtrim.c.i
 
 # target to preprocess a source file
 libft/ft_strtrim.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strtrim.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strtrim.c.i
 .PHONY : libft/ft_strtrim.c.i
 
 libft/ft_strtrim.s: libft/ft_strtrim.c.s
@@ -1848,7 +1740,7 @@ libft/ft_strtrim.s: libft/ft_strtrim.c.s
 
 # target to generate assembly for a file
 libft/ft_strtrim.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_strtrim.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_strtrim.c.s
 .PHONY : libft/ft_strtrim.c.s
 
 libft/ft_swap.o: libft/ft_swap.c.o
@@ -1857,7 +1749,7 @@ libft/ft_swap.o: libft/ft_swap.c.o
 
 # target to build an object file
 libft/ft_swap.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_swap.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_swap.c.o
 .PHONY : libft/ft_swap.c.o
 
 libft/ft_swap.i: libft/ft_swap.c.i
@@ -1866,7 +1758,7 @@ libft/ft_swap.i: libft/ft_swap.c.i
 
 # target to preprocess a source file
 libft/ft_swap.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_swap.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_swap.c.i
 .PHONY : libft/ft_swap.c.i
 
 libft/ft_swap.s: libft/ft_swap.c.s
@@ -1875,7 +1767,7 @@ libft/ft_swap.s: libft/ft_swap.c.s
 
 # target to generate assembly for a file
 libft/ft_swap.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_swap.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_swap.c.s
 .PHONY : libft/ft_swap.c.s
 
 libft/ft_tolower.o: libft/ft_tolower.c.o
@@ -1884,7 +1776,7 @@ libft/ft_tolower.o: libft/ft_tolower.c.o
 
 # target to build an object file
 libft/ft_tolower.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_tolower.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_tolower.c.o
 .PHONY : libft/ft_tolower.c.o
 
 libft/ft_tolower.i: libft/ft_tolower.c.i
@@ -1893,7 +1785,7 @@ libft/ft_tolower.i: libft/ft_tolower.c.i
 
 # target to preprocess a source file
 libft/ft_tolower.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_tolower.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_tolower.c.i
 .PHONY : libft/ft_tolower.c.i
 
 libft/ft_tolower.s: libft/ft_tolower.c.s
@@ -1902,7 +1794,7 @@ libft/ft_tolower.s: libft/ft_tolower.c.s
 
 # target to generate assembly for a file
 libft/ft_tolower.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_tolower.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_tolower.c.s
 .PHONY : libft/ft_tolower.c.s
 
 libft/ft_toupper.o: libft/ft_toupper.c.o
@@ -1911,7 +1803,7 @@ libft/ft_toupper.o: libft/ft_toupper.c.o
 
 # target to build an object file
 libft/ft_toupper.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_toupper.c.o
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_toupper.c.o
 .PHONY : libft/ft_toupper.c.o
 
 libft/ft_toupper.i: libft/ft_toupper.c.i
@@ -1920,7 +1812,7 @@ libft/ft_toupper.i: libft/ft_toupper.c.i
 
 # target to preprocess a source file
 libft/ft_toupper.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_toupper.c.i
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_toupper.c.i
 .PHONY : libft/ft_toupper.c.i
 
 libft/ft_toupper.s: libft/ft_toupper.c.s
@@ -1929,683 +1821,845 @@ libft/ft_toupper.s: libft/ft_toupper.c.s
 
 # target to generate assembly for a file
 libft/ft_toupper.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/libft/ft_toupper.c.s
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/libft/ft_toupper.c.s
 .PHONY : libft/ft_toupper.c.s
 
-main.o: main.c.o
+srcs/after_pb.o: srcs/after_pb.c.o
 
-.PHONY : main.o
-
-# target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/main.c.o
-.PHONY : main.c.o
-
-main.i: main.c.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/main.c.i
-.PHONY : main.c.i
-
-main.s: main.c.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/main.c.s
-.PHONY : main.c.s
-
-major.o: major.c.o
-
-.PHONY : major.o
+.PHONY : srcs/after_pb.o
 
 # target to build an object file
-major.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/major.c.o
-.PHONY : major.c.o
+srcs/after_pb.c.o:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/after_pb.c.o
+.PHONY : srcs/after_pb.c.o
 
-major.i: major.c.i
+srcs/after_pb.i: srcs/after_pb.c.i
 
-.PHONY : major.i
+.PHONY : srcs/after_pb.i
 
 # target to preprocess a source file
-major.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/major.c.i
-.PHONY : major.c.i
+srcs/after_pb.c.i:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/after_pb.c.i
+.PHONY : srcs/after_pb.c.i
 
-major.s: major.c.s
+srcs/after_pb.s: srcs/after_pb.c.s
 
-.PHONY : major.s
+.PHONY : srcs/after_pb.s
 
 # target to generate assembly for a file
-major.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/major.c.s
-.PHONY : major.c.s
+srcs/after_pb.c.s:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/after_pb.c.s
+.PHONY : srcs/after_pb.c.s
 
-move_b.o: move_b.c.o
+srcs/ask_function.o: srcs/ask_function.c.o
 
-.PHONY : move_b.o
+.PHONY : srcs/ask_function.o
 
 # target to build an object file
-move_b.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/move_b.c.o
-.PHONY : move_b.c.o
+srcs/ask_function.c.o:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/ask_function.c.o
+.PHONY : srcs/ask_function.c.o
 
-move_b.i: move_b.c.i
+srcs/ask_function.i: srcs/ask_function.c.i
 
-.PHONY : move_b.i
+.PHONY : srcs/ask_function.i
 
 # target to preprocess a source file
-move_b.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/move_b.c.i
-.PHONY : move_b.c.i
+srcs/ask_function.c.i:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/ask_function.c.i
+.PHONY : srcs/ask_function.c.i
 
-move_b.s: move_b.c.s
+srcs/ask_function.s: srcs/ask_function.c.s
 
-.PHONY : move_b.s
+.PHONY : srcs/ask_function.s
 
 # target to generate assembly for a file
-move_b.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/move_b.c.s
-.PHONY : move_b.c.s
+srcs/ask_function.c.s:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/ask_function.c.s
+.PHONY : srcs/ask_function.c.s
 
-pa.o: pa.c.o
+srcs/check_num.o: srcs/check_num.c.o
 
-.PHONY : pa.o
+.PHONY : srcs/check_num.o
 
 # target to build an object file
-pa.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/pa.c.o
-.PHONY : pa.c.o
+srcs/check_num.c.o:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/check_num.c.o
+.PHONY : srcs/check_num.c.o
 
-pa.i: pa.c.i
+srcs/check_num.i: srcs/check_num.c.i
 
-.PHONY : pa.i
+.PHONY : srcs/check_num.i
 
 # target to preprocess a source file
-pa.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/pa.c.i
-.PHONY : pa.c.i
+srcs/check_num.c.i:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/check_num.c.i
+.PHONY : srcs/check_num.c.i
 
-pa.s: pa.c.s
+srcs/check_num.s: srcs/check_num.c.s
 
-.PHONY : pa.s
+.PHONY : srcs/check_num.s
 
 # target to generate assembly for a file
-pa.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/pa.c.s
-.PHONY : pa.c.s
+srcs/check_num.c.s:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/check_num.c.s
+.PHONY : srcs/check_num.c.s
 
-pb.o: pb.c.o
+srcs/check_str.o: srcs/check_str.c.o
 
-.PHONY : pb.o
+.PHONY : srcs/check_str.o
 
 # target to build an object file
-pb.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/pb.c.o
-.PHONY : pb.c.o
+srcs/check_str.c.o:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/check_str.c.o
+.PHONY : srcs/check_str.c.o
 
-pb.i: pb.c.i
+srcs/check_str.i: srcs/check_str.c.i
 
-.PHONY : pb.i
+.PHONY : srcs/check_str.i
 
 # target to preprocess a source file
-pb.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/pb.c.i
-.PHONY : pb.c.i
+srcs/check_str.c.i:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/check_str.c.i
+.PHONY : srcs/check_str.c.i
 
-pb.s: pb.c.s
+srcs/check_str.s: srcs/check_str.c.s
 
-.PHONY : pb.s
+.PHONY : srcs/check_str.s
 
 # target to generate assembly for a file
-pb.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/pb.c.s
-.PHONY : pb.c.s
+srcs/check_str.c.s:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/check_str.c.s
+.PHONY : srcs/check_str.c.s
 
-prepare_move_pb.o: prepare_move_pb.c.o
+srcs/get_next_line.o: srcs/get_next_line.c.o
 
-.PHONY : prepare_move_pb.o
+.PHONY : srcs/get_next_line.o
 
 # target to build an object file
-prepare_move_pb.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/prepare_move_pb.c.o
-.PHONY : prepare_move_pb.c.o
+srcs/get_next_line.c.o:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/get_next_line.c.o
+.PHONY : srcs/get_next_line.c.o
 
-prepare_move_pb.i: prepare_move_pb.c.i
+srcs/get_next_line.i: srcs/get_next_line.c.i
 
-.PHONY : prepare_move_pb.i
+.PHONY : srcs/get_next_line.i
 
 # target to preprocess a source file
-prepare_move_pb.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/prepare_move_pb.c.i
-.PHONY : prepare_move_pb.c.i
+srcs/get_next_line.c.i:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/get_next_line.c.i
+.PHONY : srcs/get_next_line.c.i
 
-prepare_move_pb.s: prepare_move_pb.c.s
+srcs/get_next_line.s: srcs/get_next_line.c.s
 
-.PHONY : prepare_move_pb.s
+.PHONY : srcs/get_next_line.s
 
 # target to generate assembly for a file
-prepare_move_pb.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/prepare_move_pb.c.s
-.PHONY : prepare_move_pb.c.s
+srcs/get_next_line.c.s:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/get_next_line.c.s
+.PHONY : srcs/get_next_line.c.s
 
-push_swap.o: push_swap.c.o
+srcs/major.o: srcs/major.c.o
 
-.PHONY : push_swap.o
+.PHONY : srcs/major.o
 
 # target to build an object file
-push_swap.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/push_swap.c.o
-.PHONY : push_swap.c.o
+srcs/major.c.o:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/major.c.o
+.PHONY : srcs/major.c.o
 
-push_swap.i: push_swap.c.i
+srcs/major.i: srcs/major.c.i
 
-.PHONY : push_swap.i
+.PHONY : srcs/major.i
 
 # target to preprocess a source file
-push_swap.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/push_swap.c.i
-.PHONY : push_swap.c.i
+srcs/major.c.i:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/major.c.i
+.PHONY : srcs/major.c.i
 
-push_swap.s: push_swap.c.s
+srcs/major.s: srcs/major.c.s
 
-.PHONY : push_swap.s
+.PHONY : srcs/major.s
 
 # target to generate assembly for a file
-push_swap.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/push_swap.c.s
-.PHONY : push_swap.c.s
+srcs/major.c.s:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/major.c.s
+.PHONY : srcs/major.c.s
 
-ra.o: ra.c.o
+srcs/move_b.o: srcs/move_b.c.o
 
-.PHONY : ra.o
+.PHONY : srcs/move_b.o
 
 # target to build an object file
-ra.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/ra.c.o
-.PHONY : ra.c.o
+srcs/move_b.c.o:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/move_b.c.o
+.PHONY : srcs/move_b.c.o
 
-ra.i: ra.c.i
+srcs/move_b.i: srcs/move_b.c.i
 
-.PHONY : ra.i
+.PHONY : srcs/move_b.i
 
 # target to preprocess a source file
-ra.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/ra.c.i
-.PHONY : ra.c.i
+srcs/move_b.c.i:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/move_b.c.i
+.PHONY : srcs/move_b.c.i
 
-ra.s: ra.c.s
+srcs/move_b.s: srcs/move_b.c.s
 
-.PHONY : ra.s
+.PHONY : srcs/move_b.s
 
 # target to generate assembly for a file
-ra.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/ra.c.s
-.PHONY : ra.c.s
+srcs/move_b.c.s:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/move_b.c.s
+.PHONY : srcs/move_b.c.s
 
-rb.o: rb.c.o
+srcs/pa.o: srcs/pa.c.o
 
-.PHONY : rb.o
+.PHONY : srcs/pa.o
 
 # target to build an object file
-rb.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/rb.c.o
-.PHONY : rb.c.o
+srcs/pa.c.o:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/pa.c.o
+.PHONY : srcs/pa.c.o
 
-rb.i: rb.c.i
+srcs/pa.i: srcs/pa.c.i
 
-.PHONY : rb.i
+.PHONY : srcs/pa.i
 
 # target to preprocess a source file
-rb.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/rb.c.i
-.PHONY : rb.c.i
+srcs/pa.c.i:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/pa.c.i
+.PHONY : srcs/pa.c.i
 
-rb.s: rb.c.s
+srcs/pa.s: srcs/pa.c.s
 
-.PHONY : rb.s
+.PHONY : srcs/pa.s
 
 # target to generate assembly for a file
-rb.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/rb.c.s
-.PHONY : rb.c.s
+srcs/pa.c.s:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/pa.c.s
+.PHONY : srcs/pa.c.s
 
-rr.o: rr.c.o
+srcs/pb.o: srcs/pb.c.o
 
-.PHONY : rr.o
+.PHONY : srcs/pb.o
 
 # target to build an object file
-rr.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/rr.c.o
-.PHONY : rr.c.o
+srcs/pb.c.o:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/pb.c.o
+.PHONY : srcs/pb.c.o
 
-rr.i: rr.c.i
+srcs/pb.i: srcs/pb.c.i
 
-.PHONY : rr.i
+.PHONY : srcs/pb.i
 
 # target to preprocess a source file
-rr.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/rr.c.i
-.PHONY : rr.c.i
+srcs/pb.c.i:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/pb.c.i
+.PHONY : srcs/pb.c.i
 
-rr.s: rr.c.s
+srcs/pb.s: srcs/pb.c.s
 
-.PHONY : rr.s
+.PHONY : srcs/pb.s
 
 # target to generate assembly for a file
-rr.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/rr.c.s
-.PHONY : rr.c.s
+srcs/pb.c.s:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/pb.c.s
+.PHONY : srcs/pb.c.s
 
-rra.o: rra.c.o
+srcs/prepare_move_pb.o: srcs/prepare_move_pb.c.o
 
-.PHONY : rra.o
+.PHONY : srcs/prepare_move_pb.o
 
 # target to build an object file
-rra.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/rra.c.o
-.PHONY : rra.c.o
+srcs/prepare_move_pb.c.o:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/prepare_move_pb.c.o
+.PHONY : srcs/prepare_move_pb.c.o
 
-rra.i: rra.c.i
+srcs/prepare_move_pb.i: srcs/prepare_move_pb.c.i
 
-.PHONY : rra.i
+.PHONY : srcs/prepare_move_pb.i
 
 # target to preprocess a source file
-rra.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/rra.c.i
-.PHONY : rra.c.i
+srcs/prepare_move_pb.c.i:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/prepare_move_pb.c.i
+.PHONY : srcs/prepare_move_pb.c.i
 
-rra.s: rra.c.s
+srcs/prepare_move_pb.s: srcs/prepare_move_pb.c.s
 
-.PHONY : rra.s
+.PHONY : srcs/prepare_move_pb.s
 
 # target to generate assembly for a file
-rra.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/rra.c.s
-.PHONY : rra.c.s
+srcs/prepare_move_pb.c.s:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/prepare_move_pb.c.s
+.PHONY : srcs/prepare_move_pb.c.s
 
-rrb.o: rrb.c.o
+srcs/push_swap.o: srcs/push_swap.c.o
 
-.PHONY : rrb.o
+.PHONY : srcs/push_swap.o
 
 # target to build an object file
-rrb.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/rrb.c.o
-.PHONY : rrb.c.o
+srcs/push_swap.c.o:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/push_swap.c.o
+.PHONY : srcs/push_swap.c.o
 
-rrb.i: rrb.c.i
+srcs/push_swap.i: srcs/push_swap.c.i
 
-.PHONY : rrb.i
+.PHONY : srcs/push_swap.i
 
 # target to preprocess a source file
-rrb.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/rrb.c.i
-.PHONY : rrb.c.i
+srcs/push_swap.c.i:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/push_swap.c.i
+.PHONY : srcs/push_swap.c.i
 
-rrb.s: rrb.c.s
+srcs/push_swap.s: srcs/push_swap.c.s
 
-.PHONY : rrb.s
+.PHONY : srcs/push_swap.s
 
 # target to generate assembly for a file
-rrb.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/rrb.c.s
-.PHONY : rrb.c.s
+srcs/push_swap.c.s:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/push_swap.c.s
+.PHONY : srcs/push_swap.c.s
 
-rrr.o: rrr.c.o
+srcs/ra.o: srcs/ra.c.o
 
-.PHONY : rrr.o
+.PHONY : srcs/ra.o
 
 # target to build an object file
-rrr.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/rrr.c.o
-.PHONY : rrr.c.o
+srcs/ra.c.o:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/ra.c.o
+.PHONY : srcs/ra.c.o
 
-rrr.i: rrr.c.i
+srcs/ra.i: srcs/ra.c.i
 
-.PHONY : rrr.i
+.PHONY : srcs/ra.i
 
 # target to preprocess a source file
-rrr.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/rrr.c.i
-.PHONY : rrr.c.i
+srcs/ra.c.i:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/ra.c.i
+.PHONY : srcs/ra.c.i
 
-rrr.s: rrr.c.s
+srcs/ra.s: srcs/ra.c.s
 
-.PHONY : rrr.s
+.PHONY : srcs/ra.s
 
 # target to generate assembly for a file
-rrr.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/rrr.c.s
-.PHONY : rrr.c.s
+srcs/ra.c.s:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/ra.c.s
+.PHONY : srcs/ra.c.s
 
-sa.o: sa.c.o
+srcs/rb.o: srcs/rb.c.o
 
-.PHONY : sa.o
+.PHONY : srcs/rb.o
 
 # target to build an object file
-sa.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/sa.c.o
-.PHONY : sa.c.o
+srcs/rb.c.o:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/rb.c.o
+.PHONY : srcs/rb.c.o
 
-sa.i: sa.c.i
+srcs/rb.i: srcs/rb.c.i
 
-.PHONY : sa.i
+.PHONY : srcs/rb.i
 
 # target to preprocess a source file
-sa.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/sa.c.i
-.PHONY : sa.c.i
+srcs/rb.c.i:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/rb.c.i
+.PHONY : srcs/rb.c.i
 
-sa.s: sa.c.s
+srcs/rb.s: srcs/rb.c.s
 
-.PHONY : sa.s
+.PHONY : srcs/rb.s
 
 # target to generate assembly for a file
-sa.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/sa.c.s
-.PHONY : sa.c.s
+srcs/rb.c.s:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/rb.c.s
+.PHONY : srcs/rb.c.s
 
-sb.o: sb.c.o
+srcs/rr.o: srcs/rr.c.o
 
-.PHONY : sb.o
+.PHONY : srcs/rr.o
 
 # target to build an object file
-sb.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/sb.c.o
-.PHONY : sb.c.o
+srcs/rr.c.o:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/rr.c.o
+.PHONY : srcs/rr.c.o
 
-sb.i: sb.c.i
+srcs/rr.i: srcs/rr.c.i
 
-.PHONY : sb.i
+.PHONY : srcs/rr.i
 
 # target to preprocess a source file
-sb.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/sb.c.i
-.PHONY : sb.c.i
+srcs/rr.c.i:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/rr.c.i
+.PHONY : srcs/rr.c.i
 
-sb.s: sb.c.s
+srcs/rr.s: srcs/rr.c.s
 
-.PHONY : sb.s
+.PHONY : srcs/rr.s
 
 # target to generate assembly for a file
-sb.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/sb.c.s
-.PHONY : sb.c.s
+srcs/rr.c.s:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/rr.c.s
+.PHONY : srcs/rr.c.s
 
-search_min.o: search_min.c.o
+srcs/rra.o: srcs/rra.c.o
 
-.PHONY : search_min.o
+.PHONY : srcs/rra.o
 
 # target to build an object file
-search_min.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/search_min.c.o
-.PHONY : search_min.c.o
+srcs/rra.c.o:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/rra.c.o
+.PHONY : srcs/rra.c.o
 
-search_min.i: search_min.c.i
+srcs/rra.i: srcs/rra.c.i
 
-.PHONY : search_min.i
+.PHONY : srcs/rra.i
 
 # target to preprocess a source file
-search_min.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/search_min.c.i
-.PHONY : search_min.c.i
+srcs/rra.c.i:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/rra.c.i
+.PHONY : srcs/rra.c.i
 
-search_min.s: search_min.c.s
+srcs/rra.s: srcs/rra.c.s
 
-.PHONY : search_min.s
+.PHONY : srcs/rra.s
 
 # target to generate assembly for a file
-search_min.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/search_min.c.s
-.PHONY : search_min.c.s
+srcs/rra.c.s:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/rra.c.s
+.PHONY : srcs/rra.c.s
 
-skip_box.o: skip_box.c.o
+srcs/rrb.o: srcs/rrb.c.o
 
-.PHONY : skip_box.o
+.PHONY : srcs/rrb.o
 
 # target to build an object file
-skip_box.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/skip_box.c.o
-.PHONY : skip_box.c.o
+srcs/rrb.c.o:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/rrb.c.o
+.PHONY : srcs/rrb.c.o
 
-skip_box.i: skip_box.c.i
+srcs/rrb.i: srcs/rrb.c.i
 
-.PHONY : skip_box.i
+.PHONY : srcs/rrb.i
 
 # target to preprocess a source file
-skip_box.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/skip_box.c.i
-.PHONY : skip_box.c.i
+srcs/rrb.c.i:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/rrb.c.i
+.PHONY : srcs/rrb.c.i
 
-skip_box.s: skip_box.c.s
+srcs/rrb.s: srcs/rrb.c.s
 
-.PHONY : skip_box.s
+.PHONY : srcs/rrb.s
 
 # target to generate assembly for a file
-skip_box.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/skip_box.c.s
-.PHONY : skip_box.c.s
+srcs/rrb.c.s:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/rrb.c.s
+.PHONY : srcs/rrb.c.s
 
-sort.o: sort.c.o
+srcs/rrr.o: srcs/rrr.c.o
 
-.PHONY : sort.o
+.PHONY : srcs/rrr.o
 
 # target to build an object file
-sort.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/sort.c.o
-.PHONY : sort.c.o
+srcs/rrr.c.o:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/rrr.c.o
+.PHONY : srcs/rrr.c.o
 
-sort.i: sort.c.i
+srcs/rrr.i: srcs/rrr.c.i
 
-.PHONY : sort.i
+.PHONY : srcs/rrr.i
 
 # target to preprocess a source file
-sort.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/sort.c.i
-.PHONY : sort.c.i
+srcs/rrr.c.i:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/rrr.c.i
+.PHONY : srcs/rrr.c.i
 
-sort.s: sort.c.s
+srcs/rrr.s: srcs/rrr.c.s
 
-.PHONY : sort.s
+.PHONY : srcs/rrr.s
 
 # target to generate assembly for a file
-sort.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/sort.c.s
-.PHONY : sort.c.s
+srcs/rrr.c.s:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/rrr.c.s
+.PHONY : srcs/rrr.c.s
 
-sort_a.o: sort_a.c.o
+srcs/sa.o: srcs/sa.c.o
 
-.PHONY : sort_a.o
+.PHONY : srcs/sa.o
 
 # target to build an object file
-sort_a.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/sort_a.c.o
-.PHONY : sort_a.c.o
+srcs/sa.c.o:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/sa.c.o
+.PHONY : srcs/sa.c.o
 
-sort_a.i: sort_a.c.i
+srcs/sa.i: srcs/sa.c.i
 
-.PHONY : sort_a.i
+.PHONY : srcs/sa.i
 
 # target to preprocess a source file
-sort_a.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/sort_a.c.i
-.PHONY : sort_a.c.i
+srcs/sa.c.i:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/sa.c.i
+.PHONY : srcs/sa.c.i
 
-sort_a.s: sort_a.c.s
+srcs/sa.s: srcs/sa.c.s
 
-.PHONY : sort_a.s
+.PHONY : srcs/sa.s
 
 # target to generate assembly for a file
-sort_a.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/sort_a.c.s
-.PHONY : sort_a.c.s
+srcs/sa.c.s:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/sa.c.s
+.PHONY : srcs/sa.c.s
 
-sort_b.o: sort_b.c.o
+srcs/sb.o: srcs/sb.c.o
 
-.PHONY : sort_b.o
+.PHONY : srcs/sb.o
 
 # target to build an object file
-sort_b.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/sort_b.c.o
-.PHONY : sort_b.c.o
+srcs/sb.c.o:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/sb.c.o
+.PHONY : srcs/sb.c.o
 
-sort_b.i: sort_b.c.i
+srcs/sb.i: srcs/sb.c.i
 
-.PHONY : sort_b.i
+.PHONY : srcs/sb.i
 
 # target to preprocess a source file
-sort_b.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/sort_b.c.i
-.PHONY : sort_b.c.i
+srcs/sb.c.i:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/sb.c.i
+.PHONY : srcs/sb.c.i
 
-sort_b.s: sort_b.c.s
+srcs/sb.s: srcs/sb.c.s
 
-.PHONY : sort_b.s
+.PHONY : srcs/sb.s
 
 # target to generate assembly for a file
-sort_b.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/sort_b.c.s
-.PHONY : sort_b.c.s
+srcs/sb.c.s:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/sb.c.s
+.PHONY : srcs/sb.c.s
 
-ss.o: ss.c.o
+srcs/search_min.o: srcs/search_min.c.o
 
-.PHONY : ss.o
+.PHONY : srcs/search_min.o
 
 # target to build an object file
-ss.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/ss.c.o
-.PHONY : ss.c.o
+srcs/search_min.c.o:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/search_min.c.o
+.PHONY : srcs/search_min.c.o
 
-ss.i: ss.c.i
+srcs/search_min.i: srcs/search_min.c.i
 
-.PHONY : ss.i
+.PHONY : srcs/search_min.i
 
 # target to preprocess a source file
-ss.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/ss.c.i
-.PHONY : ss.c.i
+srcs/search_min.c.i:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/search_min.c.i
+.PHONY : srcs/search_min.c.i
 
-ss.s: ss.c.s
+srcs/search_min.s: srcs/search_min.c.s
 
-.PHONY : ss.s
+.PHONY : srcs/search_min.s
 
 # target to generate assembly for a file
-ss.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/ss.c.s
-.PHONY : ss.c.s
+srcs/search_min.c.s:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/search_min.c.s
+.PHONY : srcs/search_min.c.s
 
-sum_position.o: sum_position.c.o
+srcs/search_minor.o: srcs/search_minor.c.o
 
-.PHONY : sum_position.o
+.PHONY : srcs/search_minor.o
 
 # target to build an object file
-sum_position.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/sum_position.c.o
-.PHONY : sum_position.c.o
+srcs/search_minor.c.o:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/search_minor.c.o
+.PHONY : srcs/search_minor.c.o
 
-sum_position.i: sum_position.c.i
+srcs/search_minor.i: srcs/search_minor.c.i
 
-.PHONY : sum_position.i
+.PHONY : srcs/search_minor.i
 
 # target to preprocess a source file
-sum_position.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/sum_position.c.i
-.PHONY : sum_position.c.i
+srcs/search_minor.c.i:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/search_minor.c.i
+.PHONY : srcs/search_minor.c.i
 
-sum_position.s: sum_position.c.s
+srcs/search_minor.s: srcs/search_minor.c.s
 
-.PHONY : sum_position.s
+.PHONY : srcs/search_minor.s
 
 # target to generate assembly for a file
-sum_position.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/sum_position.c.s
-.PHONY : sum_position.c.s
+srcs/search_minor.c.s:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/search_minor.c.s
+.PHONY : srcs/search_minor.c.s
 
-sum_position_checker.o: sum_position_checker.c.o
+srcs/skip_box.o: srcs/skip_box.c.o
 
-.PHONY : sum_position_checker.o
+.PHONY : srcs/skip_box.o
 
 # target to build an object file
-sum_position_checker.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/sum_position_checker.c.o
-.PHONY : sum_position_checker.c.o
+srcs/skip_box.c.o:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/skip_box.c.o
+.PHONY : srcs/skip_box.c.o
 
-sum_position_checker.i: sum_position_checker.c.i
+srcs/skip_box.i: srcs/skip_box.c.i
 
-.PHONY : sum_position_checker.i
+.PHONY : srcs/skip_box.i
 
 # target to preprocess a source file
-sum_position_checker.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/sum_position_checker.c.i
-.PHONY : sum_position_checker.c.i
+srcs/skip_box.c.i:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/skip_box.c.i
+.PHONY : srcs/skip_box.c.i
 
-sum_position_checker.s: sum_position_checker.c.s
+srcs/skip_box.s: srcs/skip_box.c.s
 
-.PHONY : sum_position_checker.s
+.PHONY : srcs/skip_box.s
 
 # target to generate assembly for a file
-sum_position_checker.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/sum_position_checker.c.s
-.PHONY : sum_position_checker.c.s
+srcs/skip_box.c.s:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/skip_box.c.s
+.PHONY : srcs/skip_box.c.s
 
-your_choise.o: your_choise.c.o
+srcs/sort.o: srcs/sort.c.o
 
-.PHONY : your_choise.o
+.PHONY : srcs/sort.o
 
 # target to build an object file
-your_choise.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/your_choise.c.o
-.PHONY : your_choise.c.o
+srcs/sort.c.o:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/sort.c.o
+.PHONY : srcs/sort.c.o
 
-your_choise.i: your_choise.c.i
+srcs/sort.i: srcs/sort.c.i
 
-.PHONY : your_choise.i
+.PHONY : srcs/sort.i
 
 # target to preprocess a source file
-your_choise.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/your_choise.c.i
-.PHONY : your_choise.c.i
+srcs/sort.c.i:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/sort.c.i
+.PHONY : srcs/sort.c.i
 
-your_choise.s: your_choise.c.s
+srcs/sort.s: srcs/sort.c.s
 
-.PHONY : your_choise.s
+.PHONY : srcs/sort.s
 
 # target to generate assembly for a file
-your_choise.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/your_choise.c.s
-.PHONY : your_choise.c.s
+srcs/sort.c.s:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/sort.c.s
+.PHONY : srcs/sort.c.s
 
-your_choise2.o: your_choise2.c.o
+srcs/sort_a.o: srcs/sort_a.c.o
 
-.PHONY : your_choise2.o
+.PHONY : srcs/sort_a.o
 
 # target to build an object file
-your_choise2.c.o:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/your_choise2.c.o
-.PHONY : your_choise2.c.o
+srcs/sort_a.c.o:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/sort_a.c.o
+.PHONY : srcs/sort_a.c.o
 
-your_choise2.i: your_choise2.c.i
+srcs/sort_a.i: srcs/sort_a.c.i
 
-.PHONY : your_choise2.i
+.PHONY : srcs/sort_a.i
 
 # target to preprocess a source file
-your_choise2.c.i:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/your_choise2.c.i
-.PHONY : your_choise2.c.i
+srcs/sort_a.c.i:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/sort_a.c.i
+.PHONY : srcs/sort_a.c.i
 
-your_choise2.s: your_choise2.c.s
+srcs/sort_a.s: srcs/sort_a.c.s
 
-.PHONY : your_choise2.s
+.PHONY : srcs/sort_a.s
 
 # target to generate assembly for a file
-your_choise2.c.s:
-	$(MAKE) -f CMakeFiles/avenonat.dir/build.make CMakeFiles/avenonat.dir/your_choise2.c.s
-.PHONY : your_choise2.c.s
+srcs/sort_a.c.s:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/sort_a.c.s
+.PHONY : srcs/sort_a.c.s
+
+srcs/sort_b.o: srcs/sort_b.c.o
+
+.PHONY : srcs/sort_b.o
+
+# target to build an object file
+srcs/sort_b.c.o:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/sort_b.c.o
+.PHONY : srcs/sort_b.c.o
+
+srcs/sort_b.i: srcs/sort_b.c.i
+
+.PHONY : srcs/sort_b.i
+
+# target to preprocess a source file
+srcs/sort_b.c.i:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/sort_b.c.i
+.PHONY : srcs/sort_b.c.i
+
+srcs/sort_b.s: srcs/sort_b.c.s
+
+.PHONY : srcs/sort_b.s
+
+# target to generate assembly for a file
+srcs/sort_b.c.s:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/sort_b.c.s
+.PHONY : srcs/sort_b.c.s
+
+srcs/ss.o: srcs/ss.c.o
+
+.PHONY : srcs/ss.o
+
+# target to build an object file
+srcs/ss.c.o:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/ss.c.o
+.PHONY : srcs/ss.c.o
+
+srcs/ss.i: srcs/ss.c.i
+
+.PHONY : srcs/ss.i
+
+# target to preprocess a source file
+srcs/ss.c.i:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/ss.c.i
+.PHONY : srcs/ss.c.i
+
+srcs/ss.s: srcs/ss.c.s
+
+.PHONY : srcs/ss.s
+
+# target to generate assembly for a file
+srcs/ss.c.s:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/ss.c.s
+.PHONY : srcs/ss.c.s
+
+srcs/sum_position.o: srcs/sum_position.c.o
+
+.PHONY : srcs/sum_position.o
+
+# target to build an object file
+srcs/sum_position.c.o:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/sum_position.c.o
+.PHONY : srcs/sum_position.c.o
+
+srcs/sum_position.i: srcs/sum_position.c.i
+
+.PHONY : srcs/sum_position.i
+
+# target to preprocess a source file
+srcs/sum_position.c.i:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/sum_position.c.i
+.PHONY : srcs/sum_position.c.i
+
+srcs/sum_position.s: srcs/sum_position.c.s
+
+.PHONY : srcs/sum_position.s
+
+# target to generate assembly for a file
+srcs/sum_position.c.s:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/sum_position.c.s
+.PHONY : srcs/sum_position.c.s
+
+srcs/sum_position_checker.o: srcs/sum_position_checker.c.o
+
+.PHONY : srcs/sum_position_checker.o
+
+# target to build an object file
+srcs/sum_position_checker.c.o:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/sum_position_checker.c.o
+.PHONY : srcs/sum_position_checker.c.o
+
+srcs/sum_position_checker.i: srcs/sum_position_checker.c.i
+
+.PHONY : srcs/sum_position_checker.i
+
+# target to preprocess a source file
+srcs/sum_position_checker.c.i:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/sum_position_checker.c.i
+.PHONY : srcs/sum_position_checker.c.i
+
+srcs/sum_position_checker.s: srcs/sum_position_checker.c.s
+
+.PHONY : srcs/sum_position_checker.s
+
+# target to generate assembly for a file
+srcs/sum_position_checker.c.s:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/sum_position_checker.c.s
+.PHONY : srcs/sum_position_checker.c.s
+
+srcs/your_choise.o: srcs/your_choise.c.o
+
+.PHONY : srcs/your_choise.o
+
+# target to build an object file
+srcs/your_choise.c.o:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/your_choise.c.o
+.PHONY : srcs/your_choise.c.o
+
+srcs/your_choise.i: srcs/your_choise.c.i
+
+.PHONY : srcs/your_choise.i
+
+# target to preprocess a source file
+srcs/your_choise.c.i:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/your_choise.c.i
+.PHONY : srcs/your_choise.c.i
+
+srcs/your_choise.s: srcs/your_choise.c.s
+
+.PHONY : srcs/your_choise.s
+
+# target to generate assembly for a file
+srcs/your_choise.c.s:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/your_choise.c.s
+.PHONY : srcs/your_choise.c.s
+
+srcs/your_choise2.o: srcs/your_choise2.c.o
+
+.PHONY : srcs/your_choise2.o
+
+# target to build an object file
+srcs/your_choise2.c.o:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/your_choise2.c.o
+.PHONY : srcs/your_choise2.c.o
+
+srcs/your_choise2.i: srcs/your_choise2.c.i
+
+.PHONY : srcs/your_choise2.i
+
+# target to preprocess a source file
+srcs/your_choise2.c.i:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/your_choise2.c.i
+.PHONY : srcs/your_choise2.c.i
+
+srcs/your_choise2.s: srcs/your_choise2.c.s
+
+.PHONY : srcs/your_choise2.s
+
+# target to generate assembly for a file
+srcs/your_choise2.c.s:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/your_choise2.c.s
+.PHONY : srcs/your_choise2.c.s
+
+srcs/your_choise_minor.o: srcs/your_choise_minor.c.o
+
+.PHONY : srcs/your_choise_minor.o
+
+# target to build an object file
+srcs/your_choise_minor.c.o:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/your_choise_minor.c.o
+.PHONY : srcs/your_choise_minor.c.o
+
+srcs/your_choise_minor.i: srcs/your_choise_minor.c.i
+
+.PHONY : srcs/your_choise_minor.i
+
+# target to preprocess a source file
+srcs/your_choise_minor.c.i:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/your_choise_minor.c.i
+.PHONY : srcs/your_choise_minor.c.i
+
+srcs/your_choise_minor.s: srcs/your_choise_minor.c.s
+
+.PHONY : srcs/your_choise_minor.s
+
+# target to generate assembly for a file
+srcs/your_choise_minor.c.s:
+	$(MAKE) -f CMakeFiles/push2.dir/build.make CMakeFiles/push2.dir/srcs/your_choise_minor.c.s
+.PHONY : srcs/your_choise_minor.c.s
 
 # Help Target
 help:
@@ -2615,19 +2669,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... avenonat"
-	@echo "... after_pb.o"
-	@echo "... after_pb.i"
-	@echo "... after_pb.s"
-	@echo "... ask_function.o"
-	@echo "... ask_function.i"
-	@echo "... ask_function.s"
-	@echo "... check_num.o"
-	@echo "... check_num.i"
-	@echo "... check_num.s"
-	@echo "... check_str.o"
-	@echo "... check_str.i"
-	@echo "... check_str.s"
+	@echo "... push2"
 	@echo "... libft/ft_abs.o"
 	@echo "... libft/ft_abs.i"
 	@echo "... libft/ft_abs.s"
@@ -2817,81 +2859,99 @@ help:
 	@echo "... libft/ft_toupper.o"
 	@echo "... libft/ft_toupper.i"
 	@echo "... libft/ft_toupper.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... major.o"
-	@echo "... major.i"
-	@echo "... major.s"
-	@echo "... move_b.o"
-	@echo "... move_b.i"
-	@echo "... move_b.s"
-	@echo "... pa.o"
-	@echo "... pa.i"
-	@echo "... pa.s"
-	@echo "... pb.o"
-	@echo "... pb.i"
-	@echo "... pb.s"
-	@echo "... prepare_move_pb.o"
-	@echo "... prepare_move_pb.i"
-	@echo "... prepare_move_pb.s"
-	@echo "... push_swap.o"
-	@echo "... push_swap.i"
-	@echo "... push_swap.s"
-	@echo "... ra.o"
-	@echo "... ra.i"
-	@echo "... ra.s"
-	@echo "... rb.o"
-	@echo "... rb.i"
-	@echo "... rb.s"
-	@echo "... rr.o"
-	@echo "... rr.i"
-	@echo "... rr.s"
-	@echo "... rra.o"
-	@echo "... rra.i"
-	@echo "... rra.s"
-	@echo "... rrb.o"
-	@echo "... rrb.i"
-	@echo "... rrb.s"
-	@echo "... rrr.o"
-	@echo "... rrr.i"
-	@echo "... rrr.s"
-	@echo "... sa.o"
-	@echo "... sa.i"
-	@echo "... sa.s"
-	@echo "... sb.o"
-	@echo "... sb.i"
-	@echo "... sb.s"
-	@echo "... search_min.o"
-	@echo "... search_min.i"
-	@echo "... search_min.s"
-	@echo "... skip_box.o"
-	@echo "... skip_box.i"
-	@echo "... skip_box.s"
-	@echo "... sort.o"
-	@echo "... sort.i"
-	@echo "... sort.s"
-	@echo "... sort_a.o"
-	@echo "... sort_a.i"
-	@echo "... sort_a.s"
-	@echo "... sort_b.o"
-	@echo "... sort_b.i"
-	@echo "... sort_b.s"
-	@echo "... ss.o"
-	@echo "... ss.i"
-	@echo "... ss.s"
-	@echo "... sum_position.o"
-	@echo "... sum_position.i"
-	@echo "... sum_position.s"
-	@echo "... sum_position_checker.o"
-	@echo "... sum_position_checker.i"
-	@echo "... sum_position_checker.s"
-	@echo "... your_choise.o"
-	@echo "... your_choise.i"
-	@echo "... your_choise.s"
-	@echo "... your_choise2.o"
-	@echo "... your_choise2.i"
-	@echo "... your_choise2.s"
+	@echo "... srcs/after_pb.o"
+	@echo "... srcs/after_pb.i"
+	@echo "... srcs/after_pb.s"
+	@echo "... srcs/ask_function.o"
+	@echo "... srcs/ask_function.i"
+	@echo "... srcs/ask_function.s"
+	@echo "... srcs/check_num.o"
+	@echo "... srcs/check_num.i"
+	@echo "... srcs/check_num.s"
+	@echo "... srcs/check_str.o"
+	@echo "... srcs/check_str.i"
+	@echo "... srcs/check_str.s"
+	@echo "... srcs/get_next_line.o"
+	@echo "... srcs/get_next_line.i"
+	@echo "... srcs/get_next_line.s"
+	@echo "... srcs/major.o"
+	@echo "... srcs/major.i"
+	@echo "... srcs/major.s"
+	@echo "... srcs/move_b.o"
+	@echo "... srcs/move_b.i"
+	@echo "... srcs/move_b.s"
+	@echo "... srcs/pa.o"
+	@echo "... srcs/pa.i"
+	@echo "... srcs/pa.s"
+	@echo "... srcs/pb.o"
+	@echo "... srcs/pb.i"
+	@echo "... srcs/pb.s"
+	@echo "... srcs/prepare_move_pb.o"
+	@echo "... srcs/prepare_move_pb.i"
+	@echo "... srcs/prepare_move_pb.s"
+	@echo "... srcs/push_swap.o"
+	@echo "... srcs/push_swap.i"
+	@echo "... srcs/push_swap.s"
+	@echo "... srcs/ra.o"
+	@echo "... srcs/ra.i"
+	@echo "... srcs/ra.s"
+	@echo "... srcs/rb.o"
+	@echo "... srcs/rb.i"
+	@echo "... srcs/rb.s"
+	@echo "... srcs/rr.o"
+	@echo "... srcs/rr.i"
+	@echo "... srcs/rr.s"
+	@echo "... srcs/rra.o"
+	@echo "... srcs/rra.i"
+	@echo "... srcs/rra.s"
+	@echo "... srcs/rrb.o"
+	@echo "... srcs/rrb.i"
+	@echo "... srcs/rrb.s"
+	@echo "... srcs/rrr.o"
+	@echo "... srcs/rrr.i"
+	@echo "... srcs/rrr.s"
+	@echo "... srcs/sa.o"
+	@echo "... srcs/sa.i"
+	@echo "... srcs/sa.s"
+	@echo "... srcs/sb.o"
+	@echo "... srcs/sb.i"
+	@echo "... srcs/sb.s"
+	@echo "... srcs/search_min.o"
+	@echo "... srcs/search_min.i"
+	@echo "... srcs/search_min.s"
+	@echo "... srcs/search_minor.o"
+	@echo "... srcs/search_minor.i"
+	@echo "... srcs/search_minor.s"
+	@echo "... srcs/skip_box.o"
+	@echo "... srcs/skip_box.i"
+	@echo "... srcs/skip_box.s"
+	@echo "... srcs/sort.o"
+	@echo "... srcs/sort.i"
+	@echo "... srcs/sort.s"
+	@echo "... srcs/sort_a.o"
+	@echo "... srcs/sort_a.i"
+	@echo "... srcs/sort_a.s"
+	@echo "... srcs/sort_b.o"
+	@echo "... srcs/sort_b.i"
+	@echo "... srcs/sort_b.s"
+	@echo "... srcs/ss.o"
+	@echo "... srcs/ss.i"
+	@echo "... srcs/ss.s"
+	@echo "... srcs/sum_position.o"
+	@echo "... srcs/sum_position.i"
+	@echo "... srcs/sum_position.s"
+	@echo "... srcs/sum_position_checker.o"
+	@echo "... srcs/sum_position_checker.i"
+	@echo "... srcs/sum_position_checker.s"
+	@echo "... srcs/your_choise.o"
+	@echo "... srcs/your_choise.i"
+	@echo "... srcs/your_choise.s"
+	@echo "... srcs/your_choise2.o"
+	@echo "... srcs/your_choise2.i"
+	@echo "... srcs/your_choise2.s"
+	@echo "... srcs/your_choise_minor.o"
+	@echo "... srcs/your_choise_minor.i"
+	@echo "... srcs/your_choise_minor.s"
 .PHONY : help
 
 

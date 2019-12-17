@@ -1,12 +1,13 @@
 cmake_minimum_required(VERSION 3.15)
-project(avenonat C)
+project(push2 C)
 
 set(CMAKE_C_STANDARD 11)
 
-include_directories(.)
+include_directories(includes)
 include_directories(libft)
 
-add_executable(avenonat
+add_executable(push2
+        includes/ft_push_swap.h
         libft/ft_abs.c
         libft/ft_atoi.c
         libft/ft_bzero.c
@@ -72,32 +73,34 @@ add_executable(avenonat
         libft/ft_tolower.c
         libft/ft_toupper.c
         libft/libft.h
-        ask_function.c
-        check_num.c
-        check_str.c
-        ft_push_swap.h
-        main.c
-        major.c
-        pa.c
-        pb.c
-        push_swap.c
-        ra.c
-        rb.c
-        rr.c
-        rra.c
-        rrb.c
-        rrr.c
-        sa.c
-        sb.c
-        search_min.c
-        skip_box.c
-        sort.c
-        sort_a.c
-        sort_b.c
-        ss.c
-        sum_position.c
-        your_choise.c
-        your_choise2.c
-        sum_position_checker.c
-        move_b.c
-        prepare_move_pb after_pb.c)
+        srcs/after_pb.c
+        srcs/ask_function.c
+        srcs/check_num.c
+        srcs/check_str.c
+        srcs/get_next_line.c
+        srcs/major.c
+        srcs/move_b.c
+        srcs/pa.c
+        srcs/pb.c
+        srcs/prepare_move_pb.c
+        srcs/push_swap.c
+        srcs/ra.c
+        srcs/rb.c
+        srcs/rr.c
+        srcs/rra.c
+        srcs/rrb.c
+        srcs/rrr.c
+        srcs/sa.c
+        srcs/sb.c
+        srcs/search_min.c
+        srcs/search_minor.c
+        srcs/skip_box.c
+        srcs/sort.c
+        srcs/sort_a.c
+        srcs/sort_b.c
+        srcs/ss.c
+        srcs/sum_position.c
+        srcs/sum_position_checker.c
+        srcs/your_choise.c
+        srcs/your_choise2.c
+        srcs/your_choise_minor.c)

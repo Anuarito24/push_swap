@@ -133,7 +133,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=avenonat
+CMAKE_PROJECT_NAME:STATIC=push2
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib
@@ -198,10 +198,10 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
 
 //Value Computed by CMake
-avenonat_BINARY_DIR:STATIC=/Users/avenonat/Desktop/push2/cmake-build-debug
+push2_BINARY_DIR:STATIC=/Users/avenonat/Desktop/push2/cmake-build-debug
 
 //Value Computed by CMake
-avenonat_SOURCE_DIR:STATIC=/Users/avenonat/Desktop/push2
+push2_SOURCE_DIR:STATIC=/Users/avenonat/Desktop/push2
 
 
 ########################
