@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: lgarse <marvin@42.fr>                      +#+  +:+       +#+         #
+#    By: avenonat <avenonat@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/09/09 15:07:03 by lgarse            #+#    #+#              #
-#    Updated: 2019/12/14 19:46:11 by avenonat         ###   ########.fr        #
+#    Created: 2020/01/31 16:09:54 by avenonat          #+#    #+#              #
+#    Updated: 2020/01/31 16:10:26 by avenonat         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -25,7 +25,7 @@ SRCS=ft_atoi.c ft_lstdel.c ft_memcpy.c ft_putnbr_fd.c ft_strdup.c \
 	ft_strrchr.c ft_itoa.c ft_memchr.c ft_putendl_fd.c ft_strcpy.c \
 	ft_strmap.c ft_strsplit.c ft_lstadd.c ft_memcmp.c ft_putnbr.c \
 	ft_strdel.c ft_strmapi.c ft_strstr.c ft_diglength.c ft_isalpha.c\
-	ft_labs.c ft_abs.c ft_swap.c ft_count.c \
+	ft_labs.c ft_abs.c ft_swap.c ft_count.c\
 	
 OBJS = $(SRCS:.c=.o)
 

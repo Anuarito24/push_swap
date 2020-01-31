@@ -6,7 +6,7 @@
 /*   By: avenonat <avenonat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/05 14:51:36 by avenonat          #+#    #+#             */
-/*   Updated: 2019/12/17 16:43:04 by avenonat         ###   ########.fr       */
+/*   Updated: 2020/01/31 13:38:14 by avenonat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,19 +31,12 @@ int		main(int argc, char **argv)
 	{
 		while (argc > i)
 		{
-			new = ft_strsplit(argv[i], ' ');
-			if (check_str(new))
-			{
-				write(1, "Error\n", 6);
-				return (0);
-			}
-			ssl.count_a += push_swap(new, &stack_a);
-			if (ssl.count_a < 0)
-				return (-1);
-			i++;
+			new = ft_strsplit(argv[i++], ' ');
+			looking_str(new, &stack_a, &ssl);
+			free_new(new);
 		}
 		major(&stack_a, &stack_b, &ssl);
-		free(new);
+		free_stack(&stack_a, &stack_b);
 	}
 	return (0);
 }

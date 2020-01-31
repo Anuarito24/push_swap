@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: avenonat <avenonat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/12/12 17:40:45 by avenonat          #+#    #+#             */
-/*   Updated: 2019/12/17 16:36:52 by avenonat         ###   ########.fr       */
+/*   Created: 2020/01/29 17:41:42 by avenonat          #+#    #+#             */
+/*   Updated: 2020/01/29 17:41:42 by avenonat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ int		*sort(int *good, t_num *ssl)
 	int j;
 
 	i = 0;
-	while (ssl->count_a - 1 > i)
+	while (i < ssl->count_a - 1)
 	{
 		j = i + 1;
 		while (j < ssl->count_a)

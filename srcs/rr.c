@@ -12,13 +12,13 @@
 
 #include "../includes/ft_push_swap.h"
 
-int		rr(t_folder **stack_a, t_folder **stack_b)
+void	rr(t_folder **stack_a, t_folder **stack_b, int i)
 {
 	if (stack_a && stack_b)
 	{
-		ra(stack_a);
-		rb(stack_b);
-		return (1);
+		ra(stack_a, 0);
+		rb(stack_b, 0);
 	}
-	return (0);
+	if (i)
+		write(1, "rr\n", 3);
 }

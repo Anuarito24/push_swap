@@ -12,16 +12,10 @@
 
 #include "../includes/ft_push_swap.h"
 
-int		ss(t_folder **stack_a, t_folder **stack_b)
+void		ss(t_folder **stack_a, t_folder **stack_b, int i)
 {
-	t_folder	*c;
-	t_folder	*d;
-
-	c = *stack_a;
-	d = *stack_b;
-	if (c && c->next)
-		ft_swap(&c->data, &c->next->data);
-	if (d && d->next)
-		ft_swap(&d->data, &d->next->data);
-	return (0);
+	sa(stack_a, 0);
+	sb(stack_b, 0);
+	if (i)
+		write(1, "ss\n", 3);
 }

@@ -6,7 +6,7 @@
 /*   By: deladia <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/19 14:07:53 by deladia           #+#    #+#             */
-/*   Updated: 2019/12/07 12:42:32 by avenonat         ###   ########.fr       */
+/*   Updated: 2020/01/31 16:07:14 by avenonat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,11 +83,14 @@ char				*ft_strnew(size_t size);
 char				*ft_strnstr(const char *str, const char *to_find,
 					size_t len);
 char				*ft_strrchr(const char *s, int c);
-char				**ft_strsplit(char const *s, char c);
+char				**ft_strsplit(char const *str, char c);
 char				*ft_strstr(const char *str, const char *to_find);
 char				*ft_strsub(char const *s, unsigned int start, size_t len);
 char				*ft_strtrim(char const *s);
 void				ft_swap(int *a, int *b);
 int					ft_tolower(int c);
 int					ft_toupper(int c);
+int					ft_count_words(char *str, char c);
+char				*ft_find_words(char *str, char c, int *index);
+
 #endif

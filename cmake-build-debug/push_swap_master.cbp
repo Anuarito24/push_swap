@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="push_swap_master"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/avenonat/Desktop/push_swap-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/avenonat/Desktop/push_swap-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/avenonat/Desktop/push_swap-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/avenonat/Desktop/push_swap-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/avenonat/Desktop/push_swap-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/avenonat/Desktop/push_swap-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/avenonat/Desktop/push_swap-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/avenonat/Desktop/push_swap-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/avenonat/Desktop/push_swap-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/avenonat/Desktop/push_swap-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/avenonat/Desktop/push_swap-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/avenonat/Desktop/push_swap-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/avenonat/Desktop/push_swap-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/avenonat/Desktop/push_swap-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/avenonat/Desktop/push_swap-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="push_swap_master">
+				<Option output="/Users/avenonat/Desktop/push_swap-master/cmake-build-debug/push_swap_master" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/avenonat/Desktop/push_swap-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/avenonat/Desktop/push_swap-master/includes"/>
+					<Add directory="/Users/avenonat/Desktop/push_swap-master/libft"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/avenonat/Desktop/push_swap-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 push_swap_master"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/avenonat/Desktop/push_swap-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/avenonat/Desktop/push_swap-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/avenonat/Desktop/push_swap-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="push_swap_master/fast">
+				<Option output="/Users/avenonat/Desktop/push_swap-master/cmake-build-debug/push_swap_master" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/avenonat/Desktop/push_swap-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/avenonat/Desktop/push_swap-master/includes"/>
+					<Add directory="/Users/avenonat/Desktop/push_swap-master/libft"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/avenonat/Desktop/push_swap-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 push_swap_master/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/avenonat/Desktop/push_swap-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/avenonat/Desktop/push_swap-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/avenonat/Desktop/push_swap-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/includes/ft_push_swap.h">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_abs.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_atoi.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_bzero.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_count.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_count_words.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_diglength.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_find_words.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_isalnum.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_isalpha.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_isascii.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_isdigit.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_isprint.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_itoa.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_labs.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_list.h">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_lstadd.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_lstdel.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_lstdelone.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_lstiter.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_lstmap.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_lstnew.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_memalloc.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_memccpy.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_memchr.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_memcmp.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_memcpy.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_memdel.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_memmove.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_memset.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_putchar.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_putchar_fd.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_putendl.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_putendl_fd.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_putnbr.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_putnbr_fd.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_putstr.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_putstr_fd.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_strcat.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_strchr.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_strclr.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_strcmp.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_strcpy.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_strdel.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_strdup.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_strequ.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_striter.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_striteri.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_strjoin.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_strlcat.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_strlen.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_strmap.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_strmapi.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_strncat.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_strncmp.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_strncpy.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_strnequ.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_strnew.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_strnstr.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_strrchr.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_strsplit.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_strstr.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_strsub.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_strtrim.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_swap.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_tolower.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/ft_toupper.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/libft/libft.h">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/check_int.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/check_num.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/check_str.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/checker_main.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/distance.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/distance_2.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/error.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/first_part.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/free_new.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/free_stack.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/get_next_line.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/if_sorted.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/index_assignment.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/looking_str.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/major.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/making_dec.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/move_back.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/move_first.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/move_fourth.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/move_second.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/move_third.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/over_three_variables.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/pa.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/pa_20_var.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/pb.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/pb_5_variables.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/plus_check.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/push_swap.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/put_down.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/ra.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/rb.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/read_number.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/rr.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/rra.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/rrb.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/rrr.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/sa.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/sb.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/second_part.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/skip_box.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/sort.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/sort_it.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/ss.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/three_variables.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/until_five.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/until_five_functions.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/until_hundred_one.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/srcs/until_twenty.c">
+			<Option target="push_swap_master"/>
+		</Unit>
+		<Unit filename="/Users/avenonat/Desktop/push_swap-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

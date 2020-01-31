@@ -12,7 +12,7 @@
 
 #include "../includes/ft_push_swap.h"
 
-int		rrb(t_folder **st)
+void	rrb(t_folder **st, int i)
 {
 	t_folder *front;
 	t_folder *back;
@@ -22,15 +22,19 @@ int		rrb(t_folder **st)
 	front = *st;
 	back = *st;
 	if (*st == NULL)
-		return (0);
+		return ;
 	while (front->next != NULL)
 	{
 		front = front->next;
 		if (front->next != NULL)
 			back = back->next;
 	}
-	front->next = begin;
-	back->next = NULL;
+	if (front->next == NULL)
+	{
+		front->next = begin;
+		back->next = NULL;
+	}
 	*st = front;
-	return (1);
+	if (i)
+		write(1, "rrb\n", 4);
 }

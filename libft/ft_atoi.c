@@ -6,9 +6,11 @@
 /*   By: avenonat <avenonat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/15 13:53:47 by avenonat          #+#    #+#             */
-/*   Updated: 2019/12/15 13:53:47 by avenonat         ###   ########.fr       */
+/*   Updated: 2020/01/30 13:38:37 by avenonat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 #include "libft.h"
 
@@ -36,6 +38,6 @@ int			ft_atoi(const char *str)
 	else
 	{
 		write(1, "Error\n", 6);
-		return (0);
+		exit(0);
 	}
 }

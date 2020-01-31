@@ -6,7 +6,7 @@
 #    By: lgarse <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/09/09 15:07:03 by lgarse            #+#    #+#              #
-#    Updated: 2019/12/17 18:57:20 by avenonat         ###   ########.fr        #
+#    Updated: 2020/01/31 13:59:36 by avenonat         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,18 +15,23 @@ PSW_TARGET      = push_swap
 CH_TARGET       = checker
 
 CC              = gcc
-CFLAGS          = -Wall -Wextra -Werror
+CFLAGS          = -Wall -Wextra -Werror -g
 
 LIBFT           = ./libft/libft.a
 LIBFTINC        = -I./libft/
 LIBFTLINK       = -L./libft -lft
 
 PSW_SRC_PATH    = ./srcs/
-PSW_FILES       = main.c pa.c pb.c push_swap.c ra.c rb.c rr.c rra.c rrb.c rrr.c sa.c sb.c\
-                  ss.c skip_box.c check_str.c major.c ask_function.c check_num.c search_min.c\
-                  sort.c sort_a.c sort_b.c sum_position.c your_choise.c your_choise2.c\
-                  move_b.c sum_position_checker.c prepare_move_pb.c after_pb.c search_minor.c\
-                  your_choise_minor.c\
+PSW_FILES       = main.c pa.c pb.c push_swap.c ra.c rb.c rr.c rra.c rrb.c\
+                  rrr.c sa.c sb.c ss.c skip_box.c check_str.c major.c\
+                  check_num.c free_stack.c looking_str.c free_new.c\
+                  index_assignment.c if_sorted.c until_five.c\
+                  three_variables.c over_three_variables.c pb_5_variables.c\
+                  distance.c until_twenty.c making_dec.c distance_2.c\
+                  until_hundred_one.c first_part.c second_part.c sort_it.c\
+                  move_first.c move_second.c move_third.c move_fourth.c\
+                  put_down.c check_int.c sort.c until_five_functions.c\
+                  move_back.c pa_20_var.c plus_check.c\
 
 PSW_OBJ_PATH    = ./ps_objs/
 PSW_SRC         = $(addprefix $(PSW_SRC_PATH), $(PSW_FILES))
@@ -35,7 +40,9 @@ PSW_INC         = -I./includes/ $(LIBFTINC)
 
 CH_SRC_PATH     = ./srcs/
 CH_FILES        =  get_next_line.c pa.c pb.c ra.c rb.c rr.c rra.c rrb.c rrr.c sa.c sb.c\
-                   ss.c check_str.c push_swap.c check_num.c skip_box.c\
+                   ss.c check_str.c push_swap.c check_num.c skip_box.c free_new.c\
+                   check_int.c plus_check.c if_sorted.c free_stack.c checker_main.c\
+                   read_number.c error.c\
 
 CH_OBJ_PATH     = ./pc_objs/
 CH_SRC          = $(addprefix $(CH_SRC_PATH), $(CH_FILES))

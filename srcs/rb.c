@@ -12,13 +12,13 @@
 
 #include "../includes/ft_push_swap.h"
 
-int		rb(t_folder **st)
+void	rb(t_folder **st, int i)
 {
 	t_folder	*temp;
 
 	temp = *st;
 	if (*st == NULL)
-		return (0);
+		return ;
 	while ((*st)->next != NULL)
 		*st = (*st)->next;
 	(*st)->next = temp;
@@ -26,5 +26,6 @@ int		rb(t_folder **st)
 	*st = (*st)->next;
 	(*st)->next = NULL;
 	*st = temp;
-	return (1);
+	if (i)
+		write(1, "rb\n", 3);
 }

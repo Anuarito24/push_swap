@@ -6,7 +6,7 @@
 /*   By: avenonat <avenonat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/05 15:50:43 by avenonat          #+#    #+#             */
-/*   Updated: 2019/12/17 23:16:14 by avenonat         ###   ########.fr       */
+/*   Updated: 2020/01/31 16:37:53 by avenonat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,21 +19,12 @@ int		push_swap(char **new, t_folder **stack_a)
 	t_folder	*head;
 
 	i = 0;
-	*head = NULL;
 	while (new[i] != '\0')
 	{
 		if (!(head = malloc(sizeof(t_folder))))
 			return (0);
-		if (ft_atoi(new[i]))
-		{
-			head->data = ft_atoi(new[i]);
-			if (check_num(head->data, stack_a))
-			{
-				write(1, "Error\n", 6);
-				return (-1);
-			}
-			head->next = NULL;
-		}
+		if (ft_atoi(new[i]) <= 2147483647 && ft_atoi(new[i]) >= -2147483648)
+			check_int(new[i], head, stack_a);
 		else
 			return (0);
 		if (*stack_a != NULL)
