@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: deladia <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: avenonat <avenonat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/04/19 14:07:53 by deladia           #+#    #+#             */
-/*   Updated: 2020/01/31 16:07:14 by avenonat         ###   ########.fr       */
+/*   Created: 2020/01/31 17:12:51 by avenonat          #+#    #+#             */
+/*   Updated: 2020/01/31 17:12:51 by avenonat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ typedef struct		s_list
 }					t_list;
 
 int					ft_abs(int i);
-int					ft_atoi(const char *str);
+__int128_t			ft_atoi(const char *str);
 void				ft_bzero(void *s, size_t n);
 void				ft_is_negative(int n);
 int					ft_isalnum(int c);

@@ -6,7 +6,7 @@
 /*   By: avenonat <avenonat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/15 13:53:47 by avenonat          #+#    #+#             */
-/*   Updated: 2020/01/30 13:38:37 by avenonat         ###   ########.fr       */
+/*   Updated: 2020/01/31 16:58:28 by avenonat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,30 +14,30 @@
 
 #include "libft.h"
 
-int			ft_atoi(const char *str)
+__int128_t		ft_atoi(const char *str)
 {
-	long long int			nmbr;
-	char					ch;
+	__int128_t	num;
+	int			i;
+	int			len;
+	int			sign;
 
-	nmbr = 0;
-	while ((*str < 14 && *str > 8) || *str == 32)
-		str++;
-	ch = '+';
-	if (*str == '-' || *str == '+')
+	num = 0;
+	i = 0;
+	len = 0;
+	sign = 1;
+	while (str[i] == ' ' || str[i] == '\t' || str[i] == '\n' || str[i] == '\v'
+	|| str[i] == '\f')
+		i++;
+	str[i] == '-' ? (sign = -1) : 0;
+	if (str[i] == '-' || str[i] == '+')
+		i++;
+	while (str[i] == '0')
+		i++;
+	while (str[i] >= '0' && str[i] <= '9')
 	{
-		ch = *str;
-		str++;
+		num = num * 10 + (str[i] - '0');
+		i++;
+		len++;
 	}
-	while ((*str >= '0') && (*str <= '9'))
-	{
-		nmbr = nmbr * 10 + (*str - '0');
-		str++;
-	}
-	if (nmbr >= -2147483648 && nmbr <= 2147483647)
-		return (ch == '-' ? -nmbr : nmbr);
-	else
-	{
-		write(1, "Error\n", 6);
-		exit(0);
-	}
+	return (num * sign);
 }
